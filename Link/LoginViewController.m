@@ -6,13 +6,14 @@
 //  Copyright (c) 2015 Philippe Tring. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "LoginViewController.h"
+#import "User.h"
 
-@interface ViewController ()
+@interface LoginViewController ()
 
 @end
 
-@implementation ViewController
+@implementation LoginViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -24,4 +25,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)login:(id)sender {
+    [User loginWithUserName:self.emailInput.text password:self.passwordInput.text completion:^(id json, JSONModelError *err) {
+        NSLog(@"%@", json);
+        //Todo save the token to reuse it later
+    }];
+    
+    
+}
 @end
