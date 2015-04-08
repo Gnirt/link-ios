@@ -29,6 +29,9 @@
     [User loginWithUserName:self.emailInput.text password:self.passwordInput.text completion:^(id json, JSONModelError *err) {
         NSLog(@"%@", json);
         //Todo save the token to reuse it later
+        UIViewController* home = [self.storyboard instantiateViewControllerWithIdentifier:@"home"];
+        [self presentViewController:home animated:YES completion:nil];
+//        [self.navigationController pushViewController:home animated:YES];
     }];
     
     
