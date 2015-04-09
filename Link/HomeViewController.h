@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface HomeViewController : UIViewController
+- (IBAction)goToMailBox:(id)sender;
+- (IBAction)goToWriteLetter:(id)sender;
+- (IBAction)goToActivity:(id)sender;
 
 @end

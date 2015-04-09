@@ -97,24 +97,36 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="suj-Va-WsS" userLabel="MailboxButton">
-                                <rect key="frame" x="0.0" y="0.0" width="341" height="768"/>
-                                <state key="normal" title="Mailbox">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="suj-Va-WsS" userLabel="MailboxButton">
+                                <rect key="frame" x="0.0" y="0.0" width="404" height="768"/>
+                                <state key="normal" title="Mailbox" image="home_mailbox">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="goToMailBox:" destination="fqX-ln-NrK" eventType="touchUpInside" id="xNy-Qg-91m"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZDP-Kb-GIT" userLabel="NewLetterButton">
-                                <rect key="frame" x="341" y="0.0" width="341" height="768"/>
-                                <state key="normal" title="New Letter">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZDP-Kb-GIT" userLabel="NewLetterButton">
+                                <rect key="frame" x="341" y="0.0" width="428" height="768"/>
+                                <state key="normal" title="New Letter" image="home_new_letter">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="goToWriteLetter:" destination="fqX-ln-NrK" eventType="touchUpInside" id="lBZ-nE-PFC"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Sv-8S-M0K" userLabel="ActivityButton">
-                                <rect key="frame" x="682" y="0.0" width="341" height="768"/>
-                                <state key="normal" title="Button">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Sv-8S-M0K" userLabel="ActivityButton">
+                                <rect key="frame" x="682" y="0.0" width="395" height="768"/>
+                                <state key="normal" title="Button" image="home_activity">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="goToActivity:" destination="fqX-ln-NrK" eventType="touchUpInside" id="YiJ-dU-Ty1"/>
+                                </connections>
                             </button>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="header" translatesAutoresizingMaskIntoConstraints="NO" id="BiU-8M-oaE">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="189"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -123,7 +135,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rnD-eR-Fqz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-53" y="-897"/>
+            <point key="canvasLocation" x="-129" y="-920"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="bce-es-cnh">
@@ -136,30 +148,14 @@
                     <view key="view" contentMode="scaleToFill" id="PP9-K0-sOF">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="DIANA MERCI" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2SW-Mh-sz8">
-                                <rect key="frame" x="458" y="374" width="110" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="51" id="2y1-Lu-HdT"/>
-                                    <constraint firstAttribute="height" constant="21" id="N2b-sh-ZNW"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <color key="backgroundColor" red="0.97339463230000001" green="0.91282936529929859" blue="0.32805764962836143" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstAttribute="centerY" secondItem="2SW-Mh-sz8" secondAttribute="centerY" id="EBP-p7-WHx"/>
-                            <constraint firstAttribute="centerX" secondItem="2SW-Mh-sz8" secondAttribute="centerX" id="K80-hN-PBl"/>
-                        </constraints>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r7W-zn-prN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4295" y="2589"/>
+            <point key="canvasLocation" x="4307" y="2583"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="3NF-37-Zdh">
@@ -308,7 +304,7 @@
         <!--View Controller-->
         <scene sceneID="SkO-rK-COg">
             <objects>
-                <viewController id="HZX-is-Wce" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="mailbox" id="HZX-is-Wce" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5zA-2P-0Gn"/>
                         <viewControllerLayoutGuide type="bottom" id="Xdf-1g-T5Y"/>
@@ -316,6 +312,20 @@
                     <view key="view" contentMode="scaleToFill" id="38x-g4-WGh">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="activity" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4cB-7D-xlk">
+                                <rect key="frame" x="-76" y="18" width="1024" height="768"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="mailbox" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hsv-sP-vrs">
+                                <rect key="frame" x="461" y="34" width="1024" height="768"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -328,7 +338,7 @@
         <!--View Controller-->
         <scene sceneID="PMV-aZ-ASF">
             <objects>
-                <viewController id="m15-fn-BWY" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="writeLetter" id="m15-fn-BWY" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ZwJ-sf-kDM"/>
                         <viewControllerLayoutGuide type="bottom" id="AkL-Ex-KqI"/>
@@ -336,6 +346,14 @@
                     <view key="view" contentMode="scaleToFill" id="Fri-da-BBm">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="write letter" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fRU-sE-wpt">
+                                <rect key="frame" x="426" y="-38" width="1024" height="768"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -345,25 +363,65 @@
             </objects>
             <point key="canvasLocation" x="429" y="-2161"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="kS1-9U-k6q">
+        <!--Activity Collection View Controller-->
+        <scene sceneID="cKR-ei-FsN">
             <objects>
-                <viewController id="Xil-3w-vjz" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="2eQ-w0-dJQ"/>
-                        <viewControllerLayoutGuide type="bottom" id="sKO-EW-hFc"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="q20-qQ-V9W">
+                <collectionViewController storyboardIdentifier="activity" id="E1h-EI-BMd" customClass="ActivityCollectionViewController" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="ebJ-hl-ETR">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
+                        <color key="backgroundColor" red="1" green="0.68074123959999999" blue="0.45721131809999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="eue-6F-s1S">
+                            <size key="itemSize" width="250" height="250"/>
+                            <size key="headerReferenceSize" width="50" height="189"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ActivityCell" id="6Rw-Q5-PAj" customClass="ActivityCollectionViewCell">
+                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="250" height="250"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rh8-iF-PEJ">
+                                            <rect key="frame" x="45" y="45" width="160" height="160"/>
+                                        </imageView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <connections>
+                                    <outlet property="imageView" destination="Rh8-iF-PEJ" id="QaR-zb-b9B"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="0ET-A8-ji0">
+                            <rect key="frame" x="0.0" y="0.0" width="1024" height="50"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="header" translatesAutoresizingMaskIntoConstraints="NO" id="dKz-7S-qQ3">
+                                    <rect key="frame" x="0.0" y="-8" width="1024" height="189"/>
+                                </imageView>
+                            </subviews>
+                        </collectionReusableView>
+                        <connections>
+                            <outlet property="dataSource" destination="E1h-EI-BMd" id="VDj-Fr-6Ak"/>
+                            <outlet property="delegate" destination="E1h-EI-BMd" id="NmP-93-Y1U"/>
+                        </connections>
+                    </collectionView>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="IF4-Ta-xxP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CdN-O7-hgr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1573" y="-2161"/>
+            <point key="canvasLocation" x="1521" y="-2161"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="header" width="1024" height="189"/>
+        <image name="home_activity" width="340" height="768"/>
+        <image name="home_mailbox" width="340" height="768"/>
+        <image name="home_new_letter" width="340" height="768"/>
+    </resources>
 </document>

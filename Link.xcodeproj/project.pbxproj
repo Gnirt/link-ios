@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		3E6390551AD5999B00AA492C /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6390541AD5999B00AA492C /* HomeViewController.m */; };
 		3EA3E7681AD3E2C500996FD7 /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA3E7661AD3CC4600996FD7 /* PageViewController.m */; };
+		3EA6C5691AD6A4E8005A059B /* ActivityCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA6C5681AD6A4E8005A059B /* ActivityCollectionViewController.m */; };
+		3EA6C56C1AD6AB36005A059B /* ActivityCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA6C56B1AD6AB35005A059B /* ActivityCollectionViewCell.m */; };
 		3EE56FCC1AC838D900FCCB4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EE56FCB1AC838D900FCCB4D /* main.m */; };
 		3EE56FCF1AC838D900FCCB4D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EE56FCE1AC838D900FCCB4D /* AppDelegate.m */; };
 		3EE56FD21AC838D900FCCB4D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EE56FD11AC838D900FCCB4D /* LoginViewController.m */; };
@@ -35,6 +37,10 @@
 		3E6390541AD5999B00AA492C /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		3EA3E7651AD3CC4600996FD7 /* PageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
 		3EA3E7661AD3CC4600996FD7 /* PageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
+		3EA6C5671AD6A4E8005A059B /* ActivityCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityCollectionViewController.h; sourceTree = "<group>"; };
+		3EA6C5681AD6A4E8005A059B /* ActivityCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityCollectionViewController.m; sourceTree = "<group>"; };
+		3EA6C56A1AD6AB35005A059B /* ActivityCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityCollectionViewCell.h; sourceTree = "<group>"; };
+		3EA6C56B1AD6AB35005A059B /* ActivityCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityCollectionViewCell.m; sourceTree = "<group>"; };
 		3EE56FC61AC838D900FCCB4D /* Link.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Link.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EE56FCA1AC838D900FCCB4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EE56FCB1AC838D900FCCB4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -82,6 +88,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		3EA6C5661AD67CC0005A059B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3EA6C56A1AD6AB35005A059B /* ActivityCollectionViewCell.h */,
+				3EA6C56B1AD6AB35005A059B /* ActivityCollectionViewCell.m */,
+				3EA6C5671AD6A4E8005A059B /* ActivityCollectionViewController.h */,
+				3EA6C5681AD6A4E8005A059B /* ActivityCollectionViewController.m */,
+				3E6390531AD5999B00AA492C /* HomeViewController.h */,
+				3E6390541AD5999B00AA492C /* HomeViewController.m */,
+				3EE56FD01AC838D900FCCB4D /* LoginViewController.h */,
+				3EE56FD11AC838D900FCCB4D /* LoginViewController.m */,
+				3EA3E7651AD3CC4600996FD7 /* PageViewController.h */,
+				3EA3E7661AD3CC4600996FD7 /* PageViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		3EE56FBD1AC838D900FCCB4D = {
 			isa = PBXGroup;
 			children = (
@@ -105,15 +128,10 @@
 		3EE56FC81AC838D900FCCB4D /* Link */ = {
 			isa = PBXGroup;
 			children = (
-				3E6390531AD5999B00AA492C /* HomeViewController.h */,
-				3E6390541AD5999B00AA492C /* HomeViewController.m */,
+				3EA6C5661AD67CC0005A059B /* Controller */,
 				3EE56FEF1AC83F8600FCCB4D /* Model */,
 				3EE56FCD1AC838D900FCCB4D /* AppDelegate.h */,
 				3EE56FCE1AC838D900FCCB4D /* AppDelegate.m */,
-				3EE56FD01AC838D900FCCB4D /* LoginViewController.h */,
-				3EE56FD11AC838D900FCCB4D /* LoginViewController.m */,
-				3EA3E7651AD3CC4600996FD7 /* PageViewController.h */,
-				3EA3E7661AD3CC4600996FD7 /* PageViewController.m */,
 				3EE56FD31AC838D900FCCB4D /* Main.storyboard */,
 				3EE56FD61AC838D900FCCB4D /* Images.xcassets */,
 				3EE56FD81AC838D900FCCB4D /* LaunchScreen.xib */,
@@ -321,7 +339,9 @@
 				3EE56FF21AC83FA300FCCB4D /* User.m in Sources */,
 				3EE56FD21AC838D900FCCB4D /* LoginViewController.m in Sources */,
 				3EE56FCF1AC838D900FCCB4D /* AppDelegate.m in Sources */,
+				3EA6C56C1AD6AB36005A059B /* ActivityCollectionViewCell.m in Sources */,
 				3EA3E7681AD3E2C500996FD7 /* PageViewController.m in Sources */,
+				3EA6C5691AD6A4E8005A059B /* ActivityCollectionViewController.m in Sources */,
 				3EE56FCC1AC838D900FCCB4D /* main.m in Sources */,
 				3E6390551AD5999B00AA492C /* HomeViewController.m in Sources */,
 			);
