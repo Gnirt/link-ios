@@ -23,27 +23,42 @@ static NSString * const reuseIdentifier = @"Cell";
     // self.clearsSelectionOnViewWillAppear = NO;
     
     // Register cell classes
-    [self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:reuseIdentifier];
+    //[self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:reuseIdentifier];
     
     // Do any additional setup after loading the view.
     
     //Todo change with json api pictures
-    _activityImages = [@[@"logo",
-                         @"logo",
-                         @"logo",
-                         @"logo",
-                         @"logo",
-                         @"logo",
-                         @"logo",
-                         @"logo",
-                         @"logo",
-                         @"logo"
+    _activityImages = [@[@"ravioli",
+                         @"ravioli",
+                         @"ravioli",
+                         @"ravioli",
+                         @"ravioli",
+                         @"ravioli",
+                         @"ravioli",
+                         @"ravioli",
+                         @"ravioli",
+                         @"ravioli"
                          ] mutableCopy];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath
+{
+    UICollectionReusableView *reusableview = nil;
+    
+    if (kind == UICollectionElementKindSectionHeader) {
+        HeaderCollectionReusableView *headerView = [collectionView dequeueReusableSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:@"header" forIndexPath:indexPath];
+        UIImage *headerImage = [UIImage imageNamed:@"header"];
+        headerView.image.image = headerImage;
+        
+        reusableview = headerView;
+    }
+    
+    return reusableview;
 }
 
 /*
