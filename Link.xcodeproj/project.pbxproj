@@ -16,13 +16,13 @@
 		3EE56FCF1AC838D900FCCB4D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EE56FCE1AC838D900FCCB4D /* AppDelegate.m */; };
 		3EE56FD21AC838D900FCCB4D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EE56FD11AC838D900FCCB4D /* LoginViewController.m */; };
 		3EE56FD51AC838D900FCCB4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EE56FD31AC838D900FCCB4D /* Main.storyboard */; };
-		3EE56FD71AC838D900FCCB4D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EE56FD61AC838D900FCCB4D /* Images.xcassets */; };
 		3EE56FDA1AC838D900FCCB4D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EE56FD81AC838D900FCCB4D /* LaunchScreen.xib */; };
 		3EE56FE61AC838D900FCCB4D /* LinkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EE56FE51AC838D900FCCB4D /* LinkTests.m */; };
 		3EE56FF21AC83FA300FCCB4D /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EE56FF11AC83FA300FCCB4D /* User.m */; };
 		6205D45E6C1A82CE51D18D97 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EA5565500F83063E7141100 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		BF1F1F311AE654DB00BFDFA9 /* UIFont+UIFont_SytemFontOverride.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1F1F301AE654DB00BFDFA9 /* UIFont+UIFont_SytemFontOverride.m */; };
 		BF1F1F351AE6576600BFDFA9 /* Bosque-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = BF1F1F341AE6576600BFDFA9 /* Bosque-Regular.otf */; };
+		BF8733411AE6831B007F397C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF8733401AE6831B007F397C /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +54,6 @@
 		3EE56FD01AC838D900FCCB4D /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		3EE56FD11AC838D900FCCB4D /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		3EE56FD41AC838D900FCCB4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3EE56FD61AC838D900FCCB4D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3EE56FD91AC838D900FCCB4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3EE56FDF1AC838D900FCCB4D /* LinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EE56FE41AC838D900FCCB4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -67,6 +66,7 @@
 		BF1F1F2F1AE654DB00BFDFA9 /* UIFont+UIFont_SytemFontOverride.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+UIFont_SytemFontOverride.h"; sourceTree = "<group>"; };
 		BF1F1F301AE654DB00BFDFA9 /* UIFont+UIFont_SytemFontOverride.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+UIFont_SytemFontOverride.m"; sourceTree = "<group>"; };
 		BF1F1F341AE6576600BFDFA9 /* Bosque-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bosque-Regular.otf"; sourceTree = "<group>"; };
+		BF8733401AE6831B007F397C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,11 +144,9 @@
 				3EE56FCD1AC838D900FCCB4D /* AppDelegate.h */,
 				3EE56FCE1AC838D900FCCB4D /* AppDelegate.m */,
 				3EE56FD31AC838D900FCCB4D /* Main.storyboard */,
-				3EE56FD61AC838D900FCCB4D /* Images.xcassets */,
 				3EE56FD81AC838D900FCCB4D /* LaunchScreen.xib */,
 				3EE56FC91AC838D900FCCB4D /* Supporting Files */,
-				BF1F1F2F1AE654DB00BFDFA9 /* UIFont+UIFont_SytemFontOverride.h */,
-				BF1F1F301AE654DB00BFDFA9 /* UIFont+UIFont_SytemFontOverride.m */,
+				BF8733401AE6831B007F397C /* Images.xcassets */,
 			);
 			path = Link;
 			sourceTree = "<group>";
@@ -208,6 +206,8 @@
 		BF1F1F2B1AE6536700BFDFA9 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				BF1F1F2F1AE654DB00BFDFA9 /* UIFont+UIFont_SytemFontOverride.h */,
+				BF1F1F301AE654DB00BFDFA9 /* UIFont+UIFont_SytemFontOverride.m */,
 				BF1F1F341AE6576600BFDFA9 /* Bosque-Regular.otf */,
 			);
 			name = Fonts;
@@ -298,8 +298,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EE56FD51AC838D900FCCB4D /* Main.storyboard in Resources */,
+				BF8733411AE6831B007F397C /* Images.xcassets in Resources */,
 				3EE56FDA1AC838D900FCCB4D /* LaunchScreen.xib in Resources */,
-				3EE56FD71AC838D900FCCB4D /* Images.xcassets in Resources */,
 				BF1F1F351AE6576600BFDFA9 /* Bosque-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
