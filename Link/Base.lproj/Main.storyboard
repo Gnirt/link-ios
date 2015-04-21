@@ -12,7 +12,6 @@
             <string>Bosque-Regular</string>
             <string>Bosque-Regular</string>
             <string>Bosque-Regular</string>
-            <string>Bosque-Regular</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -177,10 +176,10 @@
             </objects>
             <point key="canvasLocation" x="4307" y="2583"/>
         </scene>
-        <!--View Controller-->
+        <!--Picker View Controller-->
         <scene sceneID="3NF-37-Zdh">
             <objects>
-                <viewController storyboardIdentifier="page2" id="Zw8-Pl-g2Y" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="page2" id="Zw8-Pl-g2Y" customClass="PickerViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="TXL-i0-wgh"/>
                         <viewControllerLayoutGuide type="bottom" id="bxa-YO-wge"/>
@@ -192,11 +191,6 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg_star" translatesAutoresizingMaskIntoConstraints="NO" id="6GF-42-a37">
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                             </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="..." textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CLY-xK-67T">
-                                <rect key="frame" x="350" y="369" width="324" height="30"/>
-                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pick your teacher" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6WD-Rq-e4N">
                                 <rect key="frame" x="268" y="228" width="488" height="90"/>
                                 <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="33"/>
@@ -206,11 +200,17 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="LXp-Ca-jL5">
                                 <rect key="frame" x="392" y="73" width="240" height="128"/>
                             </imageView>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iKs-Yi-eSN">
+                                <rect key="frame" x="0.0" y="326" width="1024" height="162"/>
+                            </pickerView>
                         </subviews>
                         <color key="backgroundColor" red="0.76947456599999997" green="1" blue="0.52192765470000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="teachersPicker" destination="iKs-Yi-eSN" id="zAC-od-gnu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Ye-Lh-fWY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -21,6 +21,7 @@
 		3EE56FE61AC838D900FCCB4D /* LinkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EE56FE51AC838D900FCCB4D /* LinkTests.m */; };
 		3EE56FF21AC83FA300FCCB4D /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EE56FF11AC83FA300FCCB4D /* User.m */; };
 		6205D45E6C1A82CE51D18D97 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EA5565500F83063E7141100 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		BF19BC1C1AE6AD6A00172C2F /* PickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF19BC1B1AE6AD6A00172C2F /* PickerViewController.m */; };
 		BF1F1F311AE654DB00BFDFA9 /* UIFont+UIFont_SytemFontOverride.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1F1F301AE654DB00BFDFA9 /* UIFont+UIFont_SytemFontOverride.m */; };
 		BF1F1F351AE6576600BFDFA9 /* Bosque-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = BF1F1F341AE6576600BFDFA9 /* Bosque-Regular.otf */; };
 /* End PBXBuildFile section */
@@ -64,6 +65,8 @@
 		4229B13B213CBBD04167ADFD /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		6EA5565500F83063E7141100 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91B579F73F716CD735508470 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		BF19BC1A1AE6AD6A00172C2F /* PickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerViewController.h; sourceTree = "<group>"; };
+		BF19BC1B1AE6AD6A00172C2F /* PickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerViewController.m; sourceTree = "<group>"; };
 		BF1F1F2F1AE654DB00BFDFA9 /* UIFont+UIFont_SytemFontOverride.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+UIFont_SytemFontOverride.h"; sourceTree = "<group>"; };
 		BF1F1F301AE654DB00BFDFA9 /* UIFont+UIFont_SytemFontOverride.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+UIFont_SytemFontOverride.m"; sourceTree = "<group>"; };
 		BF1F1F341AE6576600BFDFA9 /* Bosque-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bosque-Regular.otf"; sourceTree = "<group>"; };
@@ -99,6 +102,8 @@
 		3EA6C5661AD67CC0005A059B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BF19BC1A1AE6AD6A00172C2F /* PickerViewController.h */,
+				BF19BC1B1AE6AD6A00172C2F /* PickerViewController.m */,
 				3E6F3FD51AD7B648000CF0D6 /* HeaderCollectionReusableView.h */,
 				3E6F3FD61AD7B648000CF0D6 /* HeaderCollectionReusableView.m */,
 				3EA6C56A1AD6AB35005A059B /* ActivityCollectionViewCell.h */,
@@ -372,6 +377,7 @@
 				3EE56FCF1AC838D900FCCB4D /* AppDelegate.m in Sources */,
 				3EA6C56C1AD6AB36005A059B /* ActivityCollectionViewCell.m in Sources */,
 				3EA3E7681AD3E2C500996FD7 /* PageViewController.m in Sources */,
+				BF19BC1C1AE6AD6A00172C2F /* PickerViewController.m in Sources */,
 				3EA6C5691AD6A4E8005A059B /* ActivityCollectionViewController.m in Sources */,
 				BF1F1F311AE654DB00BFDFA9 /* UIFont+UIFont_SytemFontOverride.m in Sources */,
 				3EE56FCC1AC838D900FCCB4D /* main.m in Sources */,
