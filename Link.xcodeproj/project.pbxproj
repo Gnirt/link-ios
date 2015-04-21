@@ -21,6 +21,8 @@
 		3EE56FE61AC838D900FCCB4D /* LinkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EE56FE51AC838D900FCCB4D /* LinkTests.m */; };
 		3EE56FF21AC83FA300FCCB4D /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EE56FF11AC83FA300FCCB4D /* User.m */; };
 		6205D45E6C1A82CE51D18D97 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EA5565500F83063E7141100 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		BF1F1F311AE654DB00BFDFA9 /* UIFont+UIFont_SytemFontOverride.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1F1F301AE654DB00BFDFA9 /* UIFont+UIFont_SytemFontOverride.m */; };
+		BF1F1F351AE6576600BFDFA9 /* Bosque-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = BF1F1F341AE6576600BFDFA9 /* Bosque-Regular.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,9 @@
 		4229B13B213CBBD04167ADFD /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		6EA5565500F83063E7141100 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91B579F73F716CD735508470 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		BF1F1F2F1AE654DB00BFDFA9 /* UIFont+UIFont_SytemFontOverride.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+UIFont_SytemFontOverride.h"; sourceTree = "<group>"; };
+		BF1F1F301AE654DB00BFDFA9 /* UIFont+UIFont_SytemFontOverride.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+UIFont_SytemFontOverride.m"; sourceTree = "<group>"; };
+		BF1F1F341AE6576600BFDFA9 /* Bosque-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bosque-Regular.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +138,7 @@
 		3EE56FC81AC838D900FCCB4D /* Link */ = {
 			isa = PBXGroup;
 			children = (
+				BF1F1F2A1AE6535F00BFDFA9 /* Ressources */,
 				3EA6C5661AD67CC0005A059B /* Controller */,
 				3EE56FEF1AC83F8600FCCB4D /* Model */,
 				3EE56FCD1AC838D900FCCB4D /* AppDelegate.h */,
@@ -141,6 +147,8 @@
 				3EE56FD61AC838D900FCCB4D /* Images.xcassets */,
 				3EE56FD81AC838D900FCCB4D /* LaunchScreen.xib */,
 				3EE56FC91AC838D900FCCB4D /* Supporting Files */,
+				BF1F1F2F1AE654DB00BFDFA9 /* UIFont+UIFont_SytemFontOverride.h */,
+				BF1F1F301AE654DB00BFDFA9 /* UIFont+UIFont_SytemFontOverride.m */,
 			);
 			path = Link;
 			sourceTree = "<group>";
@@ -187,6 +195,22 @@
 				4229B13B213CBBD04167ADFD /* Pods.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		BF1F1F2A1AE6535F00BFDFA9 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				BF1F1F2B1AE6536700BFDFA9 /* Fonts */,
+			);
+			name = Ressources;
+			sourceTree = "<group>";
+		};
+		BF1F1F2B1AE6536700BFDFA9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BF1F1F341AE6576600BFDFA9 /* Bosque-Regular.otf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +300,7 @@
 				3EE56FD51AC838D900FCCB4D /* Main.storyboard in Resources */,
 				3EE56FDA1AC838D900FCCB4D /* LaunchScreen.xib in Resources */,
 				3EE56FD71AC838D900FCCB4D /* Images.xcassets in Resources */,
+				BF1F1F351AE6576600BFDFA9 /* Bosque-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +373,7 @@
 				3EA6C56C1AD6AB36005A059B /* ActivityCollectionViewCell.m in Sources */,
 				3EA3E7681AD3E2C500996FD7 /* PageViewController.m in Sources */,
 				3EA6C5691AD6A4E8005A059B /* ActivityCollectionViewController.m in Sources */,
+				BF1F1F311AE654DB00BFDFA9 /* UIFont+UIFont_SytemFontOverride.m in Sources */,
 				3EE56FCC1AC838D900FCCB4D /* main.m in Sources */,
 				3E6390551AD5999B00AA492C /* HomeViewController.m in Sources */,
 			);
@@ -474,12 +500,12 @@
 			baseConfigurationReference = 91B579F73F716CD735508470 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: David TARDIVEAU (VQ6GTVFA5Q)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Link/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "91843db9-12df-4857-b9a0-642a4533b4a7";
+				PROVISIONING_PROFILE = "a3e38aa1-ce94-491f-ab60-04035b10f7ff";
 			};
 			name = Debug;
 		};
@@ -488,12 +514,12 @@
 			baseConfigurationReference = 4229B13B213CBBD04167ADFD /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: David TARDIVEAU (VQ6GTVFA5Q)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Link/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "91843db9-12df-4857-b9a0-642a4533b4a7";
+				PROVISIONING_PROFILE = "a3e38aa1-ce94-491f-ab60-04035b10f7ff";
 			};
 			name = Release;
 		};

@@ -30,13 +30,23 @@ DEPENDENCIES:
   - AFNetworking (~> 2.5)
   - JSONModel
   - ORStackView (~> 2.0)
-  - SwiftyJSON (~> 2.1)
+  - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`, branch `xcode6.3`)
+
+EXTERNAL SOURCES:
+  SwiftyJSON:
+    :branch: xcode6.3
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  SwiftyJSON:
+    :commit: 008a09d7ea8b13c03fb59b35c01aad339584a5e1
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
 
 SPEC CHECKSUMS:
   AFNetworking: fefbce9660acb17f48ae0011292d4da0f457bf36
-  FLKAutoLayout: 8a973ab83832a8527626127193643f3c8ea157d5
-  JSONModel: cbdef0fdff1cc70e913a860861d3072860efd3a1
-  ORStackView: b6ccb2d7a1730548631a8a2749ba3c1bf12168db
-  SwiftyJSON: 48be7490a3989a58a3f511cd54167f0a2b466e76
+  FLKAutoLayout: 9db6b30c2008d230da608e62c607b11c23b942e6
+  JSONModel: 6ffcb4ffa3659c9e9a2e5d45d6c7705bab187c03
+  ORStackView: 5df6b1b990b0648d8ef6f69f89361ea8648e8f64
+  SwiftyJSON: a561c2a840121085bec8a2dfeac97a360fc66901
 
-COCOAPODS: 0.36.1
+COCOAPODS: 0.36.4

@@ -4,5 +4,5 @@ use_frameworks!
 
 pod 'AFNetworking', '~> 2.5'
 pod 'ORStackView', '~> 2.0'
-pod 'SwiftyJSON', '~> 2.1'
+pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git', :branch => 'xcode6.3'
 pod 'JSONModel'
