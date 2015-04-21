@@ -22,20 +22,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vxP-5V-BHf">
-                                <rect key="frame" x="464" y="235" width="97" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5iK-k9-guF">
-                                <rect key="frame" x="464" y="356" width="97" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg_login" translatesAutoresizingMaskIntoConstraints="NO" id="0dK-5S-GGd">
+                                <rect key="frame" x="-6" y="54" width="1072" height="748"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cct-31-GMc">
-                                <rect key="frame" x="391" y="444" width="46" height="30"/>
-                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="15"/>
-                                <state key="normal" title="Enter">
+                                <rect key="frame" x="333" y="386" width="380" height="83"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="40"/>
+                                <state key="normal" title="Your world">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -43,9 +37,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oPN-Y2-lyg">
-                                <rect key="frame" x="527" y="426" width="272" height="67"/>
-                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="15"/>
-                                <state key="normal" title="Create your world">
+                                <rect key="frame" x="333" y="477" width="380" height="45"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="35"/>
+                                <state key="normal" title="- Create your world -">
+                                    <color key="titleColor" red="0.79744712752525249" green="0.79744712752525249" blue="0.79744712752525249" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -58,10 +53,6 @@
                     <navigationItem key="navigationItem" id="LMV-Dn-w2B"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
-                    <connections>
-                        <outlet property="emailInput" destination="vxP-5V-BHf" id="G5v-Tn-60s"/>
-                        <outlet property="passwordInput" destination="5iK-k9-guF" id="mLz-lG-Ka8"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -442,6 +433,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="bg_login" width="1024" height="768"/>
         <image name="header" width="1024" height="189"/>
         <image name="home_activity" width="340" height="768"/>
         <image name="home_mailbox" width="340" height="768"/>
