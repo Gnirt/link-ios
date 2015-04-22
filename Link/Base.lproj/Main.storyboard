@@ -138,6 +138,10 @@
                     <navigationItem key="navigationItem" id="rX8-8v-YdB"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="emailInput" destination="gY5-kz-Vlg" id="2Fc-Ll-m4o"/>
+                        <outlet property="passwordInput" destination="QU8-57-zWd" id="zce-LU-VmH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9eg-ED-XSA" sceneMemberID="firstResponder"/>
             </objects>
