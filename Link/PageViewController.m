@@ -27,7 +27,9 @@
     UIViewController *p3 = [self.storyboard instantiateViewControllerWithIdentifier:@"page3"];
     UIViewController *p4 = [self.storyboard instantiateViewControllerWithIdentifier:@"page4"];
     UIViewController *p5 = [self.storyboard instantiateViewControllerWithIdentifier:@"page5"];
-    self.pageViewControllers = @[p1, p2, p3, p4, p5];
+    UIViewController *p6 = [self.storyboard instantiateViewControllerWithIdentifier:@"page6"];
+    UIViewController *p7 = [self.storyboard instantiateViewControllerWithIdentifier:@"page7"];
+    self.pageViewControllers = @[p1, p2, p3, p4, p5, p6, p7];
     // begin with first page
     [self setViewControllers:@[p1] direction:UIPageViewControllerNavigationDirectionForward animated:NO completion:nil];
 }
