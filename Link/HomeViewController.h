@@ -7,10 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "iCarousel.h"
 
-@interface HomeViewController : UIViewController
-- (IBAction)goToMailBox:(id)sender;
-- (IBAction)goToWriteLetter:(id)sender;
-- (IBAction)goToActivity:(id)sender;
+@interface HomeViewController : UIViewController<iCarouselDataSource, iCarouselDelegate>
+
+@property (nonatomic, strong) IBOutlet iCarousel *carousel;
+//- (IBAction)goToMailBox:(id)sender;
+//- (IBAction)goToWriteLetter:(id)sender;
+//- (IBAction)goToActivity:(id)sender;
 
 @end

@@ -29,6 +29,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-iCarousel.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -37,32 +42,37 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>051F4C1698F6B762D1CC8758</key>
+		<key>2515A239E277F055E64AE1BE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2F15EBF1EAF465556BE5D7B1</key>
+		<key>2EA7F3B5BC6B43F9C2721C6E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5693EEE0BA2EE6814135D534</key>
+		<key>30213465305FDD30662826B1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8BC92080CF5A9F4F87839F37</key>
+		<key>46FCB42745C3B7A4E996196E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B0FB767CB0DB437C59ECA0CC</key>
+		<key>A4E252EBC7E3C02D4BAFB1E5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E481D29F05F3B76AC03DB0D3</key>
+		<key>C43249ECB94506486452C899</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DB9C4C9D5F11A6E63552D90B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

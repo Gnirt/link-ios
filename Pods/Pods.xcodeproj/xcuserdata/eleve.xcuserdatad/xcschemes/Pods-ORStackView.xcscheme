@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8BC92080CF5A9F4F87839F37"
+               BlueprintIdentifier = "2EA7F3B5BC6B43F9C2721C6E"
                BuildableName = "ORStackView.framework"
                BlueprintName = "Pods-ORStackView"
                ReferencedContainer = "container:Pods.xcodeproj">
