@@ -28,16 +28,16 @@ static NSString * const reuseIdentifier = @"Cell";
     // Do any additional setup after loading the view.
     
     //Todo change with json api pictures
-    _activityImages = [@[@"ravioli",
-                         @"ravioli",
-                         @"ravioli",
-                         @"ravioli",
-                         @"ravioli",
-                         @"ravioli",
-                         @"ravioli",
-                         @"ravioli",
-                         @"ravioli",
-                         @"ravioli"
+    _activityImages = [@[@"timbre_1",
+                         @"timbre_3",
+                         @"timbre_2",
+                         @"timbre_2",
+                         @"timbre_3",
+                         @"timbre_2",
+                         @"timbre_3",
+                         @"timbre_2",
+                         @"timbre_2",
+                         @"timbre_3"
                          ] mutableCopy];
 }
 
@@ -52,7 +52,7 @@ static NSString * const reuseIdentifier = @"Cell";
     
     if (kind == UICollectionElementKindSectionHeader) {
         HeaderCollectionReusableView *headerView = [collectionView dequeueReusableSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:@"header" forIndexPath:indexPath];
-        UIImage *headerImage = [UIImage imageNamed:@"header"];
+        UIImage *headerImage = [UIImage imageNamed:@"logo"];
         headerView.image.image = headerImage;
         
         reusableview = headerView;
