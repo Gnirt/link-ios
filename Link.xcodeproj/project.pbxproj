@@ -26,6 +26,7 @@
 		BF21A8511AE8F96200D5F4E0 /* page.png in Resources */ = {isa = PBXBuildFile; fileRef = BF21A8501AE8F96200D5F4E0 /* page.png */; };
 		BF21A8541AE8FE9200D5F4E0 /* CarouselViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF21A8531AE8FE9200D5F4E0 /* CarouselViewController.m */; };
 		BFEC62601AF77088009C1416 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEC625F1AF77088009C1416 /* RegisterViewController.m */; };
+		BFEC62631AF79FE2009C1416 /* WritingWorldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEC62621AF79FE2009C1416 /* WritingWorldViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,8 @@
 		BF21A8531AE8FE9200D5F4E0 /* CarouselViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarouselViewController.m; sourceTree = "<group>"; };
 		BFEC625E1AF77088009C1416 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
 		BFEC625F1AF77088009C1416 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		BFEC62611AF79FE2009C1416 /* WritingWorldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WritingWorldViewController.h; sourceTree = "<group>"; };
+		BFEC62621AF79FE2009C1416 /* WritingWorldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WritingWorldViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 		3EA6C5661AD67CC0005A059B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BFEC62611AF79FE2009C1416 /* WritingWorldViewController.h */,
+				BFEC62621AF79FE2009C1416 /* WritingWorldViewController.m */,
 				BF21A8521AE8FE9200D5F4E0 /* CarouselViewController.h */,
 				BF21A8531AE8FE9200D5F4E0 /* CarouselViewController.m */,
 				BF19BC1A1AE6AD6A00172C2F /* PickerViewController.h */,
@@ -387,6 +392,7 @@
 				3EA6C56C1AD6AB36005A059B /* ActivityCollectionViewCell.m in Sources */,
 				3EA3E7681AD3E2C500996FD7 /* PageViewController.m in Sources */,
 				BF21A8541AE8FE9200D5F4E0 /* CarouselViewController.m in Sources */,
+				BFEC62631AF79FE2009C1416 /* WritingWorldViewController.m in Sources */,
 				BF19BC1C1AE6AD6A00172C2F /* PickerViewController.m in Sources */,
 				3EA6C5691AD6A4E8005A059B /* ActivityCollectionViewController.m in Sources */,
 				BFEC62601AF77088009C1416 /* RegisterViewController.m in Sources */,
