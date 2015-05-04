@@ -166,4 +166,32 @@
     }
 }
 
+- (void)carousel:(iCarousel *)carousel2 didSelectItemAtIndex:(NSInteger)index
+{
+    if (index == carousel2.currentItemIndex) {
+        switch (carousel2.currentItemIndex) {
+            case 0:
+            {
+                UIViewController* writeLetter = [self.storyboard instantiateViewControllerWithIdentifier:@"writeLetter"];
+                [self presentViewController:writeLetter animated:YES completion:nil];
+                break;
+            }
+            case 1:
+            {
+                UIViewController* activity = [self.storyboard instantiateViewControllerWithIdentifier:@"activity"];
+                [self presentViewController:activity animated:YES completion:nil];
+                break;
+            }
+            case 2:
+            {
+                UIViewController* mailbox = [self.storyboard instantiateViewControllerWithIdentifier:@"mailbox"];
+                [self presentViewController:mailbox animated:YES completion:nil];
+                break;
+            }
+            default:
+                break;
+        }
+    }
+}
+
 @end
