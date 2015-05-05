@@ -7,6 +7,7 @@
 //
 
 #import "LetterCollectionViewController.h"
+#import "ModalViewController.h"
 
 @interface LetterCollectionViewController ()
 
@@ -38,7 +39,7 @@ static NSString * const reuseIdentifier = @"Cell";
                          @"enveloppe_ouverte.png",
                          @"enveloppe_ouverte.png",
                          @"enveloppe_ouverte.png"
-                         ] mutableCopy];
+                       ] mutableCopy];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -125,5 +126,23 @@ static NSString * const reuseIdentifier = @"Cell";
 	
  }
  */
+
+
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    // If you need to use the touched cell, you can retrieve it like so
+    UICollectionViewCell *cell = [collectionView cellForItemAtIndexPath:indexPath];
+    ModalViewController *modalViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"ModalViewController"];
+    [modalViewController setModalPresentationStyle:UIModalPresentationFormSheet];
+    [self presentViewController:modalViewController animated:YES completion:nil];
+    NSLog(@"touched cell %@ at indexPath %@", cell, indexPath);
+}
+
+//#pragma mark - Segue
+//- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+//    if ([segue.identifier isEqualToString:@"ShowLetterModal"]) {
+//        ModalViewController *modalViewController = segue.destinationViewController;
+//    }
+//}
 
 @end
