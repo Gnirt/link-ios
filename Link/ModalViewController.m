@@ -11,7 +11,7 @@
 @implementation ModalViewController
 
 - (IBAction)done:(id)sender {
-    // TODO
+     [self.presentingViewController dismissViewControllerAnimated:YES completion:^{}];
 }
 
 @end
