@@ -7,7 +7,7 @@
 //
 
 #import "WritingWorldViewController.h"
-
+#import "WriteLetterModalViewController.h"
 @implementation WritingWorldViewController
 
 - (void)viewDidLoad {
@@ -22,5 +22,14 @@
     imageView2.image = [UIImage imageNamed:@"papier_lettre"];
     [self.view addSubview:imageView2];
     [self.view bringSubviewToFront:_letterTextView];
+    
+    UITapGestureRecognizer *gestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(textViewTapped)];
+    [_letterTextView addGestureRecognizer:gestureRecognizer];
+}
+
+- (void)textViewTapped {
+    WriteLetterModalViewController *modalViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"WriteLetterModalViewController"];
+    [modalViewController setModalPresentationStyle:UIModalPresentationFormSheet];
+    [self presentViewController:modalViewController animated:YES completion:nil];
 }
 @end

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="9Rw-bO-BVa">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="m15-fn-BWY">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
     </dependencies>
     <customFonts key="customFonts">
         <mutableArray key="Bosque-Regular.otf">
+            <string>Bosque-Regular</string>
             <string>Bosque-Regular</string>
             <string>Bosque-Regular</string>
             <string>Bosque-Regular</string>
@@ -750,10 +751,9 @@
                                 <color key="textColor" red="0.73725490199999999" green="0.65098039220000004" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ekO-5A-wdm" userLabel="Post it">
-                                <rect key="frame" x="248" y="281" width="252" height="205"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Side notes from the teacher to help him write his letter" translatesAutoresizingMaskIntoConstraints="NO" id="ekO-5A-wdm" userLabel="Post it">
+                                <rect key="frame" x="248" y="270" width="252" height="205"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation </string>
                                 <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -775,10 +775,9 @@
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="mini_bouton_video" translatesAutoresizingMaskIntoConstraints="NO" id="jgY-CW-UDx">
                                 <rect key="frame" x="349" y="545" width="50" height="50"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hQa-3q-rcS" userLabel="Letter">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Write your letter here" translatesAutoresizingMaskIntoConstraints="NO" id="hQa-3q-rcS" userLabel="Letter">
                                 <rect key="frame" x="529" y="270" width="333" height="453"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation </string>
                                 <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1006,7 +1005,7 @@
                         <viewControllerLayoutGuide type="bottom" id="s2V-5T-DRr"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="EMC-FD-Tbj">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="545" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lde-bf-jOF">
@@ -1019,9 +1018,12 @@
                                     </barButtonItem>
                                 </items>
                             </toolbar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="avatar_dave" translatesAutoresizingMaskIntoConstraints="NO" id="9Hb-9p-Mhs">
+                                <rect key="frame" x="221" y="64" width="99" height="99"/>
+                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GbP-gm-DHK">
-                                <rect key="frame" x="16" y="44" width="568" height="536"/>
-                                <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.93725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="16" y="184" width="508" height="416"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <mutableString key="text">Hello Marie,
 
 Cheesecake biscuit cookie topping. Pastry soufflé pie lemon drops bonbon pastry pastry. Tiramisu tart marzipan biscuit chupa chups candy ice cream. Dessert soufflé jelly-o cotton candy lollipop jelly beans pastry lemon drops marzipan.
@@ -1042,31 +1044,60 @@ Dragée soufflé jujubes fruitcake halvah topping. Cotton candy jelly-o dessert.
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
-                    <modalFormSheetSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="545" height="600"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rhy-rw-9Ag" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1840" y="-2085"/>
+            <point key="canvasLocation" x="-2128" y="-1965"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="bs5-Hx-7h1">
+        <!--Write Letter Modal View Controller-->
+        <scene sceneID="Tib-dV-fk0">
             <objects>
-                <viewController id="LES-Hn-vet" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="WriteLetterModalViewController" id="367-x3-nZh" customClass="WriteLetterModalViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Ayx-Fm-W2G"/>
-                        <viewControllerLayoutGuide type="bottom" id="Wtb-zO-gey"/>
+                        <viewControllerLayoutGuide type="top" id="rDr-4d-Vf4"/>
+                        <viewControllerLayoutGuide type="bottom" id="2j0-Pn-bQx"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="wmr-Au-MQ8">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <view key="view" contentMode="scaleToFill" id="7t6-GK-ArC">
+                        <rect key="frame" x="0.0" y="0.0" width="545" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mG9-x1-KwH">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="44"/>
+                                <items>
+                                    <barButtonItem title="Done" id="rrF-w3-cKE">
+                                        <connections>
+                                            <action selector="done:" destination="367-x3-nZh" id="CBE-hk-Bi9"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Tap and start writing to Dave" translatesAutoresizingMaskIntoConstraints="NO" id="rmB-Ki-WMW">
+                                <rect key="frame" x="16" y="215" width="508" height="385"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.25882352939999997" green="0.27058823529999998" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="avatar_marie" translatesAutoresizingMaskIntoConstraints="NO" id="9QI-gR-KU7">
+                                <rect key="frame" x="223" y="67" width="99" height="99"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="545" height="600"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="HRF-5v-fwk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qd1-t6-hSE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-2152.5" y="-1157"/>
         </scene>
     </scenes>
     <resources>
+        <image name="avatar_dave" width="394" height="398"/>
+        <image name="avatar_marie" width="394" height="398"/>
         <image name="bg_nuages" width="1024" height="768"/>
         <image name="bg_star" width="1024" height="768"/>
         <image name="bouton_parme" width="787" height="175"/>
@@ -1098,8 +1129,8 @@ Dragée soufflé jujubes fruitcake halvah topping. Cotton candy jelly-o dessert.
         <image name="vignette_vue" width="132" height="124"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="iV5-yw-8IV"/>
-        <segue reference="cUl-kx-XZ3"/>
+        <segue reference="Wnx-ii-KFf"/>
         <segue reference="9CC-Ga-Bg2"/>
+        <segue reference="PBS-t6-3gc"/>
     </inferredMetricsTieBreakers>
 </document>

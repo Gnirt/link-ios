@@ -132,11 +132,11 @@ static NSString * const reuseIdentifier = @"Cell";
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
     // If you need to use the touched cell, you can retrieve it like so
-    UICollectionViewCell *cell = [collectionView cellForItemAtIndexPath:indexPath];
+    //UICollectionViewCell *cell = [collectionView cellForItemAtIndexPath:indexPath];
+    //NSLog(@"touched cell %@ at indexPath %@", cell, indexPath);
     ModalViewController *modalViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"ModalViewController"];
     [modalViewController setModalPresentationStyle:UIModalPresentationFormSheet];
     [self presentViewController:modalViewController animated:YES completion:nil];
-    NSLog(@"touched cell %@ at indexPath %@", cell, indexPath);
 }
 
 //#pragma mark - Segue
