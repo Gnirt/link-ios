@@ -34,4 +34,8 @@
 }
 */
 
+- (IBAction)sendLetterAction:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
 @end

@@ -9,5 +9,6 @@
 #import "ModalViewController.h"
 
 @interface WriteLetterModalViewController : ModalViewController
+- (IBAction)sendLetterAction:(id)sender;
 
 @end

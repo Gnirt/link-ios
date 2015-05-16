@@ -58,6 +58,9 @@
             <string>Bosque-Regular</string>
             <string>Bosque-Regular</string>
             <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -1063,26 +1066,46 @@ Dragée soufflé jujubes fruitcake halvah topping. Cotton candy jelly-o dessert.
                         <rect key="frame" x="0.0" y="0.0" width="545" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mG9-x1-KwH">
-                                <rect key="frame" x="0.0" y="0.0" width="1024" height="44"/>
-                                <items>
-                                    <barButtonItem title="Done" id="rrF-w3-cKE">
-                                        <connections>
-                                            <action selector="done:" destination="367-x3-nZh" id="CBE-hk-Bi9"/>
-                                        </connections>
-                                    </barButtonItem>
-                                </items>
-                            </toolbar>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Tap and start writing to Dave" translatesAutoresizingMaskIntoConstraints="NO" id="rmB-Ki-WMW">
-                                <rect key="frame" x="16" y="215" width="508" height="385"/>
+                                <rect key="frame" x="16" y="135" width="508" height="424"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="textColor" red="0.25882352939999997" green="0.27058823529999998" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="avatar_marie" translatesAutoresizingMaskIntoConstraints="NO" id="9QI-gR-KU7">
-                                <rect key="frame" x="223" y="67" width="99" height="99"/>
+                                <rect key="frame" x="223" y="28" width="99" height="99"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uYk-KY-dBC">
+                                <rect key="frame" x="134" y="569" width="128" height="29"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="21"/>
+                                <state key="normal" title="Save as draft">
+                                    <color key="titleColor" red="0.74117647058823533" green="0.65098039215686276" blue="0.85490196078431369" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="sendLetterAction:" destination="367-x3-nZh" eventType="touchUpInside" id="QV8-V6-Ddm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2kF-tK-MDM">
+                                <rect key="frame" x="393" y="567" width="136" height="33"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="21"/>
+                                <state key="normal" title="Send my letter!">
+                                    <color key="titleColor" red="0.40392156862745099" green="0.3411764705882353" blue="0.65490196078431373" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="sendLetterAction:" destination="367-x3-nZh" eventType="touchUpInside" id="Xxp-QO-AWv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ww6-LP-zr6">
+                                <rect key="frame" x="260" y="567" width="128" height="33"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="21"/>
+                                <state key="normal" title="Fix spelling">
+                                    <color key="titleColor" red="0.81568627450980391" green="0.24313725490196078" blue="0.5725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
