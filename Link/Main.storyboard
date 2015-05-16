@@ -65,6 +65,8 @@
             <string>Bosque-Regular</string>
             <string>Bosque-Regular</string>
             <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -644,6 +646,72 @@
             </objects>
             <point key="canvasLocation" x="-25" y="2583"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="0vs-Yx-aGu">
+            <objects>
+                <viewController storyboardIdentifier="fill_gap_page01" id="cFK-b7-yJy" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UAh-bq-716"/>
+                        <viewControllerLayoutGuide type="bottom" id="bmp-HI-TDj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ten-5S-JrS">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg_star" translatesAutoresizingMaskIntoConstraints="NO" id="BKQ-Lt-ijE">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="yeL-c5-c9F">
+                                <rect key="frame" x="392" y="73" width="240" height="128"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Choose the right word !" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QpI-fU-rO4">
+                                <rect key="frame" x="268" y="228" width="488" height="90"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="33"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jrg-1D-ipC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-25" y="3579"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="6iE-c9-am0">
+            <objects>
+                <viewController storyboardIdentifier="fill_gap_page02" id="zZI-rl-FBE" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4oB-hq-fUo"/>
+                        <viewControllerLayoutGuide type="bottom" id="UeK-x5-TOS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8GB-5u-oNf">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg_star" translatesAutoresizingMaskIntoConstraints="NO" id="6Bo-sR-YUh">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="NKV-Ib-KRY">
+                                <rect key="frame" x="392" y="73" width="240" height="128"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Choose the right word !" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mq4-3h-dHM">
+                                <rect key="frame" x="268" y="228" width="488" height="90"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="33"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="k7u-x6-inq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1072" y="3579"/>
+        </scene>
         <!--Carousel View Controller-->
         <scene sceneID="zV2-2u-Tss">
             <objects>
@@ -1078,7 +1146,7 @@ Dragée soufflé jujubes fruitcake halvah topping. Cotton candy jelly-o dessert.
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="czw-LA-i9I">
-                                <rect key="frame" x="16" y="28" width="868" height="211"/>
+                                <rect key="frame" x="16" y="66" width="868" height="211"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <string key="text">GAP-FILL TEXTS,
 
@@ -1086,7 +1154,7 @@ Fill the gap in the sentances with the right word.
 
 Play with Marie as much as possible to unlock levels and bonus to your letters.</string>
                                 <color key="textColor" red="0.25882352939999997" green="0.27058823529999998" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="20"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="30"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zWT-PH-U9H">
@@ -1100,12 +1168,15 @@ Play with Marie as much as possible to unlock levels and bonus to your letters.<
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wNC-eQ-bi2">
-                                <rect key="frame" x="222" y="364" width="457" height="30"/>
+                                <rect key="frame" x="222" y="363" width="457" height="30"/>
                                 <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="35"/>
                                 <state key="normal" title="Now it's your turn to play !">
                                     <color key="titleColor" red="0.82352941176470584" green="0.23921568627450981" blue="0.58039215686274515" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="playActivity:" destination="1hk-x0-h2h" eventType="touchUpInside" id="VwR-XJ-ebk"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1181,6 +1252,14 @@ Play with Marie as much as possible to unlock levels and bonus to your letters.<
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qd1-t6-hSE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2056.5" y="-697"/>
+        </scene>
+        <!--Fill Gap01 Page View Controller-->
+        <scene sceneID="IpI-wf-eZY">
+            <objects>
+                <pageViewController storyboardIdentifier="fill_gap" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="8QK-H7-wLl" customClass="FillGap01PageViewController" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VAP-ny-Pem" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1024" y="3579"/>
         </scene>
     </scenes>
     <resources>

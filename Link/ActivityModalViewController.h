@@ -10,5 +10,6 @@
 
 @interface ActivityModalViewController : ModalViewController
 - (IBAction)closeModal:(id)sender;
+- (IBAction)playActivity:(id)sender;
 
 @end

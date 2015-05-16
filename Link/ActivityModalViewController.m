@@ -38,4 +38,10 @@
 - (IBAction)closeModal:(id)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
 }
+
+- (IBAction)playActivity:(id)sender {
+    UIViewController* game = [self.storyboard instantiateViewControllerWithIdentifier:@"fill_gap"];
+    [self presentViewController:game animated:YES completion:nil];
+}
+
 @end
