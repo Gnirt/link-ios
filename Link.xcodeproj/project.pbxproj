@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3E6AEC241B077A5000A7D321 /* WriteLetterModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6AEC231B077A5000A7D321 /* WriteLetterModalViewController.m */; };
+		3E6AEC271B078BCA00A7D321 /* ActivityModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6AEC261B078BCA00A7D321 /* ActivityModalViewController.m */; };
 		3E6F3FD71AD7B648000CF0D6 /* HeaderCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6F3FD61AD7B648000CF0D6 /* HeaderCollectionReusableView.m */; };
 		3EA3E7681AD3E2C500996FD7 /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA3E7661AD3CC4600996FD7 /* PageViewController.m */; };
 		3EA6C5691AD6A4E8005A059B /* ActivityCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA6C5681AD6A4E8005A059B /* ActivityCollectionViewController.m */; };
@@ -46,6 +47,8 @@
 /* Begin PBXFileReference section */
 		3E6AEC221B077A5000A7D321 /* WriteLetterModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WriteLetterModalViewController.h; sourceTree = "<group>"; };
 		3E6AEC231B077A5000A7D321 /* WriteLetterModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WriteLetterModalViewController.m; sourceTree = "<group>"; };
+		3E6AEC251B078BCA00A7D321 /* ActivityModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityModalViewController.h; sourceTree = "<group>"; };
+		3E6AEC261B078BCA00A7D321 /* ActivityModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityModalViewController.m; sourceTree = "<group>"; };
 		3E6F3FD51AD7B648000CF0D6 /* HeaderCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderCollectionReusableView.h; sourceTree = "<group>"; };
 		3E6F3FD61AD7B648000CF0D6 /* HeaderCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderCollectionReusableView.m; sourceTree = "<group>"; };
 		3EA3E7651AD3CC4600996FD7 /* PageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
@@ -122,6 +125,8 @@
 		3EA6C5661AD67CC0005A059B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				3E6AEC251B078BCA00A7D321 /* ActivityModalViewController.h */,
+				3E6AEC261B078BCA00A7D321 /* ActivityModalViewController.m */,
 				3EA6C56A1AD6AB35005A059B /* ActivityCollectionViewCell.h */,
 				3EA6C56B1AD6AB35005A059B /* ActivityCollectionViewCell.m */,
 				3EA6C5671AD6A4E8005A059B /* ActivityCollectionViewController.h */,
@@ -412,6 +417,7 @@
 				3EA6C56C1AD6AB36005A059B /* ActivityCollectionViewCell.m in Sources */,
 				3EA3E7681AD3E2C500996FD7 /* PageViewController.m in Sources */,
 				BF21A8541AE8FE9200D5F4E0 /* CarouselViewController.m in Sources */,
+				3E6AEC271B078BCA00A7D321 /* ActivityModalViewController.m in Sources */,
 				BFEC62631AF79FE2009C1416 /* WritingWorldViewController.m in Sources */,
 				BF19BC1C1AE6AD6A00172C2F /* PickerViewController.m in Sources */,
 				3E6AEC241B077A5000A7D321 /* WriteLetterModalViewController.m in Sources */,
