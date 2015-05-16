@@ -29,16 +29,16 @@ static NSString * const reuseIdentifier = @"Cell";
     // Do any additional setup after loading the view.
     
     //Todo change with json api pictures
-    _letterImages = [@[@"enveloppe_ferme.png",
-                         @"enveloppe_ouverte.png",
-                         @"enveloppe_ouverte.png",
-                         @"enveloppe_ouverte.png",
-                         @"enveloppe_ouverte.png",
-                         @"enveloppe_ouverte.png",
-                         @"enveloppe_ouverte.png",
-                         @"enveloppe_ouverte.png",
-                         @"enveloppe_ouverte.png",
-                         @"enveloppe_ouverte.png"
+    _letterImages = [@[@[@"enveloppe_ferme.png", @"15 nov"],
+                         @[@"enveloppe_ouverte.png", @"9 nov"],
+                         @[@"enveloppe_ouverte.png", @"28 oct"],
+                         @[@"enveloppe_ouverte.png", @"21 oct"],
+                         @[@"enveloppe_ouverte.png", @"15 oct"],
+                         @[@"enveloppe_ouverte.png", @"8 oct"],
+                         @[@"enveloppe_ouverte.png", @"26 sept"],
+                         @[@"enveloppe_ouverte.png", @"20 sept"],
+                         @[@"enveloppe_ouverte.png", @"13 sept"],
+                         @[@"enveloppe_ouverte.png", @"6 sept"]
                        ] mutableCopy];
 }
 
@@ -89,9 +89,10 @@ static NSString * const reuseIdentifier = @"Cell";
     UIImage *image;
     long row = [indexPath row];
     
-    image = [UIImage imageNamed:_letterImages[row]];
+    image = [UIImage imageNamed:_letterImages[row][0]];
     
     letterCell.imageView.image = image;
+    letterCell.dateLabel.text = _letterImages[row][1];
     
     return letterCell;
 }

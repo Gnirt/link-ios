@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="9Rw-bO-BVa">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="9Rw-bO-BVa">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
     </dependencies>
     <customFonts key="customFonts">
         <mutableArray key="Bosque-Regular.otf">
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
             <string>Bosque-Regular</string>
             <string>Bosque-Regular</string>
             <string>Bosque-Regular</string>
@@ -891,12 +893,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="baq-87-2w9">
-                            <size key="itemSize" width="211" height="210"/>
+                            <size key="itemSize" width="211" height="254"/>
                             <size key="headerReferenceSize" width="50" height="260"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
-                        <imageView key="backgroundView" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_star" id="U95-AA-CmG">
+                        <imageView key="backgroundView" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_star" id="ZO2-2o-6WM">
                             <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
@@ -905,16 +907,23 @@
                                 <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="0.0" y="0.0" width="211" height="210"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="211" height="254"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wil-T3-ZLS">
                                             <rect key="frame" x="24" y="48" width="167" height="142"/>
                                         </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WEV-B4-4k1">
+                                            <rect key="frame" x="71" y="210" width="69" height="21"/>
+                                            <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="19"/>
+                                            <color key="textColor" red="0.23529411764705882" green="0.23137254901960785" blue="0.45882352941176469" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
                                 <connections>
+                                    <outlet property="dateLabel" destination="WEV-B4-4k1" id="Ih9-xe-p3b"/>
                                     <outlet property="imageView" destination="Wil-T3-ZLS" id="b71-fA-Geu"/>
                                 </connections>
                             </collectionViewCell>
@@ -997,11 +1006,11 @@
                         <viewControllerLayoutGuide type="bottom" id="s2V-5T-DRr"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="EMC-FD-Tbj">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lde-bf-jOF">
-                                <rect key="frame" x="0.0" y="0.0" width="540" height="44"/>
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="44"/>
                                 <items>
                                     <barButtonItem title="Done" id="Ni5-jm-jGh">
                                         <connections>
@@ -1010,11 +1019,30 @@
                                     </barButtonItem>
                                 </items>
                             </toolbar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GbP-gm-DHK">
+                                <rect key="frame" x="16" y="44" width="568" height="536"/>
+                                <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.93725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <mutableString key="text">Hello Marie,
+
+Cheesecake biscuit cookie topping. Pastry soufflé pie lemon drops bonbon pastry pastry. Tiramisu tart marzipan biscuit chupa chups candy ice cream. Dessert soufflé jelly-o cotton candy lollipop jelly beans pastry lemon drops marzipan.
+
+Tiramisu cookie tiramisu jelly cheesecake gummies. Lollipop pudding liquorice soufflé. Lollipop caramels bonbon liquorice biscuit.
+
+Jujubes toffee marzipan candy canes. Ice cream tootsie roll topping ice cream liquorice. Tart soufflé toffee. Chocolate cake wafer cake marzipan pudding.
+
+Jelly topping cotton candy ice cream carrot cake gummies. Oat cake pudding chocolate tiramisu. Gummies sweet roll candy cupcake cake jujubes jelly-o dessert.
+
+Dragée soufflé jujubes fruitcake halvah topping. Cotton candy jelly-o dessert. Marzipan jelly lemon drops biscuit apple pie.
+</mutableString>
+                                <color key="textColor" red="0.25882352941176473" green="0.27058823529411763" blue="0.48627450980392156" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <modalFormSheetSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rhy-rw-9Ag" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1070,8 +1098,8 @@
         <image name="vignette_vue" width="132" height="124"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="UzV-aV-yBF"/>
         <segue reference="iV5-yw-8IV"/>
         <segue reference="cUl-kx-XZ3"/>
+        <segue reference="9CC-Ga-Bg2"/>
     </inferredMetricsTieBreakers>
 </document>
