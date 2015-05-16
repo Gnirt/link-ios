@@ -61,6 +61,7 @@
             <string>Bosque-Regular</string>
             <string>Bosque-Regular</string>
             <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -807,7 +808,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="eue-6F-s1S">
-                            <size key="itemSize" width="181" height="178"/>
+                            <size key="itemSize" width="181" height="212"/>
                             <size key="headerReferenceSize" width="50" height="260"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -821,17 +822,24 @@
                                 <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="0.0" y="0.0" width="181" height="178"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="181" height="212"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rh8-iF-PEJ">
                                             <rect key="frame" x="24" y="48" width="137" height="110"/>
                                         </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fqC-i4-GfC">
+                                            <rect key="frame" x="0.0" y="176" width="181" height="21"/>
+                                            <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="18"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
                                 <connections>
                                     <outlet property="imageView" destination="Rh8-iF-PEJ" id="QaR-zb-b9B"/>
+                                    <outlet property="label" destination="fqC-i4-GfC" id="eRt-2y-obX"/>
                                 </connections>
                             </collectionViewCell>
                         </cells>
@@ -1152,8 +1160,8 @@ Dragée soufflé jujubes fruitcake halvah topping. Cotton candy jelly-o dessert.
         <image name="vignette_vue" width="132" height="124"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Wnx-ii-KFf"/>
-        <segue reference="9CC-Ga-Bg2"/>
+        <segue reference="iV5-yw-8IV"/>
         <segue reference="PBS-t6-3gc"/>
+        <segue reference="9CC-Ga-Bg2"/>
     </inferredMetricsTieBreakers>
 </document>

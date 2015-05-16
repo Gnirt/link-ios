@@ -28,16 +28,16 @@ static NSString * const reuseIdentifier = @"Cell";
     // Do any additional setup after loading the view.
     
     //Todo change with json api pictures
-    _activityImages = [@[@"timbre_1",
-                         @"timbre_3",
-                         @"timbre_2",
-                         @"timbre_2",
-                         @"timbre_3",
-                         @"timbre_2",
-                         @"timbre_3",
-                         @"timbre_2",
-                         @"timbre_2",
-                         @"timbre_3"
+    _activityImages = [@[@[@"timbre_1", @"GAP FILL TEXTS"],
+                         @[@"timbre_3", @"DRAW"],
+                         @[@"timbre_2", @"SING"],
+                         @[@"timbre_2", @"SING"],
+                         @[@"timbre_3", @"DRAW"],
+                         @[@"timbre_2", @"SING"],
+                         @[@"timbre_3", @"DRAW"],
+                         @[@"timbre_2", @"SING"],
+                         @[@"timbre_2", @"SING"],
+                         @[@"timbre_3", @"DRAW"],
                          ] mutableCopy];
 }
 
@@ -88,9 +88,10 @@ static NSString * const reuseIdentifier = @"Cell";
     UIImage *image;
     long row = [indexPath row];
     
-    image = [UIImage imageNamed:_activityImages[row]];
+    image = [UIImage imageNamed:_activityImages[row][0]];
     
     activityCell.imageView.image = image;
+    activityCell.label.text = _activityImages[row][1];
     
     return activityCell;
 }
