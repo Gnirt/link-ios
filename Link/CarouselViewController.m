@@ -85,8 +85,17 @@
     //create new view if no view is available for recycling
     if (view == nil)
     {
-        view = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 533.0f, 398.0f)];
-        ((UIImageView *)view).image = [UIImage imageNamed:[NSString stringWithFormat:@"carte_postale_%ld", (long)index]];
+        view = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 530.0f, 400.0f)];
+        NSMutableArray *arr_images = [[NSMutableArray alloc] init];
+        index = index + 1;
+        int count = 200;
+        if (index == 3)
+            count = 191;
+        for (int i = 0; i < count; i++) {
+            [arr_images addObject: [UIImage imageNamed:[NSString stringWithFormat:@"carte%ld_%d", (long)index, i]]];
+        }
+        UIImage *animatedImage = [UIImage animatedImageWithImages:arr_images duration:5];
+        ((UIImageView *)view).image = animatedImage;
         view.contentMode = UIViewContentModeCenter;
         label = [[UILabel alloc] initWithFrame:view.bounds];
         label.backgroundColor = [UIColor clearColor];
