@@ -32,7 +32,7 @@
 - (UIViewController *)pageViewController:(UIPageViewController *)pageViewController viewControllerBeforeViewController:(UIViewController *)viewController
 {
     NSUInteger currentIndex = [self.pageViewControllers indexOfObject:viewController];
-    if (currentIndex > 0)	{
+    if (currentIndex > 0) {
         return self.pageViewControllers[currentIndex - 1];
     }
     return nil;

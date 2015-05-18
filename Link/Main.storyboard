@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="7rj-Ts-vzT">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="8QK-H7-wLl">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
     </dependencies>
     <customFonts key="customFonts">
         <mutableArray key="Bosque-Regular.otf">
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
             <string>Bosque-Regular</string>
             <string>Bosque-Regular</string>
             <string>Bosque-Regular</string>
@@ -646,10 +651,10 @@
             </objects>
             <point key="canvasLocation" x="-25" y="2583"/>
         </scene>
-        <!--View Controller-->
+        <!--Gap Fill View Controller-->
         <scene sceneID="0vs-Yx-aGu">
             <objects>
-                <viewController storyboardIdentifier="fill_gap_page01" id="cFK-b7-yJy" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="fill_gap_page01" id="cFK-b7-yJy" customClass="GapFillViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="UAh-bq-716"/>
                         <viewControllerLayoutGuide type="bottom" id="bmp-HI-TDj"/>
@@ -670,47 +675,92 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="C'est l'été, il y _ du soleil." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="izJ-uS-KeE">
+                                <rect key="frame" x="0.0" y="343" width="1024" height="81"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="35"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tsG-vI-oWs">
+                                <rect key="frame" x="196" y="485" width="102" height="57"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="42"/>
+                                <state key="normal" title="être">
+                                    <color key="titleColor" red="0.38039215686274508" green="0.37254901960784315" blue="0.6705882352941176" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="goodAnswer" value="NO"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="answerTap:" destination="cFK-b7-yJy" eventType="touchUpInside" id="blc-dU-mDQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GA0-51-3v4">
+                                <rect key="frame" x="346" y="485" width="102" height="57"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="42"/>
+                                <state key="normal" title="a">
+                                    <color key="titleColor" red="0.38431372549999998" green="0.36470588240000001" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="goodAnswer" value="NO"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="answerTap:" destination="cFK-b7-yJy" eventType="touchUpInside" id="FyF-Ge-Hdd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="416-zZ-krB">
+                                <rect key="frame" x="628" y="485" width="102" height="57"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="42"/>
+                                <state key="normal" title="avoir">
+                                    <color key="titleColor" red="0.38431372549999998" green="0.36470588240000001" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="goodAnswer" value="NO"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="answerTap:" destination="cFK-b7-yJy" eventType="touchUpInside" id="Q6G-tw-uJK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bcq-rg-HBV">
+                                <rect key="frame" x="487" y="485" width="102" height="57"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="42"/>
+                                <state key="normal" title="est">
+                                    <color key="titleColor" red="0.38431372549999998" green="0.36470588240000001" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="goodAnswer" value="NO"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="answerTap:" destination="cFK-b7-yJy" eventType="touchUpInside" id="b1I-eM-TOH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jhb-Mv-fXJ">
+                                <rect key="frame" x="434" y="621" width="182" height="57"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="42"/>
+                                <state key="normal" title="Suivant">
+                                    <color key="titleColor" red="0.38431372549999998" green="0.36470588240000001" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="answerButton1" destination="tsG-vI-oWs" id="SAg-IO-Y8e"/>
+                        <outlet property="answerButton2" destination="GA0-51-3v4" id="uDd-xG-8Ed"/>
+                        <outlet property="answerButton3" destination="bcq-rg-HBV" id="Bdx-WD-6pc"/>
+                        <outlet property="answerButton4" destination="416-zZ-krB" id="hbp-cM-dND"/>
+                        <outlet property="nextButton" destination="jhb-Mv-fXJ" id="f35-Dm-CcJ"/>
+                        <outlet property="sentenceLabel" destination="izJ-uS-KeE" id="7hQ-a4-RSw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jrg-1D-ipC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-25" y="3579"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="6iE-c9-am0">
-            <objects>
-                <viewController storyboardIdentifier="fill_gap_page02" id="zZI-rl-FBE" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="4oB-hq-fUo"/>
-                        <viewControllerLayoutGuide type="bottom" id="UeK-x5-TOS"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8GB-5u-oNf">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg_star" translatesAutoresizingMaskIntoConstraints="NO" id="6Bo-sR-YUh">
-                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="NKV-Ib-KRY">
-                                <rect key="frame" x="392" y="73" width="240" height="128"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Choose the right word !" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mq4-3h-dHM">
-                                <rect key="frame" x="268" y="228" width="488" height="90"/>
-                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="33"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                    </view>
-                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="k7u-x6-inq" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1072" y="3579"/>
         </scene>
         <!--Carousel View Controller-->
         <scene sceneID="zV2-2u-Tss">
@@ -1156,7 +1206,7 @@ Dragée soufflé jujubes fruitcake halvah topping. Cotton candy jelly-o dessert.
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <string key="text">GAP-FILL TEXTS,
 
-Fill the gap in the sentances with the right word.
+Fill the gap in the sentences with the right word.
 
 Play with Marie as much as possible to unlock levels and bonus to your letters.</string>
                                 <color key="textColor" red="0.25882352939999997" green="0.27058823529999998" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
