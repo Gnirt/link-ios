@@ -13,8 +13,9 @@
 @interface CarouselViewController : UIViewController <iCarouselDataSource, iCarouselDelegate>
 
 @property (nonatomic, strong) IBOutlet iCarousel *carousel;
-@property (weak, nonatomic) IBOutlet UILabel *nextWorldLabel;
+@property (weak, nonatomic) IBOutlet UIButton *nextWorldButton;
 @property (weak, nonatomic) IBOutlet UIButton *currentWorldButton;
-@property (weak, nonatomic) IBOutlet UILabel *previousWorldLabel;
+@property (weak, nonatomic) IBOutlet UIButton *previousWorldButton;
+
 
 @end

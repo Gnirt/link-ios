@@ -18,9 +18,9 @@
 @implementation CarouselViewController
 
 @synthesize carousel;
-@synthesize nextWorldLabel;
+@synthesize nextWorldButton;
 @synthesize currentWorldButton;
-@synthesize previousWorldLabel;
+@synthesize previousWorldButton;
 @synthesize items;
 
 - (void)awakeFromNib
@@ -155,25 +155,34 @@
 {
     switch (carousel2.currentItemIndex)
     {
-        case 0: //Writing World
-        {
-            [currentWorldButton setTitle:@"Writing world" forState:UIControlStateNormal];
-            [nextWorldLabel setText:@"Game world"];
-            [previousWorldLabel setText:@"Words world"];
-            break;
-        }
-        case 1: //Game World
-        {
-            [currentWorldButton setTitle:@"Game world" forState:UIControlStateNormal];
-            [nextWorldLabel setText:@"Words world"];
-            [previousWorldLabel setText:@"Writing world"];
-            break;
-        }
-        case 2: //Words World
+        case 0: //Words World
         {
             [currentWorldButton setTitle:@"Words world" forState:UIControlStateNormal];
-            [nextWorldLabel setText:@"Writing world"];
-            [previousWorldLabel setText:@"Game world"];
+            [currentWorldButton setBackgroundImage:[UIImage imageNamed:@"bouton_rose"] forState:UIControlStateNormal];
+            [nextWorldButton setTitle:@"Writing world" forState:UIControlStateNormal];
+            [nextWorldButton setBackgroundImage:[UIImage imageNamed:@"bouton_parme"] forState:UIControlStateNormal];
+            [previousWorldButton setTitle:@"Game world" forState:UIControlStateNormal];
+            [previousWorldButton setBackgroundImage:[UIImage imageNamed:@"bouton_violet"] forState:UIControlStateNormal];
+            break;
+        }
+        case 1: //Words World
+        {
+            [currentWorldButton setTitle:@"Writing world" forState:UIControlStateNormal];
+            [currentWorldButton setBackgroundImage:[UIImage imageNamed:@"bouton_parme"] forState:UIControlStateNormal];
+            [nextWorldButton setTitle:@"Game world" forState:UIControlStateNormal];
+            [nextWorldButton setBackgroundImage:[UIImage imageNamed:@"bouton_violet"] forState:UIControlStateNormal];
+            [previousWorldButton setTitle:@"Words world" forState:UIControlStateNormal];
+            [previousWorldButton setBackgroundImage:[UIImage imageNamed:@"bouton_rose"] forState:UIControlStateNormal];
+            break;
+        }
+        case 2: //Game World
+        {
+            [currentWorldButton setTitle:@"Game world" forState:UIControlStateNormal];
+            [currentWorldButton setBackgroundImage:[UIImage imageNamed:@"bouton_violet"] forState:UIControlStateNormal];
+            [nextWorldButton setTitle:@"Words world" forState:UIControlStateNormal];
+            [nextWorldButton setBackgroundImage:[UIImage imageNamed:@"bouton_rose"] forState:UIControlStateNormal];
+            [previousWorldButton setTitle:@"Writing world" forState:UIControlStateNormal];
+            [previousWorldButton setBackgroundImage:[UIImage imageNamed:@"bouton_parme"] forState:UIControlStateNormal];
             break;
         }
         default:
