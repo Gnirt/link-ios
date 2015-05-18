@@ -94,7 +94,7 @@
         for (int i = 0; i < count; i++) {
             [arr_images addObject: [UIImage imageNamed:[NSString stringWithFormat:@"carte%ld_%d", (long)index, i]]];
         }
-        UIImage *animatedImage = [UIImage animatedImageWithImages:arr_images duration:5];
+        UIImage *animatedImage = [UIImage animatedImageWithImages:arr_images duration:10];
         ((UIImageView *)view).image = animatedImage;
         view.contentMode = UIViewContentModeCenter;
         label = [[UILabel alloc] initWithFrame:view.bounds];

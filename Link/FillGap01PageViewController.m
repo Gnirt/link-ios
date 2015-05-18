@@ -23,7 +23,7 @@
     self.dataSource = self;
     
     UIViewController *p1 = [self.storyboard instantiateViewControllerWithIdentifier:@"fill_gap_page01"];
-    UIViewController *p2 = [self.storyboard instantiateViewControllerWithIdentifier:@"fill_gap_page02"];
+    UIViewController *p2 = [self.storyboard instantiateViewControllerWithIdentifier:@"fill_gap_page01"];
     self.pageViewControllers = @[p1, p2];
     // begin with first page
     [self setViewControllers:@[p1] direction:UIPageViewControllerNavigationDirectionForward animated:NO completion:nil];

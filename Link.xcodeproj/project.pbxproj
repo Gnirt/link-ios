@@ -131,8 +131,6 @@
 		3EA6C5661AD67CC0005A059B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				3E036FEB1B0A270700A54A3B /* GapFillViewController.h */,
-				3E036FEC1B0A270700A54A3B /* GapFillViewController.m */,
 				3EA6C56A1AD6AB35005A059B /* ActivityCollectionViewCell.h */,
 				3EA6C56B1AD6AB35005A059B /* ActivityCollectionViewCell.m */,
 				3EA6C5671AD6A4E8005A059B /* ActivityCollectionViewController.h */,
@@ -143,6 +141,8 @@
 				BF21A8531AE8FE9200D5F4E0 /* CarouselViewController.m */,
 				3E6AEC281B079B8200A7D321 /* FillGap01PageViewController.h */,
 				3E6AEC291B079B8200A7D321 /* FillGap01PageViewController.m */,
+				3E036FEB1B0A270700A54A3B /* GapFillViewController.h */,
+				3E036FEC1B0A270700A54A3B /* GapFillViewController.m */,
 				3E6F3FD51AD7B648000CF0D6 /* HeaderCollectionReusableView.h */,
 				3E6F3FD61AD7B648000CF0D6 /* HeaderCollectionReusableView.m */,
 				BFEC62671AF7B95B009C1416 /* LetterCollectionViewCell.h */,
