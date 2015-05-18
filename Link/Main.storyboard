@@ -730,15 +730,9 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BmO-Tp-wRq" userLabel="iCarousel" customClass="iCarousel">
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Game world" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8b9-XK-Dl7">
-                                        <rect key="frame" x="681" y="339" width="488" height="90"/>
-                                        <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="33"/>
-                                        <color key="textColor" red="0.40784313725490196" green="0.34901960784313724" blue="0.67843137254901964" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Words world" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y9O-ne-yUf">
-                                        <rect key="frame" x="-139" y="339" width="488" height="90"/>
-                                        <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="33"/>
+                                        <rect key="frame" x="-93" y="616" width="488" height="90"/>
+                                        <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="29"/>
                                         <color key="textColor" red="0.73725490196078436" green="0.65098039215686276" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -751,6 +745,12 @@
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                     </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Game world" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8b9-XK-Dl7">
+                                        <rect key="frame" x="633" y="616" width="488" height="90"/>
+                                        <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="29"/>
+                                        <color key="textColor" red="0.40784313725490196" green="0.34901960784313724" blue="0.67843137254901964" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <connections>

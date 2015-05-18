@@ -128,13 +128,21 @@
         {
             return YES;
         }
+        case iCarouselOptionArc:
+        {
+            return value * 0.5;
+        }
         case iCarouselOptionRadius:
+        {
+            return value * 0.5;
+        }
+        case iCarouselOptionAngle:
         {
             return value * 1;
         }
         case iCarouselOptionSpacing:
         {
-            return value * 1;
+            return value * 1.5;
         }
         default:
         {
