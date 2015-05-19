@@ -88,13 +88,15 @@
         view = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 530.0f, 400.0f)];
         NSMutableArray *arr_images = [[NSMutableArray alloc] init];
         index = index + 1;
-        int count = 200;
-        if (index == 3)
-            count = 191;
+        int count = 191;
+        if (index == 2)
+            count = 125;
+        if (index == 1)
+            count = 149;
         for (int i = 0; i < count; i++) {
             [arr_images addObject: [UIImage imageNamed:[NSString stringWithFormat:@"carte%ld_%d", (long)index, i]]];
         }
-        UIImage *animatedImage = [UIImage animatedImageWithImages:arr_images duration:10];
+        UIImage *animatedImage = [UIImage animatedImageWithImages:arr_images duration:15];
         ((UIImageView *)view).image = animatedImage;
         view.contentMode = UIViewContentModeCenter;
         label = [[UILabel alloc] initWithFrame:view.bounds];
