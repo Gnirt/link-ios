@@ -146,4 +146,8 @@ static NSString * const reuseIdentifier = @"Cell";
 //    }
 //}
 
+- (IBAction)backToCarousel:(id)sender {
+    UIViewController* home = [self.storyboard instantiateViewControllerWithIdentifier:@"home"];
+    [self presentViewController:home animated:YES completion:nil];
+}
 @end

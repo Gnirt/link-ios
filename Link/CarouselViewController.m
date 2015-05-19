@@ -165,7 +165,7 @@
             [previousWorldButton setBackgroundImage:[UIImage imageNamed:@"bouton_violet"] forState:UIControlStateNormal];
             break;
         }
-        case 1: //Words World
+        case 1: //Writing World
         {
             [currentWorldButton setTitle:@"Writing world" forState:UIControlStateNormal];
             [currentWorldButton setBackgroundImage:[UIImage imageNamed:@"bouton_parme"] forState:UIControlStateNormal];
@@ -196,22 +196,22 @@
 {
     if (index == carousel2.currentItemIndex) {
         switch (carousel2.currentItemIndex) {
-            case 0://Writing World
+            case 0:
+            {
+                UIViewController* mailbox = [self.storyboard instantiateViewControllerWithIdentifier:@"mailbox"];
+                [self presentViewController:mailbox animated:YES completion:nil];
+                break;
+            }
+            case 1:
             {
                 UIViewController* writeLetter = [self.storyboard instantiateViewControllerWithIdentifier:@"writeLetter"];
                 [self presentViewController:writeLetter animated:YES completion:nil];
                 break;
             }
-            case 1://Game World
+            case 2:
             {
                 UIViewController* activity = [self.storyboard instantiateViewControllerWithIdentifier:@"activity"];
                 [self presentViewController:activity animated:YES completion:nil];
-                break;
-            }
-            case 2://Words World
-            {
-                UIViewController* mailbox = [self.storyboard instantiateViewControllerWithIdentifier:@"mailbox"];
-                [self presentViewController:mailbox animated:YES completion:nil];
                 break;
             }
             default:
@@ -220,4 +220,29 @@
     }
 }
 
+- (IBAction)goToWorld:(id)sender {
+    switch (carousel.currentItemIndex) {
+        case 0:
+        {
+            UIViewController* mailbox = [self.storyboard instantiateViewControllerWithIdentifier:@"mailbox"];
+            [self presentViewController:mailbox animated:YES completion:nil];
+            break;
+        }
+        case 1:
+        {
+            UIViewController* writeLetter = [self.storyboard instantiateViewControllerWithIdentifier:@"writeLetter"];
+            [self presentViewController:writeLetter animated:YES completion:nil];
+            break;
+        }
+        case 2:
+        {
+            UIViewController* activity = [self.storyboard instantiateViewControllerWithIdentifier:@"activity"];
+            [self presentViewController:activity animated:YES completion:nil];
+            break;
+        }
+        default:
+            break;
+    }
+
+}
 @end

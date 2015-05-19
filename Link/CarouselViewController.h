@@ -16,6 +16,6 @@
 @property (weak, nonatomic) IBOutlet UIButton *nextWorldButton;
 @property (weak, nonatomic) IBOutlet UIButton *currentWorldButton;
 @property (weak, nonatomic) IBOutlet UIButton *previousWorldButton;
-
+- (IBAction)goToWorld:(id)sender;
 
 @end

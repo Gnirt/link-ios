@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="8QK-H7-wLl">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="7rj-Ts-vzT">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
     </dependencies>
     <customFonts key="customFonts">
         <mutableArray key="Bosque-Regular.otf">
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
             <string>Bosque-Regular</string>
             <string>Bosque-Regular</string>
             <string>Bosque-Regular</string>
@@ -775,44 +779,54 @@
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BmO-Tp-wRq" userLabel="iCarousel" customClass="iCarousel">
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gBn-Ii-KyU">
-                                        <rect key="frame" x="345" y="631" width="335" height="77"/>
-                                        <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="35"/>
-                                        <inset key="contentEdgeInsets" minX="0.0" minY="-10" maxX="0.0" maxY="0.0"/>
-                                        <state key="normal" title="Words world" backgroundImage="bouton_rose">
-                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X3X-SH-lhL">
-                                        <rect key="frame" x="759" y="616" width="223" height="51"/>
-                                        <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="20"/>
-                                        <inset key="contentEdgeInsets" minX="0.0" minY="-10" maxX="0.0" maxY="0.0"/>
-                                        <state key="normal" title="Writing world" backgroundImage="bouton_parme">
-                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="otA-V6-SsK">
-                                        <rect key="frame" x="62" y="616" width="223" height="51"/>
-                                        <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="20"/>
-                                        <inset key="contentEdgeInsets" minX="0.0" minY="-10" maxX="0.0" maxY="0.0"/>
-                                        <state key="normal" title="Game world" backgroundImage="bouton_violet">
-                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                    </button>
-                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <connections>
                                     <outlet property="dataSource" destination="7rj-Ts-vzT" id="RNw-s1-Zqy"/>
                                     <outlet property="delegate" destination="7rj-Ts-vzT" id="tSM-bC-cYF"/>
                                 </connections>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="qYa-tX-phV">
-                                <rect key="frame" x="392" y="60" width="240" height="128"/>
-                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gBn-Ii-KyU">
+                                <rect key="frame" x="344" y="653" width="335" height="77"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="35"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="-10" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Words world" backgroundImage="bouton_rose">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goToWorld:" destination="7rj-Ts-vzT" eventType="touchUpInside" id="u4v-Km-Ngt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EZx-sS-9DS" userLabel="Logo">
+                                <rect key="frame" x="390" y="90" width="242" height="92"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="35"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="-10" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" backgroundImage="logo">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goToWorld:" destination="7rj-Ts-vzT" eventType="touchUpInside" id="TyH-lQ-sRG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="otA-V6-SsK">
+                                <rect key="frame" x="54" y="653" width="223" height="51"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="20"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="-10" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Game world" backgroundImage="bouton_violet">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X3X-SH-lhL">
+                                <rect key="frame" x="746" y="653" width="223" height="51"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="20"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="-10" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Writing world" backgroundImage="bouton_parme">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -884,9 +898,6 @@
                                 <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="H2o-Hb-LPc">
-                                <rect key="frame" x="392" y="58" width="240" height="128"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Add to my letter" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eJq-qe-mDf">
                                 <rect key="frame" x="-130" y="492" width="1008" height="45"/>
                                 <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="23"/>
@@ -908,6 +919,19 @@
                                 <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K9m-F3-qQh">
+                                <rect key="frame" x="390" y="90" width="242" height="92"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="35"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="-10" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" backgroundImage="logo">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="backToCarousel:" destination="m15-fn-BWY" eventType="touchUpInside" id="xKz-S9-n9S"/>
+                                    <action selector="goToWorld:" destination="7rj-Ts-vzT" eventType="touchUpInside" id="WPX-8N-gu3"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -970,9 +994,6 @@
                             <rect key="frame" x="0.0" y="0.0" width="1024" height="260"/>
                             <autoresizingMask key="autoresizingMask"/>
                             <subviews>
-                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="dKz-7S-qQ3">
-                                    <rect key="frame" x="392" y="60" width="240" height="128"/>
-                                </imageView>
                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bRg-Ph-JKO">
                                     <rect key="frame" x="40" y="148" width="174" height="40"/>
                                     <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="20"/>
@@ -1001,10 +1022,19 @@
                                     <color key="textColor" red="0.73725490199999999" green="0.65098039220000004" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <nil key="highlightedColor"/>
                                 </label>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c4X-To-4JV" userLabel="Logo">
+                                    <rect key="frame" x="390" y="90" width="242" height="92"/>
+                                    <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="35"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="-10" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" backgroundImage="logo">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="backToCarousel:" destination="E1h-EI-BMd" eventType="touchUpInside" id="mzU-k6-ms3"/>
+                                    </connections>
+                                </button>
                             </subviews>
-                            <connections>
-                                <outlet property="image" destination="dKz-7S-qQ3" id="MwU-uY-X90"/>
-                            </connections>
                         </collectionReusableView>
                         <connections>
                             <outlet property="dataSource" destination="E1h-EI-BMd" id="VDj-Fr-6Ak"/>
@@ -1065,9 +1095,6 @@
                             <rect key="frame" x="0.0" y="0.0" width="1024" height="260"/>
                             <autoresizingMask key="autoresizingMask"/>
                             <subviews>
-                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="JaM-ar-4ca">
-                                    <rect key="frame" x="392" y="60" width="240" height="128"/>
-                                </imageView>
                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sid-Ux-XKD">
                                     <rect key="frame" x="40" y="148" width="174" height="40"/>
                                     <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="20"/>
@@ -1096,10 +1123,19 @@
                                     <color key="textColor" red="0.73725490199999999" green="0.65098039220000004" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <nil key="highlightedColor"/>
                                 </label>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jfa-05-Kru" userLabel="Logo">
+                                    <rect key="frame" x="390" y="90" width="242" height="92"/>
+                                    <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="35"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="-10" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" backgroundImage="logo">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="backToCarousel:" destination="9Rw-bO-BVa" eventType="touchUpInside" id="sAR-7m-Tvj"/>
+                                    </connections>
+                                </button>
                             </subviews>
-                            <connections>
-                                <outlet property="image" destination="JaM-ar-4ca" id="Lph-o6-YXz"/>
-                            </connections>
                         </collectionReusableView>
                         <connections>
                             <outlet property="dataSource" destination="9Rw-bO-BVa" id="ZmY-1I-ya1"/>
@@ -1331,8 +1367,8 @@ Play with Marie as much as possible to unlock levels and bonus to your letters.<
         <image name="vignette_vue" width="132" height="124"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="UzV-aV-yBF"/>
         <segue reference="iV5-yw-8IV"/>
-        <segue reference="PBS-t6-3gc"/>
-        <segue reference="9CC-Ga-Bg2"/>
+        <segue reference="cUl-kx-XZ3"/>
     </inferredMetricsTieBreakers>
 </document>

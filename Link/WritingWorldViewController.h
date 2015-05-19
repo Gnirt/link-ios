@@ -11,5 +11,6 @@
 @interface WritingWorldViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UITextView *postItTextView;
 @property (weak, nonatomic) IBOutlet UITextView *letterTextView;
+- (IBAction)backToCarousel:(id)sender;
 
 @end

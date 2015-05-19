@@ -13,5 +13,6 @@
 @interface ActivityCollectionViewController : UICollectionViewController
 <UICollectionViewDataSource, UICollectionViewDelegate>
 
+- (IBAction)backToCarousel:(id)sender;
 @property (strong, nonatomic) NSMutableArray *activityImages;
 @end
