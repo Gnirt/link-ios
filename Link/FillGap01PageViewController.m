@@ -7,6 +7,7 @@
 //
 
 #import "FillGap01PageViewController.h"
+#import "GapFillViewController.h"
 
 @interface FillGap01PageViewController ()<UIPageViewControllerDataSource, UIPageViewControllerDelegate>
 
@@ -22,8 +23,14 @@
     self.delegate = self;
     self.dataSource = self;
     
-    UIViewController *p1 = [self.storyboard instantiateViewControllerWithIdentifier:@"fill_gap_page01"];
-    UIViewController *p2 = [self.storyboard instantiateViewControllerWithIdentifier:@"fill_gap_page01"];
+    GapFillViewController *p1 = [self.storyboard instantiateViewControllerWithIdentifier:@"fill_gap_page01"];
+    p1.originalSentence = @"C'est l'été, il y _ du soleil.";
+    p1.answers = [NSArray arrayWithObjects:@"être",@"a",@"est",@"avoir",nil];
+    p1.correctAnswers = [NSArray arrayWithObjects:[NSNumber numberWithBool:NO],[NSNumber numberWithBool:YES],[NSNumber numberWithBool:NO],[NSNumber numberWithBool:NO],nil];
+    GapFillViewController *p2 = [self.storyboard instantiateViewControllerWithIdentifier:@"fill_gap_page01"];
+    p2.originalSentence = @"Aujourd'hui c'est lundi, je _ à l'école.";
+    p2.answers = [NSArray arrayWithObjects:@"donner",@"pris",@"aller",@"vais",nil];
+    p2.correctAnswers = [NSArray arrayWithObjects:[NSNumber numberWithBool:NO],[NSNumber numberWithBool:NO],[NSNumber numberWithBool:NO],[NSNumber numberWithBool:YES],nil];
     self.pageViewControllers = @[p1, p2];
     // begin with first page
     [self setViewControllers:@[p1] direction:UIPageViewControllerNavigationDirectionForward animated:NO completion:nil];
@@ -62,4 +69,5 @@
     //	return [self.pageViewControllers indexOfObject:pageViewController];
     return 0;
 }
+
 @end

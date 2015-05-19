@@ -9,7 +9,6 @@
 #import "GapFillViewController.h"
 
 @interface GapFillViewController ()
-@property (nonatomic, strong) NSString *originalSentence;
 @end
 
 @implementation GapFillViewController
@@ -22,8 +21,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    self.originalSentence = self.sentenceLabel.text;
+    self.sentenceLabel.text = self.originalSentence;
+    [self.answerButton1 setTitle:self.answers[0] forState:UIControlStateNormal];
+    self.answerButton1.correctAnswer = [[self.correctAnswers objectAtIndex:0] boolValue];
+    [self.answerButton2 setTitle:self.answers[1] forState:UIControlStateNormal];
+    self.answerButton2.correctAnswer = [[self.correctAnswers objectAtIndex:1] boolValue];
+    [self.answerButton3 setTitle:self.answers[2] forState:UIControlStateNormal];
+    self.answerButton3.correctAnswer = [[self.correctAnswers objectAtIndex:2] boolValue];
+    [self.answerButton4 setTitle:self.answers[3] forState:UIControlStateNormal];
+    self.answerButton4.correctAnswer = [[self.correctAnswers objectAtIndex:3] boolValue];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -42,7 +48,7 @@
 */
 
 - (IBAction)answerTap:(id)sender {
-    if (![sender isKindOfClass:[UIButton class]])
+    if (![sender isKindOfClass:[FillGapAnswerButton class]])
         return;
     [answerButton1 setTitleColor:[UIColor colorWithRed:0.38 green:0.373 blue:0.671 alpha:1] forState:UIControlStateNormal];
     [answerButton2 setTitleColor:[UIColor colorWithRed:0.38 green:0.373 blue:0.671 alpha:1] forState:UIControlStateNormal];
@@ -54,6 +60,11 @@
     NSRange range = [sentenceLabel.text rangeOfString:[(UIButton *)sender currentTitle]];
     [text addAttribute:NSForegroundColorAttributeName value:[UIColor colorWithRed:0.38 green:0.373 blue:0.671 alpha:1] range:NSMakeRange(originalRange.location, range.length)];
     [sentenceLabel setAttributedText: text];
-    [(UIButton *)sender setTitleColor:[UIColor colorWithRed:0.812 green:0.235 blue:0.565 alpha:1] forState:UIControlStateNormal];
+    [(FillGapAnswerButton *)sender setTitleColor:[UIColor colorWithRed:0.812 green:0.235 blue:0.565 alpha:1] forState:UIControlStateNormal];
+    if ([(FillGapAnswerButton *)sender correctAnswer]) {
+        NSLog(@"good answer");
+    } else {
+        NSLog(@"bad answer");
+    }
 }
 @end
