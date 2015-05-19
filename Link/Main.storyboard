@@ -72,6 +72,7 @@
             <string>Bosque-Regular</string>
             <string>Bosque-Regular</string>
             <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -283,7 +284,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r7W-zn-prN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4307" y="2583"/>
+            <point key="canvasLocation" x="3547" y="1839"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="K0g-w2-K8K">
@@ -362,7 +363,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pzb-Xo-ClG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5407" y="2583"/>
+            <point key="canvasLocation" x="4647" y="1839"/>
         </scene>
         <!--Register View Controller-->
         <scene sceneID="zsw-WM-OQe">
@@ -453,7 +454,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cgz-7R-037" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6478" y="2583"/>
+            <point key="canvasLocation" x="5718" y="1839"/>
         </scene>
         <!--Picker View Controller-->
         <scene sceneID="3NF-37-Zdh">
@@ -493,7 +494,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Ye-Lh-fWY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1057" y="2583"/>
+            <point key="canvasLocation" x="297" y="1839"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="pgj-P3-akh">
@@ -532,7 +533,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="daV-bo-ylP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2131" y="2583"/>
+            <point key="canvasLocation" x="1371" y="1839"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="KZm-6q-z9W">
@@ -611,7 +612,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BZT-xG-U8h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3212" y="2583"/>
+            <point key="canvasLocation" x="2452" y="1839"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="8Ug-yE-SZo">
@@ -649,7 +650,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F4F-zA-9Dh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-25" y="2583"/>
+            <point key="canvasLocation" x="-785" y="1839"/>
         </scene>
         <!--Gap Fill View Controller-->
         <scene sceneID="0vs-Yx-aGu">
@@ -682,7 +683,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tsG-vI-oWs" customClass="FillGapAnswerButton">
-                                <rect key="frame" x="0.0" y="485" width="256" height="57"/>
+                                <rect key="frame" x="0.0" y="455" width="256" height="57"/>
                                 <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="42"/>
                                 <state key="normal" title="être">
                                     <color key="titleColor" red="0.38039215686274508" green="0.37254901960784315" blue="0.6705882352941176" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -693,7 +694,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GA0-51-3v4" customClass="FillGapAnswerButton">
-                                <rect key="frame" x="264" y="485" width="256" height="57"/>
+                                <rect key="frame" x="264" y="455" width="256" height="57"/>
                                 <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="42"/>
                                 <state key="normal" title="a">
                                     <color key="titleColor" red="0.38431372549999998" green="0.36470588240000001" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -703,8 +704,19 @@
                                     <action selector="answerTap:" destination="cFK-b7-yJy" eventType="touchUpInside" id="FyF-Ge-Hdd"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="416-zZ-krB" customClass="FillGapAnswerButton">
+                                <rect key="frame" x="768" y="455" width="256" height="57"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="42"/>
+                                <state key="normal" title="avoir">
+                                    <color key="titleColor" red="0.38431372549999998" green="0.36470588240000001" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="answerTap:" destination="cFK-b7-yJy" eventType="touchUpInside" id="Q6G-tw-uJK"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bcq-rg-HBV" customClass="FillGapAnswerButton">
-                                <rect key="frame" x="525" y="485" width="256" height="57"/>
+                                <rect key="frame" x="525" y="455" width="256" height="57"/>
                                 <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="42"/>
                                 <state key="normal" title="est">
                                     <color key="titleColor" red="0.38431372549999998" green="0.36470588240000001" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -715,24 +727,19 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jhb-Mv-fXJ">
-                                <rect key="frame" x="434" y="621" width="182" height="57"/>
+                                <rect key="frame" x="434" y="638" width="182" height="57"/>
                                 <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="42"/>
                                 <state key="normal" title="Suivant">
                                     <color key="titleColor" red="0.38431372549999998" green="0.36470588240000001" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="416-zZ-krB" customClass="FillGapAnswerButton">
-                                <rect key="frame" x="768" y="485" width="256" height="57"/>
-                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="42"/>
-                                <state key="normal" title="avoir">
-                                    <color key="titleColor" red="0.38431372549999998" green="0.36470588240000001" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="answerTap:" destination="cFK-b7-yJy" eventType="touchUpInside" id="Q6G-tw-uJK"/>
-                                </connections>
-                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ioz-GU-zCG">
+                                <rect key="frame" x="13" y="550" width="1024" height="81"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="23"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -743,12 +750,13 @@
                         <outlet property="answerButton3" destination="bcq-rg-HBV" id="Bdx-WD-6pc"/>
                         <outlet property="answerButton4" destination="416-zZ-krB" id="hbp-cM-dND"/>
                         <outlet property="nextButton" destination="jhb-Mv-fXJ" id="f35-Dm-CcJ"/>
+                        <outlet property="resultLabel" destination="Ioz-GU-zCG" id="tJb-z0-6z5"/>
                         <outlet property="sentenceLabel" destination="izJ-uS-KeE" id="7hQ-a4-RSw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jrg-1D-ipC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-25" y="3579"/>
+            <point key="canvasLocation" x="-785" y="2835"/>
         </scene>
         <!--Carousel View Controller-->
         <scene sceneID="zV2-2u-Tss">
@@ -1286,7 +1294,7 @@ Play with Marie as much as possible to unlock levels and bonus to your letters.<
                 <pageViewController storyboardIdentifier="fill_gap" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="8QK-H7-wLl" customClass="FillGap01PageViewController" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VAP-ny-Pem" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1024" y="3579"/>
+            <point key="canvasLocation" x="-1784" y="2835"/>
         </scene>
     </scenes>
     <resources>

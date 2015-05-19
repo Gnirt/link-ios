@@ -18,6 +18,7 @@
 @property (weak, nonatomic) IBOutlet FillGapAnswerButton *answerButton2;
 @property (weak, nonatomic) IBOutlet FillGapAnswerButton *answerButton3;
 @property (weak, nonatomic) IBOutlet FillGapAnswerButton *answerButton4;
+@property (weak, nonatomic) IBOutlet UILabel *resultLabel;
 @property (weak, nonatomic) IBOutlet UIButton *nextButton;
 - (IBAction)answerTap:(id)sender;
 

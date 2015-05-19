@@ -18,6 +18,7 @@
 @synthesize answerButton2;
 @synthesize answerButton3;
 @synthesize answerButton4;
+@synthesize resultLabel;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -62,9 +63,9 @@
     [sentenceLabel setAttributedText: text];
     [(FillGapAnswerButton *)sender setTitleColor:[UIColor colorWithRed:0.812 green:0.235 blue:0.565 alpha:1] forState:UIControlStateNormal];
     if ([(FillGapAnswerButton *)sender correctAnswer]) {
-        NSLog(@"good answer");
+        resultLabel.text = @"- Well done, go to the next question -";
     } else {
-        NSLog(@"bad answer");
+        resultLabel.text = @"- Try again -";
     }
 }
 @end
