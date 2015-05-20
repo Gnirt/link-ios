@@ -7,7 +7,7 @@
 //
 
 #import "GapFillViewController.h"
-
+#import "GapFillEndModalViewController.h"
 @interface GapFillViewController ()
 @end
 
@@ -67,5 +67,11 @@
     } else {
         resultLabel.text = @"- Try again -";
     }
+}
+
+- (IBAction)GapFillEnd:(id)sender {
+    GapFillEndModalViewController *modalViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"GapFillEndModalViewController"];
+    [modalViewController setModalPresentationStyle:UIModalPresentationFormSheet];
+    [self presentViewController:modalViewController animated:YES completion:nil];
 }
 @end

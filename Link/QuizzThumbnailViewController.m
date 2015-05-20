@@ -53,4 +53,9 @@
 - (IBAction)changeButtonState:(UIButton*)sender {
     [sender setSelected:!sender.selected];
 }
+
+- (IBAction)goToCarousel:(id)sender {
+    UIViewController* home = [self.storyboard instantiateViewControllerWithIdentifier:@"home"];
+    [self presentViewController:home animated:YES completion:nil];
+}
 @end

@@ -18,5 +18,6 @@
 @property (weak, nonatomic) IBOutlet UIButton *answer4;
 @property (weak, nonatomic) IBOutlet UIButton *answer5;
 - (IBAction)changeButtonState:(id)sender;
+- (IBAction)goToCarousel:(id)sender;
 
 @end

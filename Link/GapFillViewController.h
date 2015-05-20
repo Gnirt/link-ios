@@ -21,6 +21,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *resultLabel;
 @property (weak, nonatomic) IBOutlet UIButton *nextButton;
 - (IBAction)answerTap:(id)sender;
+- (IBAction)GapFillEnd:(id)sender;
 
 @end
     
