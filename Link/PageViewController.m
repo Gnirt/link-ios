@@ -7,6 +7,7 @@
 //
 
 #import "PageViewController.h"
+#import "QuizzThumbnailViewController.h"
 
 @interface PageViewController () <UIPageViewControllerDataSource, UIPageViewControllerDelegate>
 
@@ -25,7 +26,15 @@
     UIViewController *p1 = [self.storyboard instantiateViewControllerWithIdentifier:@"page1"];
     UIViewController *p2 = [self.storyboard instantiateViewControllerWithIdentifier:@"page2"];
     UIViewController *p3 = [self.storyboard instantiateViewControllerWithIdentifier:@"page3"];
-    UIViewController *p4 = [self.storyboard instantiateViewControllerWithIdentifier:@"page4"];
+    QuizzThumbnailViewController *p4 = [self.storyboard instantiateViewControllerWithIdentifier:@"page4"];
+    p4.question = @"une premiere question";
+    p4.answers = [NSArray arrayWithObjects:
+                  [NSArray arrayWithObjects:@"vignette_cyan",@"vignette_cyan_clic",nil],
+                  [NSArray arrayWithObjects:@"vignette_rouge",@"vignette_rouge_clic",nil],
+                  [NSArray arrayWithObjects:@"vignette_jaune",@"vignette_jaune_clic",nil],
+                  [NSArray arrayWithObjects:@"vignette_blanc",@"vignette_blanc_clic",nil],
+                  [NSArray arrayWithObjects:@"vignette_noir",@"vignette_noir_clic",nil],
+                  nil];
     UIViewController *p5 = [self.storyboard instantiateViewControllerWithIdentifier:@"page5"];
     UIViewController *p6 = [self.storyboard instantiateViewControllerWithIdentifier:@"page6"];
     UIViewController *p7 = [self.storyboard instantiateViewControllerWithIdentifier:@"page7"];

@@ -12,6 +12,7 @@
 		3E6AEC271B078BCA00A7D321 /* ActivityModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6AEC261B078BCA00A7D321 /* ActivityModalViewController.m */; };
 		3E6AEC2A1B079B8200A7D321 /* FillGap01PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6AEC291B079B8200A7D321 /* FillGap01PageViewController.m */; };
 		3E6F3FD71AD7B648000CF0D6 /* HeaderCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6F3FD61AD7B648000CF0D6 /* HeaderCollectionReusableView.m */; };
+		3E7D39AD1B0C8CC4003F8831 /* QuizzThumbnailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D39AC1B0C8CC4003F8831 /* QuizzThumbnailViewController.m */; };
 		3E9F8E891B0B399E007C7A02 /* FillGapAnswerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9F8E881B0B399E007C7A02 /* FillGapAnswerButton.m */; };
 		3EA3E7681AD3E2C500996FD7 /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA3E7661AD3CC4600996FD7 /* PageViewController.m */; };
 		3EA6C5691AD6A4E8005A059B /* ActivityCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA6C5681AD6A4E8005A059B /* ActivityCollectionViewController.m */; };
@@ -58,6 +59,8 @@
 		3E6AEC291B079B8200A7D321 /* FillGap01PageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FillGap01PageViewController.m; sourceTree = "<group>"; };
 		3E6F3FD51AD7B648000CF0D6 /* HeaderCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderCollectionReusableView.h; sourceTree = "<group>"; };
 		3E6F3FD61AD7B648000CF0D6 /* HeaderCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderCollectionReusableView.m; sourceTree = "<group>"; };
+		3E7D39AB1B0C8CC4003F8831 /* QuizzThumbnailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizzThumbnailViewController.h; sourceTree = "<group>"; };
+		3E7D39AC1B0C8CC4003F8831 /* QuizzThumbnailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizzThumbnailViewController.m; sourceTree = "<group>"; };
 		3E9F8E871B0B399E007C7A02 /* FillGapAnswerButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FillGapAnswerButton.h; sourceTree = "<group>"; };
 		3E9F8E881B0B399E007C7A02 /* FillGapAnswerButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FillGapAnswerButton.m; sourceTree = "<group>"; };
 		3EA3E7651AD3CC4600996FD7 /* PageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
@@ -161,6 +164,8 @@
 				BFEC62681AF7B95B009C1416 /* LetterCollectionViewCell.m */,
 				BFEC62641AF7B8A9009C1416 /* LetterCollectionViewController.h */,
 				BFEC62651AF7B8A9009C1416 /* LetterCollectionViewController.m */,
+				3E7D39AB1B0C8CC4003F8831 /* QuizzThumbnailViewController.h */,
+				3E7D39AC1B0C8CC4003F8831 /* QuizzThumbnailViewController.m */,
 				3EE56FD01AC838D900FCCB4D /* LoginViewController.h */,
 				3EE56FD11AC838D900FCCB4D /* LoginViewController.m */,
 				BFAC9F071AF8C1B60026777E /* ModalViewController.h */,
@@ -436,6 +441,7 @@
 				3E036FED1B0A270700A54A3B /* GapFillViewController.m in Sources */,
 				3E6F3FD71AD7B648000CF0D6 /* HeaderCollectionReusableView.m in Sources */,
 				3EE56FF21AC83FA300FCCB4D /* User.m in Sources */,
+				3E7D39AD1B0C8CC4003F8831 /* QuizzThumbnailViewController.m in Sources */,
 				3EE56FD21AC838D900FCCB4D /* LoginViewController.m in Sources */,
 				3EE56FCF1AC838D900FCCB4D /* AppDelegate.m in Sources */,
 				3EA6C56C1AD6AB36005A059B /* ActivityCollectionViewCell.m in Sources */,

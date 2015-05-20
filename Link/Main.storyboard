@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="7rj-Ts-vzT">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="19K-T2-1b4">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
     </dependencies>
@@ -539,10 +539,10 @@
             </objects>
             <point key="canvasLocation" x="1371" y="1839"/>
         </scene>
-        <!--View Controller-->
+        <!--Quizz Thumbnail View Controller-->
         <scene sceneID="KZm-6q-z9W">
             <objects>
-                <viewController storyboardIdentifier="page4" id="N6F-Nm-OnO" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="page4" id="N6F-Nm-OnO" customClass="QuizzThumbnailViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jLA-9y-92e"/>
                         <viewControllerLayoutGuide type="bottom" id="9xc-G4-PZy"/>
@@ -571,6 +571,10 @@
                                     <color key="titleColor" red="0.40784313729999999" green="0.34901960780000002" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <state key="highlighted" image="vignette_cyan_clic"/>
+                                <connections>
+                                    <action selector="changeButtonState:" destination="N6F-Nm-OnO" eventType="touchUpInside" id="C5e-Hy-r1v"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ktW-a7-sFu">
                                 <rect key="frame" x="272" y="353" width="135" height="180"/>
@@ -580,6 +584,9 @@
                                     <color key="titleColor" red="0.40784313729999999" green="0.34901960780000002" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="changeButtonState:" destination="N6F-Nm-OnO" eventType="touchUpInside" id="RoG-lk-xCr"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YMF-tm-OOx">
                                 <rect key="frame" x="449" y="353" width="135" height="180"/>
@@ -589,6 +596,9 @@
                                     <color key="titleColor" red="0.40784313729999999" green="0.34901960780000002" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="changeButtonState:" destination="N6F-Nm-OnO" eventType="touchUpInside" id="ksh-XH-x2J"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8TY-C7-xXg">
                                 <rect key="frame" x="625" y="353" width="135" height="180"/>
@@ -598,6 +608,9 @@
                                     <color key="titleColor" red="0.40784313729999999" green="0.34901960780000002" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="changeButtonState:" destination="N6F-Nm-OnO" eventType="touchUpInside" id="WKA-Tz-UNS"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q3n-n9-EdL">
                                 <rect key="frame" x="791" y="353" width="135" height="180"/>
@@ -607,12 +620,23 @@
                                     <color key="titleColor" red="0.40784313729999999" green="0.34901960780000002" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="changeButtonState:" destination="N6F-Nm-OnO" eventType="touchUpInside" id="yJO-4C-ziS"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.97423803809999998" green="0.48904597760000001" blue="0.92941683529999997" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="answer1" destination="wHo-fr-Z1G" id="u2q-xZ-69a"/>
+                        <outlet property="answer2" destination="ktW-a7-sFu" id="Zgn-oV-Ujb"/>
+                        <outlet property="answer3" destination="YMF-tm-OOx" id="2iu-95-Z4Y"/>
+                        <outlet property="answer4" destination="8TY-C7-xXg" id="SbX-8f-eqO"/>
+                        <outlet property="answer5" destination="Q3n-n9-EdL" id="fN5-ae-Xox"/>
+                        <outlet property="questionLabel" destination="9hP-NI-tW9" id="hcI-Zi-0S6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BZT-xG-U8h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1349,6 +1373,7 @@ Play with Marie as much as possible to unlock levels and bonus to your letters.<
         <image name="mini_bouton_video" width="50" height="50"/>
         <image name="vignette_blanc" width="132" height="124"/>
         <image name="vignette_cyan" width="132" height="124"/>
+        <image name="vignette_cyan_clic" width="132" height="124"/>
         <image name="vignette_dragon" width="132" height="124"/>
         <image name="vignette_gout" width="132" height="124"/>
         <image name="vignette_jaune" width="132" height="124"/>
