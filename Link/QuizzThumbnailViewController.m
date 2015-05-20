@@ -19,15 +19,20 @@
     // Do any additional setup after loading the view.
     self.questionLabel.text = self.question;
     [self.answer1 setImage:[UIImage imageNamed:self.answers[0][0]] forState:UIControlStateNormal];
-    [self.answer1 setImage:[UIImage imageNamed:self.answers[0][0]] forState:UIControlStateSelected];
+    [self.answer1 setImage:[UIImage imageNamed:self.answers[0][1]] forState:UIControlStateSelected];
+    [self.answer1 setTitle:self.answers[0][2] forState:UIControlStateNormal];
     [self.answer2 setImage:[UIImage imageNamed:self.answers[1][0]] forState:UIControlStateNormal];
     [self.answer2 setImage:[UIImage imageNamed:self.answers[1][1]] forState:UIControlStateSelected];
+    [self.answer2 setTitle:self.answers[1][2] forState:UIControlStateNormal];
     [self.answer3 setImage:[UIImage imageNamed:self.answers[2][0]] forState:UIControlStateNormal];
     [self.answer3 setImage:[UIImage imageNamed:self.answers[2][1]] forState:UIControlStateSelected];
+    [self.answer3 setTitle:self.answers[2][2] forState:UIControlStateNormal];
     [self.answer4 setImage:[UIImage imageNamed:self.answers[3][0]] forState:UIControlStateNormal];
     [self.answer4 setImage:[UIImage imageNamed:self.answers[3][1]] forState:UIControlStateSelected];
+    [self.answer4 setTitle:self.answers[3][2] forState:UIControlStateNormal];
     [self.answer5 setImage:[UIImage imageNamed:self.answers[4][0]] forState:UIControlStateNormal];
     [self.answer5 setImage:[UIImage imageNamed:self.answers[4][1]] forState:UIControlStateSelected];
+    [self.answer5 setTitle:self.answers[4][2] forState:UIControlStateNormal];
 }
 
 - (void)didReceiveMemoryWarning {
