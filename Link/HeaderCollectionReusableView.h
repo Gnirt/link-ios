@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "CustomLabelWithDifferentColor.h"
 @interface HeaderCollectionReusableView : UICollectionReusableView
 @property (weak, nonatomic) IBOutlet UIImageView *image;
+@property (weak, nonatomic) IBOutlet CustomLabelWithDifferentColor *titleLabel;
 
 @end

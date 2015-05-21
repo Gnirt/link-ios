@@ -69,6 +69,7 @@
             <string>Bosque-Regular</string>
             <string>Bosque-Regular</string>
             <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -837,7 +838,7 @@
                                         <segue destination="m15-fn-BWY" kind="show" id="9CC-Ga-Bg2"/>
                                     </connections>
                                 </button>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PLAY WITH MARIE TO ENHANCE YOUR LETTERS !" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WNx-cw-k9j">
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PLAY WITH MARIE TO ENHANCE YOUR LETTERS !" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WNx-cw-k9j" customClass="CustomLabelWithDifferentColor">
                                     <rect key="frame" x="8" y="215" width="1008" height="45"/>
                                     <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="29"/>
                                     <color key="textColor" red="0.73725490199999999" green="0.65098039220000004" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -868,6 +869,9 @@
                                     </connections>
                                 </button>
                             </subviews>
+                            <connections>
+                                <outlet property="titleLabel" destination="WNx-cw-k9j" id="TrM-rv-lRF"/>
+                            </connections>
                         </collectionReusableView>
                         <connections>
                             <outlet property="dataSource" destination="E1h-EI-BMd" id="VDj-Fr-6Ak"/>
@@ -940,7 +944,7 @@
                                         <segue destination="m15-fn-BWY" kind="show" id="UzV-aV-yBF"/>
                                     </connections>
                                 </button>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="READ LETTERS FROM MARIE !" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PQH-zd-H7f">
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="READ LETTERS FROM MARIE !" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PQH-zd-H7f" customClass="CustomLabelWithDifferentColor">
                                     <rect key="frame" x="8" y="215" width="1008" height="45"/>
                                     <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="29"/>
                                     <color key="textColor" red="0.73725490199999999" green="0.65098039220000004" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -971,6 +975,9 @@
                                     </connections>
                                 </button>
                             </subviews>
+                            <connections>
+                                <outlet property="titleLabel" destination="PQH-zd-H7f" id="73e-xJ-80b"/>
+                            </connections>
                         </collectionReusableView>
                         <connections>
                             <outlet property="dataSource" destination="9Rw-bO-BVa" id="ZmY-1I-ya1"/>
@@ -996,23 +1003,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="545" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lde-bf-jOF">
-                                <rect key="frame" x="0.0" y="0.0" width="1024" height="44"/>
-                                <items>
-                                    <barButtonItem title="Done" id="Ni5-jm-jGh">
-                                        <connections>
-                                            <action selector="done:" destination="hbf-ii-vJe" id="uYU-vs-CCH"/>
-                                        </connections>
-                                    </barButtonItem>
-                                </items>
-                            </toolbar>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="avatar_marie" translatesAutoresizingMaskIntoConstraints="NO" id="9Hb-9p-Mhs">
                                 <rect key="frame" x="221" y="64" width="99" height="99"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GbP-gm-DHK">
-                                <rect key="frame" x="16" y="184" width="508" height="496"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GbP-gm-DHK">
+                                <rect key="frame" x="16" y="184" width="508" height="396"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <mutableString key="text">Bonjour Dave,
+                                <string key="text">Bonjour Dave,
 
 Cheesecake biscuit cookie topping. Pastry soufflé pie lemon drops bonbon pastry pastry. Tiramisu tart marzipan biscuit chupa chups candy ice cream. Dessert soufflé jelly-o cotton candy lollipop jelly beans pastry lemon drops marzipan.
 
@@ -1023,21 +1020,35 @@ Jujubes toffee marzipan candy canes. Ice cream tootsie roll topping ice cream li
 Jelly topping cotton candy ice cream carrot cake gummies. Oat cake pudding chocolate tiramisu. Gummies sweet roll candy cupcake cake jujubes jelly-o dessert.
 
 Dragée soufflé jujubes fruitcake halvah topping. Cotton candy jelly-o dessert. Marzipan jelly lemon drops biscuit apple pie.
-</mutableString>
+</string>
                                 <color key="textColor" red="0.25882352941176473" green="0.27058823529411763" blue="0.48627450980392156" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="krT-kr-P9A">
+                                <rect key="frame" x="494" y="28" width="30" height="30"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="27"/>
+                                <state key="normal" title="X">
+                                    <color key="titleColor" red="0.68235294120000001" green="0.89019607840000003" blue="0.89411764709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="closeModal:" destination="1hk-x0-h2h" eventType="touchUpInside" id="M93-0b-nhY"/>
+                                    <action selector="done:" destination="hbf-ii-vJe" eventType="touchUpInside" id="iXd-zn-iaj"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="545" height="600"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rhy-rw-9Ag" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2128" y="-1965"/>
+            <point key="canvasLocation" x="-2128.5" y="-1965"/>
         </scene>
         <!--Activity Modal View Controller-->
         <scene sceneID="uVY-X4-nuk">
@@ -1234,9 +1245,7 @@ to the next game with Marie !</string>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D0z-Yd-FlX">
                                 <rect key="frame" x="87" y="356" width="726" height="129"/>
                                 <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="35"/>
-                                <state key="normal">
-                                    <string key="title">NOW IT'S YOUR TURN
-TO CREATE MARIE'S GAME</string>
+                                <state key="normal" title="CREATE MARIE'S GAME">
                                     <color key="titleColor" red="0.82352941180000006" green="0.23921568630000001" blue="0.58039215690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -1277,8 +1286,8 @@ TO CREATE MARIE'S GAME</string>
         <image name="vignette_rouge" width="132" height="124"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="9CC-Ga-Bg2"/>
-        <segue reference="PBS-t6-3gc"/>
-        <segue reference="Wnx-ii-KFf"/>
+        <segue reference="UzV-aV-yBF"/>
+        <segue reference="iV5-yw-8IV"/>
+        <segue reference="cUl-kx-XZ3"/>
     </inferredMetricsTieBreakers>
 </document>

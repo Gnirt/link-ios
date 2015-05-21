@@ -9,7 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "ActivityCollectionViewCell.h"
 #import "HeaderCollectionReusableView.h"
-
 @interface ActivityCollectionViewController : UICollectionViewController
 <UICollectionViewDataSource, UICollectionViewDelegate>
 
