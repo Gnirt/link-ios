@@ -123,7 +123,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="989" y="761"/>
+            <point key="canvasLocation" x="-707" y="921"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="JpM-xj-0Xg">
@@ -177,7 +177,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9eg-ED-XSA" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="989" y="-187"/>
+            <point key="canvasLocation" x="445" y="921"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="8US-tk-bWG">
@@ -195,7 +195,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WoI-Jt-GNP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-262" y="761"/>
+            <point key="canvasLocation" x="-1894" y="921"/>
         </scene>
         <!--Page View Controller-->
         <scene sceneID="dxr-oA-lMD">
@@ -203,7 +203,7 @@
                 <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="fiO-f0-AIc" customClass="PageViewController" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iVl-O2-BZr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2218" y="761"/>
+            <point key="canvasLocation" x="-1982" y="1839"/>
         </scene>
         <!--Picker View Controller-->
         <scene sceneID="3NF-37-Zdh">
@@ -584,7 +584,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jrg-1D-ipC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-785" y="2835"/>
+            <point key="canvasLocation" x="327" y="2751"/>
         </scene>
         <!--Carousel View Controller-->
         <scene sceneID="zV2-2u-Tss">
@@ -673,7 +673,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i0r-8y-jJ7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-446" y="-332"/>
+            <point key="canvasLocation" x="466" y="20"/>
         </scene>
         <!--Writing World View Controller-->
         <scene sceneID="PMV-aZ-ASF">
@@ -883,7 +883,7 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CdN-O7-hgr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="833" y="-2257"/>
+            <point key="canvasLocation" x="1633" y="-2161"/>
         </scene>
         <!--Letter Collection View Controller-->
         <scene sceneID="riR-2B-v9w">
@@ -989,7 +989,7 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="waL-ZL-Lfu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-730" y="-2026"/>
+            <point key="canvasLocation" x="-378" y="-2130"/>
         </scene>
         <!--Modal View Controller-->
         <scene sceneID="xff-ec-TKv">
@@ -1048,7 +1048,7 @@ Dragée soufflé jujubes fruitcake halvah topping. Cotton candy jelly-o dessert.
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rhy-rw-9Ag" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2128.5" y="-1965"/>
+            <point key="canvasLocation" x="-1880.5" y="-2046"/>
         </scene>
         <!--Activity Modal View Controller-->
         <scene sceneID="uVY-X4-nuk">
@@ -1062,13 +1062,6 @@ Dragée soufflé jujubes fruitcake halvah topping. Cotton candy jelly-o dessert.
                         <rect key="frame" x="0.0" y="0.0" width="900" height="500"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Fill the gap in the sentences with the right word." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="czw-LA-i9I">
-                                <rect key="frame" x="16" y="129" width="868" height="211"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="textColor" red="0.25882352939999997" green="0.27058823529999998" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="30"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="eob-L7-fiV">
                                 <rect key="frame" x="16" y="203" width="868" height="146"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -1107,17 +1100,28 @@ and bonus to your letters.</string>
                                     <action selector="closeModal:" destination="1hk-x0-h2h" eventType="touchUpInside" id="Bl2-yl-9VJ"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fill the gap in the sentences with the right words." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u1x-Nt-Lq6" customClass="CustomLabelWithDifferentColor">
+                                <rect key="frame" x="0.0" y="139" width="900" height="41"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="30"/>
+                                <color key="textColor" red="0.25882352941176473" green="0.27058823529411763" blue="0.48627450980392156" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="tintColor" red="0.68235294117647061" green="0.8901960784313725" blue="0.89411764705882357" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="900" height="500"/>
+                    <connections>
+                        <outlet property="titleLabel" destination="u1x-Nt-Lq6" id="kzk-7D-qnq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MXO-3S-8rt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="RJ3-hs-gPo"/>
             </objects>
-            <point key="canvasLocation" x="-2057" y="-1362"/>
+            <point key="canvasLocation" x="-1969" y="-1378"/>
         </scene>
         <!--Write Letter Modal View Controller-->
         <scene sceneID="Tib-dV-fk0">
@@ -1194,7 +1198,7 @@ and bonus to your letters.</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qd1-t6-hSE" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="Ot4-fZ-eRa"/>
             </objects>
-            <point key="canvasLocation" x="-2056.5" y="-697"/>
+            <point key="canvasLocation" x="-2008.5" y="-721"/>
         </scene>
         <!--Fill Gap01 Page View Controller-->
         <scene sceneID="IpI-wf-eZY">
@@ -1202,7 +1206,7 @@ and bonus to your letters.</string>
                 <pageViewController storyboardIdentifier="fill_gap" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="8QK-H7-wLl" customClass="FillGap01PageViewController" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VAP-ny-Pem" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1784" y="2835"/>
+            <point key="canvasLocation" x="-600" y="2691"/>
         </scene>
         <!--Gap Fill End Modal View Controller-->
         <scene sceneID="Lbl-ZJ-Ihu">
@@ -1263,7 +1267,7 @@ to the next game with Marie !</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7wz-tU-MkV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2007" y="-10"/>
+            <point key="canvasLocation" x="-2129" y="14"/>
         </scene>
     </scenes>
     <resources>

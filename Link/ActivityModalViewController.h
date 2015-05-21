@@ -7,8 +7,10 @@
 //
 
 #import "ModalViewController.h"
-
+#import "CustomLabelWithDifferentColor.h"
 @interface ActivityModalViewController : ModalViewController
+@property (weak, nonatomic) IBOutlet CustomLabelWithDifferentColor *titleLabel;
+
 - (IBAction)closeModal:(id)sender;
 - (IBAction)playActivity:(id)sender;
 
