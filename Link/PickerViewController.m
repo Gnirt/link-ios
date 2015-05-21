@@ -15,7 +15,7 @@
     [super viewDidLoad];
     
     // Initialize Data
-    _pickerData = [@[@"Confucius", @"Martin Luther King", @"Jesus Christ", @"Boudha", @"Nelson Mandela", @"Socrates", @"Mohammed Ali", @"Gandhi", @"Tim Berners Lee", @"Rosa Parks"] sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)];
+    _pickerData = [@[@"Albert Confucius", @"Jeanne d'Arc", @"Sophie Favier", @"Martin Luther King", @"Jesus Christ", @"Bernard Boudha", @"Nelson Mandela", @"Rosa Parks", @"Joseph Socrates", @"Mohammed Ali", @"Gandhi", @"Tim Berners Lee"]sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)];
     self.teachersPicker.dataSource = self;
     self.teachersPicker.delegate = self;
 }

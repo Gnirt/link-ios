@@ -32,13 +32,13 @@ static NSString * const reuseIdentifier = @"Cell";
     _activityImages = [@[@[@"timbre_1", @"GAP FILL TEXTS"],
                          @[@"timbre_3", @"DRAW"],
                          @[@"timbre_2", @"SING"],
-                         @[@"timbre_2", @"SING"],
-                         @[@"timbre_3", @"DRAW"],
-                         @[@"timbre_2", @"SING"],
-                         @[@"timbre_3", @"DRAW"],
-                         @[@"timbre_2", @"SING"],
-                         @[@"timbre_2", @"SING"],
-                         @[@"timbre_3", @"DRAW"],
+                         @[@"timbre_2", @"ACT"],
+                         @[@"timbre_3", @"DANCE"],
+                         @[@"timbre_2", @"TRANSLATE"],
+                         @[@"timbre_3", @"PLAY MUSIC"],
+                         @[@"timbre_2", @"MEMORY"],
+                         @[@"timbre_2", @"PICTURES"],
+                         @[@"timbre_3", @"QUIZZ"],
                          ] mutableCopy];
 }
 
