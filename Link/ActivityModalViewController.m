@@ -19,7 +19,6 @@
     // Do any additional setup after loading the view.
     self.preferredContentSize = CGSizeMake(900, 500);
     [self.titleLabel labelMultipleColor:self.titleLabel changeColor:[UIColor colorWithRed:0.259 green:0.271 blue:0.486 alpha:1] forString:@"right word"];
-    
 }
 
 - (void)didReceiveMemoryWarning {

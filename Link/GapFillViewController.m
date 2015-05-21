@@ -63,8 +63,10 @@
     [sentenceLabel setAttributedText: text];
     [(FillGapAnswerButton *)sender setTitleColor:[UIColor colorWithRed:0.812 green:0.235 blue:0.565 alpha:1] forState:UIControlStateNormal];
     if ([(FillGapAnswerButton *)sender correctAnswer]) {
+        [resultLabel setTextColor:[UIColor colorWithRed:0.812 green:0.235 blue:0.565 alpha:1]];
         resultLabel.text = @"- Well done, go to the next question -";
     } else {
+        [resultLabel setTextColor:[UIColor colorWithRed:0.718 green:0.671 blue:0.831 alpha:1]];
         resultLabel.text = @"- Try again -";
     }
 }
