@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3E036FED1B0A270700A54A3B /* GapFillViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E036FEC1B0A270700A54A3B /* GapFillViewController.m */; };
+		3E59B0F31B0DF2A700E1AD3B /* CustomLabelWithDifferentColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E59B0F21B0DF2A700E1AD3B /* CustomLabelWithDifferentColor.m */; };
+		3E59B0F61B0E08BB00E1AD3B /* QuizzQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E59B0F51B0E08BB00E1AD3B /* QuizzQuestionViewController.m */; };
 		3E6AEC241B077A5000A7D321 /* WriteLetterModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6AEC231B077A5000A7D321 /* WriteLetterModalViewController.m */; };
 		3E6AEC271B078BCA00A7D321 /* ActivityModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6AEC261B078BCA00A7D321 /* ActivityModalViewController.m */; };
 		3E6AEC2A1B079B8200A7D321 /* FillGap01PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6AEC291B079B8200A7D321 /* FillGap01PageViewController.m */; };
@@ -52,6 +54,10 @@
 /* Begin PBXFileReference section */
 		3E036FEB1B0A270700A54A3B /* GapFillViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GapFillViewController.h; sourceTree = "<group>"; };
 		3E036FEC1B0A270700A54A3B /* GapFillViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GapFillViewController.m; sourceTree = "<group>"; };
+		3E59B0F11B0DF2A700E1AD3B /* CustomLabelWithDifferentColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomLabelWithDifferentColor.h; sourceTree = "<group>"; };
+		3E59B0F21B0DF2A700E1AD3B /* CustomLabelWithDifferentColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomLabelWithDifferentColor.m; sourceTree = "<group>"; };
+		3E59B0F41B0E08BB00E1AD3B /* QuizzQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizzQuestionViewController.h; sourceTree = "<group>"; };
+		3E59B0F51B0E08BB00E1AD3B /* QuizzQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizzQuestionViewController.m; sourceTree = "<group>"; };
 		3E6AEC221B077A5000A7D321 /* WriteLetterModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WriteLetterModalViewController.h; sourceTree = "<group>"; };
 		3E6AEC231B077A5000A7D321 /* WriteLetterModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WriteLetterModalViewController.m; sourceTree = "<group>"; };
 		3E6AEC251B078BCA00A7D321 /* ActivityModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityModalViewController.h; sourceTree = "<group>"; };
@@ -140,6 +146,8 @@
 		3E9F8E901B0B8055007C7A02 /* CustomUI */ = {
 			isa = PBXGroup;
 			children = (
+				3E59B0F11B0DF2A700E1AD3B /* CustomLabelWithDifferentColor.h */,
+				3E59B0F21B0DF2A700E1AD3B /* CustomLabelWithDifferentColor.m */,
 				3E9F8E871B0B399E007C7A02 /* FillGapAnswerButton.h */,
 				3E9F8E881B0B399E007C7A02 /* FillGapAnswerButton.m */,
 			);
@@ -149,6 +157,8 @@
 		3EA6C5661AD67CC0005A059B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				3E59B0F41B0E08BB00E1AD3B /* QuizzQuestionViewController.h */,
+				3E59B0F51B0E08BB00E1AD3B /* QuizzQuestionViewController.m */,
 				3EA6C56A1AD6AB35005A059B /* ActivityCollectionViewCell.h */,
 				3EA6C56B1AD6AB35005A059B /* ActivityCollectionViewCell.m */,
 				3EA6C5671AD6A4E8005A059B /* ActivityCollectionViewController.h */,
@@ -451,6 +461,7 @@
 				3EE56FD21AC838D900FCCB4D /* LoginViewController.m in Sources */,
 				3EE56FCF1AC838D900FCCB4D /* AppDelegate.m in Sources */,
 				3EA6C56C1AD6AB36005A059B /* ActivityCollectionViewCell.m in Sources */,
+				3E59B0F61B0E08BB00E1AD3B /* QuizzQuestionViewController.m in Sources */,
 				3E9F8E891B0B399E007C7A02 /* FillGapAnswerButton.m in Sources */,
 				3EA3E7681AD3E2C500996FD7 /* PageViewController.m in Sources */,
 				3E6AEC2A1B079B8200A7D321 /* FillGap01PageViewController.m in Sources */,
@@ -466,6 +477,7 @@
 				BF1F1F311AE654DB00BFDFA9 /* UIFont+UIFont_SytemFontOverride.m in Sources */,
 				BFEC62691AF7B95B009C1416 /* LetterCollectionViewCell.m in Sources */,
 				3EE56FCC1AC838D900FCCB4D /* main.m in Sources */,
+				3E59B0F31B0DF2A700E1AD3B /* CustomLabelWithDifferentColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

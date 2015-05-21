@@ -18,6 +18,7 @@
     _pickerData = [@[@"Albert Confucius", @"Jeanne d'Arc", @"Sophie Favier", @"Martin Luther King", @"Jesus Christ", @"Bernard Boudha", @"Nelson Mandela", @"Rosa Parks", @"Joseph Socrates", @"Mohammed Ali", @"Gandhi", @"Tim Berners Lee"]sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)];
     self.teachersPicker.dataSource = self;
     self.teachersPicker.delegate = self;
+    [self.question labelMultipleColor:self.question changeColor:[UIColor colorWithRed:0.408 green:0.349 blue:0.678 alpha:1] forString:@"TEACHER"];
 }
 
 - (void)didReceiveMemoryWarning

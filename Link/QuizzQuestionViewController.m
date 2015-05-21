@@ -1,22 +1,24 @@
 //
-//  WriteLetterModalViewController.m
+//  QuizzQuestionViewController.m
 //  Link
 //
-//  Created by Philippe Tring on 16/5/15.
+//  Created by Philippe Tring on 21/5/15.
 //  Copyright (c) 2015 Philippe Tring. All rights reserved.
 //
 
-#import "WriteLetterModalViewController.h"
+#import "QuizzQuestionViewController.h"
 
-@interface WriteLetterModalViewController ()
+@interface QuizzQuestionViewController ()
 
 @end
 
-@implementation WriteLetterModalViewController
+@implementation QuizzQuestionViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self.questionLabel labelMultipleColor:self.questionLabel changeColor:[UIColor colorWithRed:0.408 green:0.349 blue:0.678 alpha:1] forString:@"NAME"];
+    [self.questionLabel labelMultipleColor:self.questionLabel changeColor:[UIColor colorWithRed:0.408 green:0.349 blue:0.678 alpha:1] forString:@"PASSWORD"];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -34,14 +36,4 @@
 }
 */
 
-- (IBAction)sendLetterAction:(id)sender {
-    [self dismissViewControllerAnimated:YES completion:nil];
-}
-
-- (void)textTapped:(UITapGestureRecognizer *)recognizer
-{
-    NSLog(@"tap detected");
-    UITextView *textView = (UITextView *)recognizer.view;
-    textView.text = @"";
-}
 @end

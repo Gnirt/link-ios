@@ -28,6 +28,7 @@
     UIViewController *p3 = [self.storyboard instantiateViewControllerWithIdentifier:@"page3"];
     QuizzThumbnailViewController *p4 = [self.storyboard instantiateViewControllerWithIdentifier:@"page4"];
     p4.question = @"WHAT'S YOUR FAVORITE COLOR?";
+    p4.strong_word = @"FAVORITE COLOR";
     p4.answers = [NSArray arrayWithObjects:
                   [NSArray arrayWithObjects:@"vignette_cyan",@"vignette_cyan_clic",@"BLUE",nil],
                   [NSArray arrayWithObjects:@"vignette_rouge",@"vignette_rouge_clic",@"RED",nil],
@@ -37,6 +38,7 @@
                   nil];
     QuizzThumbnailViewController *p5 = [self.storyboard instantiateViewControllerWithIdentifier:@"page4"];
     p5.question = @"PICK YOUR FAVORITE PET";
+    p5.strong_word = @"FAVORITE PET";
     p5.answers = [NSArray arrayWithObjects:
                   [NSArray arrayWithObjects:@"vignette_dragon",@"vignette_dragon_clic",@"DRAGON",nil],
                   [NSArray arrayWithObjects:@"vignette_oiseau",@"vignette_oiseau_clic",@"BIRD",nil],
@@ -46,6 +48,7 @@
                   nil];
     QuizzThumbnailViewController *p6 = [self.storyboard instantiateViewControllerWithIdentifier:@"page4"];
     p6.question = @"CHOOSE A PLANET";
+    p6.strong_word = @"PLANET";
     p6.answers = [NSArray arrayWithObjects:
                   [NSArray arrayWithObjects:@"vignette_jupiter",@"vignette_jupiter_clic",@"JUPITER",nil],
                   [NSArray arrayWithObjects:@"vignette_mars",@"vignette_mars_clic",@"MARS",nil],
@@ -55,6 +58,7 @@
                   nil];
     QuizzThumbnailViewController *p7 = [self.storyboard instantiateViewControllerWithIdentifier:@"page4"];
     p7.question = @"SELECT A SENSE";
+    p7.strong_word = @"SENSE";
     p7.answers = [NSArray arrayWithObjects:
                   [NSArray arrayWithObjects:@"vignette_vue",@"vignette_vue_clic",@"SIGHT",nil],
                   [NSArray arrayWithObjects:@"vignette_gout",@"vignette_gout_clic",@"TASTE",nil],

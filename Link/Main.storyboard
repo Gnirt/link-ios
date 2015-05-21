@@ -68,6 +68,7 @@
             <string>Bosque-Regular</string>
             <string>Bosque-Regular</string>
             <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -90,7 +91,7 @@
                                 <rect key="frame" x="333" y="477" width="380" height="45"/>
                                 <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="35"/>
                                 <state key="normal" title="- Create your world -">
-                                    <color key="titleColor" red="0.79744712752525249" green="0.79744712752525249" blue="0.79744712752525249" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.80392156859999997" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -218,7 +219,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg_star" translatesAutoresizingMaskIntoConstraints="NO" id="6GF-42-a37">
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PICK YOUR TEACHER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6WD-Rq-e4N">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PICK YOUR TEACHER :" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6WD-Rq-e4N" customClass="CustomLabelWithDifferentColor">
                                 <rect key="frame" x="268" y="228" width="488" height="90"/>
                                 <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="33"/>
                                 <color key="textColor" red="0.71764705880000002" green="0.6705882353" blue="0.83137254900000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -247,6 +248,7 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                     <connections>
+                        <outlet property="question" destination="6WD-Rq-e4N" id="hdk-YO-X8Q"/>
                         <outlet property="teachersPicker" destination="iKs-Yi-eSN" id="zAC-od-gnu"/>
                     </connections>
                 </viewController>
@@ -254,10 +256,10 @@
             </objects>
             <point key="canvasLocation" x="297" y="1839"/>
         </scene>
-        <!--View Controller-->
+        <!--Quizz Question View Controller-->
         <scene sceneID="pgj-P3-akh">
             <objects>
-                <viewController storyboardIdentifier="page3" id="cZH-mt-t9D" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="page3" id="cZH-mt-t9D" customClass="QuizzQuestionViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="b38-Ho-2tR"/>
                         <viewControllerLayoutGuide type="bottom" id="zRC-qD-OtB"/>
@@ -286,9 +288,9 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="..." textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="M73-35-hsb">
                                 <rect key="frame" x="350" y="369" width="324" height="30"/>
                                 <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="14"/>
-                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="next" secureTextEntry="YES"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Type your secret password" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y1x-EF-Rrk">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TYPE YOUR SECRET PASSWORD :" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y1x-EF-Rrk" customClass="CustomLabelWithDifferentColor">
                                 <rect key="frame" x="268" y="228" width="488" height="90"/>
                                 <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="33"/>
                                 <color key="textColor" red="0.71764705880000002" green="0.6705882353" blue="0.83137254900000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -299,6 +301,9 @@
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="questionLabel" destination="Y1x-EF-Rrk" id="rY9-pm-c9x"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="daV-bo-ylP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -334,7 +339,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="GSw-xJ-yRv">
                                 <rect key="frame" x="392" y="73" width="240" height="128"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WHAT'S YOUR FAVORITE COLOR?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9hP-NI-tW9">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WHAT'S YOUR FAVORITE COLOR ?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9hP-NI-tW9" customClass="CustomLabelWithDifferentColor">
                                 <rect key="frame" x="268" y="228" width="488" height="90"/>
                                 <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="33"/>
                                 <color key="textColor" red="0.71764705880000002" green="0.6705882353" blue="0.83137254900000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -342,7 +347,7 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wHo-fr-Z1G">
                                 <rect key="frame" x="98" y="353" width="135" height="180"/>
-                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="20"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="22"/>
                                 <inset key="titleEdgeInsets" minX="-137" minY="150" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="Blue" image="vignette_cyan">
                                     <color key="titleColor" red="0.40784313729999999" green="0.34901960780000002" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -355,7 +360,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ktW-a7-sFu">
                                 <rect key="frame" x="272" y="353" width="135" height="180"/>
-                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="20"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="22"/>
                                 <inset key="titleEdgeInsets" minX="-137" minY="150" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="Red" image="vignette_rouge">
                                     <color key="titleColor" red="0.40784313729999999" green="0.34901960780000002" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -367,7 +372,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YMF-tm-OOx">
                                 <rect key="frame" x="449" y="353" width="135" height="180"/>
-                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="20"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="22"/>
                                 <inset key="titleEdgeInsets" minX="-137" minY="150" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="Yellow" image="vignette_jaune">
                                     <color key="titleColor" red="0.40784313729999999" green="0.34901960780000002" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -379,7 +384,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8TY-C7-xXg">
                                 <rect key="frame" x="625" y="353" width="135" height="180"/>
-                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="20"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="22"/>
                                 <inset key="titleEdgeInsets" minX="-137" minY="150" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="White" image="vignette_blanc">
                                     <color key="titleColor" red="0.40784313729999999" green="0.34901960780000002" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -391,7 +396,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q3n-n9-EdL">
                                 <rect key="frame" x="791" y="353" width="135" height="180"/>
-                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="20"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="22"/>
                                 <inset key="titleEdgeInsets" minX="-137" minY="150" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="Black" image="vignette_noir">
                                     <color key="titleColor" red="0.40784313729999999" green="0.34901960780000002" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -412,17 +417,17 @@
                         <outlet property="answer3" destination="YMF-tm-OOx" id="2iu-95-Z4Y"/>
                         <outlet property="answer4" destination="8TY-C7-xXg" id="SbX-8f-eqO"/>
                         <outlet property="answer5" destination="Q3n-n9-EdL" id="fN5-ae-Xox"/>
-                        <outlet property="questionLabel" destination="9hP-NI-tW9" id="hcI-Zi-0S6"/>
+                        <outlet property="questionLabel" destination="9hP-NI-tW9" id="yVQ-gM-Nq0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BZT-xG-U8h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2452" y="1839"/>
         </scene>
-        <!--View Controller-->
+        <!--Quizz Question View Controller-->
         <scene sceneID="8Ug-yE-SZo">
             <objects>
-                <viewController storyboardIdentifier="page1" id="uBJ-Lp-FTU" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="page1" id="uBJ-Lp-FTU" customClass="QuizzQuestionViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fFH-dm-cbY"/>
                         <viewControllerLayoutGuide type="bottom" id="ejO-hX-5NU"/>
@@ -437,7 +442,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="keF-OW-nhy">
                                 <rect key="frame" x="392" y="73" width="240" height="128"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WHAT'S YOUR NAME?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GkY-nl-gUY">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WHAT'S YOUR NAME ?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GkY-nl-gUY" customClass="CustomLabelWithDifferentColor">
                                 <rect key="frame" x="268" y="228" width="488" height="90"/>
                                 <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="33"/>
                                 <color key="textColor" red="0.71764705882352942" green="0.6705882352941176" blue="0.83137254901960789" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -446,7 +451,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="..." textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="H0r-n8-h9F">
                                 <rect key="frame" x="350" y="356" width="324" height="30"/>
                                 <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="next"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tqF-HW-tkY">
                                 <rect key="frame" x="322" y="481" width="380" height="47"/>
@@ -463,6 +468,9 @@
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="questionLabel" destination="GkY-nl-gUY" id="4yd-x0-efH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F4F-zA-9Dh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -693,20 +701,20 @@
                                     <segue destination="E1h-EI-BMd" kind="show" id="PBS-t6-3gc"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WRITE A LETTER TO MARIE !" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HYk-yB-cTY">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WRITE A LETTER TO MARIE !" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HYk-yB-cTY" customClass="CustomLabelWithDifferentColor">
                                 <rect key="frame" x="10" y="217" width="1008" height="45"/>
                                 <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="29"/>
                                 <color key="textColor" red="0.73725490199999999" green="0.65098039220000004" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Side notes from the teacher to help him write his letter" translatesAutoresizingMaskIntoConstraints="NO" id="ekO-5A-wdm" userLabel="Post it">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Write a letter to introduce yourself to your pen pal. Don't forget what you learn during class." translatesAutoresizingMaskIntoConstraints="NO" id="ekO-5A-wdm" userLabel="Post it">
                                 <rect key="frame" x="248" y="270" width="252" height="205"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="14"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="23"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Add to my letter :" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eJq-qe-mDf">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Add to my letter :" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eJq-qe-mDf" customClass="CustomLabelWithDifferentColor">
                                 <rect key="frame" x="-130" y="492" width="1008" height="45"/>
                                 <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="23"/>
                                 <color key="textColor" red="0.73725490199999999" green="0.65098039220000004" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -721,11 +729,11 @@
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="mini_bouton_video" translatesAutoresizingMaskIntoConstraints="NO" id="jgY-CW-UDx">
                                 <rect key="frame" x="349" y="545" width="50" height="50"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Write your letter here" translatesAutoresizingMaskIntoConstraints="NO" id="hQa-3q-rcS" userLabel="Letter">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Tap to write your letter" translatesAutoresizingMaskIntoConstraints="NO" id="hQa-3q-rcS" userLabel="Letter">
                                 <rect key="frame" x="529" y="270" width="333" height="453"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="14"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K9m-F3-qQh">
@@ -745,7 +753,7 @@
                                 <rect key="frame" x="55" y="90" width="174" height="40"/>
                                 <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="20"/>
                                 <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="5"/>
-                                <state key="normal" title="Words world" backgroundImage="bouton_violet">
+                                <state key="normal" title="Words world" backgroundImage="bouton_rose">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -761,7 +769,9 @@
                     <connections>
                         <outlet property="PostItTextView" destination="ekO-5A-wdm" id="NR2-P0-aAC"/>
                         <outlet property="letterTextView" destination="hQa-3q-rcS" id="vwI-1D-SOp"/>
+                        <outlet property="optionLabel" destination="eJq-qe-mDf" id="Gq8-JM-rd9"/>
                         <outlet property="postItTextView" destination="ekO-5A-wdm" id="Ioj-6o-uYP"/>
+                        <outlet property="titleLabel" destination="HYk-yB-cTY" id="10j-T0-RnI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ycG-lQ-zqH" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -819,7 +829,7 @@
                                     <rect key="frame" x="40" y="142" width="174" height="40"/>
                                     <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="20"/>
                                     <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="5"/>
-                                    <state key="normal" title="Writing world" backgroundImage="bouton_parme">
+                                    <state key="normal" title="Writing world" backgroundImage="bouton_violet">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                     </state>
@@ -952,7 +962,7 @@
                                     <rect key="frame" x="40" y="90" width="174" height="40"/>
                                     <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="20"/>
                                     <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="5"/>
-                                    <state key="normal" title="Game world" backgroundImage="bouton_rose">
+                                    <state key="normal" title="Game world" backgroundImage="bouton_parme">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                     </state>
@@ -996,13 +1006,13 @@
                                     </barButtonItem>
                                 </items>
                             </toolbar>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="avatar_dave" translatesAutoresizingMaskIntoConstraints="NO" id="9Hb-9p-Mhs">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="avatar_marie" translatesAutoresizingMaskIntoConstraints="NO" id="9Hb-9p-Mhs">
                                 <rect key="frame" x="221" y="64" width="99" height="99"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GbP-gm-DHK">
-                                <rect key="frame" x="16" y="184" width="508" height="416"/>
+                                <rect key="frame" x="16" y="184" width="508" height="496"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">Hello Marie,
+                                <mutableString key="text">Bonjour Dave,
 
 Cheesecake biscuit cookie topping. Pastry soufflé pie lemon drops bonbon pastry pastry. Tiramisu tart marzipan biscuit chupa chups candy ice cream. Dessert soufflé jelly-o cotton candy lollipop jelly beans pastry lemon drops marzipan.
 
@@ -1013,7 +1023,7 @@ Jujubes toffee marzipan candy canes. Ice cream tootsie roll topping ice cream li
 Jelly topping cotton candy ice cream carrot cake gummies. Oat cake pudding chocolate tiramisu. Gummies sweet roll candy cupcake cake jujubes jelly-o dessert.
 
 Dragée soufflé jujubes fruitcake halvah topping. Cotton candy jelly-o dessert. Marzipan jelly lemon drops biscuit apple pie.
-</string>
+</mutableString>
                                 <color key="textColor" red="0.25882352941176473" green="0.27058823529411763" blue="0.48627450980392156" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1048,16 +1058,17 @@ Dragée soufflé jujubes fruitcake halvah topping. Cotton candy jelly-o dessert.
                                 <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="30"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zWT-PH-U9H">
-                                <rect key="frame" x="854" y="28" width="30" height="30"/>
-                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="27"/>
-                                <state key="normal" title="X">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="closeModal:" destination="1hk-x0-h2h" eventType="touchUpInside" id="Bl2-yl-9VJ"/>
-                                </connections>
-                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="eob-L7-fiV">
+                                <rect key="frame" x="16" y="203" width="868" height="146"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="1.3877787807814457e-17" width="1" height="1"/>
+                                <string key="text">Play with Marie
+as much as possible to unlock levels
+and bonus to your letters.</string>
+                                <color key="textColor" red="0.80392156859999997" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="25"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wNC-eQ-bi2">
                                 <rect key="frame" x="222" y="363" width="483" height="47"/>
                                 <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="35"/>
@@ -1075,17 +1086,16 @@ Dragée soufflé jujubes fruitcake halvah topping. Cotton candy jelly-o dessert.
                                 <color key="textColor" red="0.3803921569" green="0.37254901959999998" blue="0.6705882353" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="eob-L7-fiV">
-                                <rect key="frame" x="16" y="203" width="868" height="146"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <rect key="contentStretch" x="0.0" y="1.3877787807814457e-17" width="1" height="1"/>
-                                <string key="text">Play with Marie
-as much as possible to unlock levels
-and bonus to your letters.</string>
-                                <color key="textColor" red="0.80392156859999997" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="25"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zWT-PH-U9H">
+                                <rect key="frame" x="854" y="28" width="30" height="30"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="27"/>
+                                <state key="normal" title="X">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="closeModal:" destination="1hk-x0-h2h" eventType="touchUpInside" id="Bl2-yl-9VJ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="tintColor" red="0.68235294117647061" green="0.8901960784313725" blue="0.89411764705882357" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1110,14 +1120,15 @@ and bonus to your letters.</string>
                         <rect key="frame" x="0.0" y="0.0" width="545" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Tap and start writing to Dave" translatesAutoresizingMaskIntoConstraints="NO" id="rmB-Ki-WMW">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Tap and start writing to Marie" translatesAutoresizingMaskIntoConstraints="NO" id="rmB-Ki-WMW">
                                 <rect key="frame" x="24" y="144" width="500" height="402"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <gestureRecognizers/>
                                 <color key="textColor" red="0.25882352939999997" green="0.27058823529999998" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="20"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="avatar_marie" translatesAutoresizingMaskIntoConstraints="NO" id="9QI-gR-KU7">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="avatar_dave" translatesAutoresizingMaskIntoConstraints="NO" id="9QI-gR-KU7">
                                 <rect key="frame" x="223" y="28" width="99" height="99"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uYk-KY-dBC">
@@ -1150,6 +1161,18 @@ and bonus to your letters.</string>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9hY-yW-Gjf">
+                                <rect key="frame" x="499" y="28" width="30" height="30"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="27"/>
+                                <state key="normal" title="X">
+                                    <color key="titleColor" red="0.68235294120000001" green="0.89019607840000003" blue="0.89411764709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="closeModal:" destination="1hk-x0-h2h" eventType="touchUpInside" id="R4w-5L-gVa"/>
+                                    <action selector="sendLetterAction:" destination="367-x3-nZh" eventType="touchUpInside" id="Ehk-7S-d4s"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -1158,6 +1181,7 @@ and bonus to your letters.</string>
                     <size key="freeformSize" width="545" height="600"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qd1-t6-hSE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Ot4-fZ-eRa"/>
             </objects>
             <point key="canvasLocation" x="-2056.5" y="-697"/>
         </scene>
@@ -1253,8 +1277,8 @@ TO CREATE MARIE'S GAME</string>
         <image name="vignette_rouge" width="132" height="124"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="UzV-aV-yBF"/>
-        <segue reference="iV5-yw-8IV"/>
-        <segue reference="cUl-kx-XZ3"/>
+        <segue reference="9CC-Ga-Bg2"/>
+        <segue reference="PBS-t6-3gc"/>
+        <segue reference="Wnx-ii-KFf"/>
     </inferredMetricsTieBreakers>
 </document>

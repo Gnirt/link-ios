@@ -7,7 +7,7 @@
 //
 
 #import "QuizzThumbnailViewController.h"
-
+#import "CustomLabelWithDifferentColor.h"
 @interface QuizzThumbnailViewController ()
 
 @end
@@ -18,6 +18,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.questionLabel.text = self.question;
+    NSMutableAttributedString *text = [[NSMutableAttributedString alloc] initWithAttributedString: self.questionLabel.attributedText];
+    NSRange range = [self.questionLabel.text rangeOfString:self.strong_word];
+    [text addAttribute:NSForegroundColorAttributeName value:[UIColor colorWithRed:0.38 green:0.373 blue:0.671 alpha:1] range:NSMakeRange(range.location, range.length)];
+    [self.questionLabel setAttributedText: text];
     [self.answer1 setImage:[UIImage imageNamed:self.answers[0][0]] forState:UIControlStateNormal];
     [self.answer1 setImage:[UIImage imageNamed:self.answers[0][1]] forState:UIControlStateSelected];
     [self.answer1 setTitle:self.answers[0][2] forState:UIControlStateNormal];

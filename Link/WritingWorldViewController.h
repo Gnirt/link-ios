@@ -7,10 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CustomLabelWithDifferentColor.h"
 
 @interface WritingWorldViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UITextView *postItTextView;
 @property (weak, nonatomic) IBOutlet UITextView *letterTextView;
+@property (weak, nonatomic) IBOutlet CustomLabelWithDifferentColor *titleLabel;
+@property (weak, nonatomic) IBOutlet CustomLabelWithDifferentColor *optionLabel;
 - (IBAction)backToCarousel:(id)sender;
 
 @end
