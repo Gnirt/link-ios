@@ -64,7 +64,7 @@ static NSString * const reuseIdentifier = @"Cell";
         HeaderCollectionReusableView *headerView = [collectionView dequeueReusableSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:@"header" forIndexPath:indexPath];
         UIImage *headerImage = [UIImage imageNamed:@"logo"];
         headerView.image.image = headerImage;
-        [headerView.titleLabel labelMultipleColor:headerView.titleLabel changeColor:[UIColor colorWithRed:0.259 green:0.271 blue:0.486 alpha:1] forString:@"MARIE"];
+        [headerView.titleLabel labelMultipleColor:headerView.titleLabel changeColor:[UIColor colorWithRed:0.259 green:0.271 blue:0.486 alpha:1] forString:@"DAVE"];
         reusableview = headerView;
     }
     

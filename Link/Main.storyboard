@@ -100,7 +100,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oPN-Y2-lyg">
                                 <rect key="frame" x="333" y="477" width="380" height="45"/>
                                 <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="35"/>
-                                <state key="normal" title="- Create your world -">
+                                <state key="normal" title="- CRÉER TON UNIVERS -">
                                     <color key="titleColor" red="0.80392156859999997" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -115,7 +115,7 @@
                                 <rect key="frame" x="363" y="359" width="335" height="77"/>
                                 <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="35"/>
                                 <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="10"/>
-                                <state key="normal" title="Your world" backgroundImage="bouton_violet">
+                                <state key="normal" title="TON UNIVERS" backgroundImage="bouton_violet">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -149,12 +149,12 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg_nuages" translatesAutoresizingMaskIntoConstraints="NO" id="a1I-Sk-wim">
                                 <rect key="frame" x="-6" y="64" width="1072" height="738"/>
                             </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Write your code" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QU8-57-zWd">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="écris ton code" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QU8-57-zWd">
                                 <rect key="frame" x="350" y="311" width="324" height="30"/>
                                 <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="go" secureTextEntry="YES"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Write your name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gY5-kz-Vlg">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="écris ton nom" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gY5-kz-Vlg">
                                 <rect key="frame" x="350" y="233" width="324" height="30"/>
                                 <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
@@ -165,7 +165,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QqG-Yx-yum">
                                 <rect key="frame" x="322" y="384" width="380" height="47"/>
                                 <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="35"/>
-                                <state key="normal" title="Enter">
+                                <state key="normal" title="ENTRER">
                                     <color key="titleColor" red="0.80392156859999997" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -943,9 +943,9 @@
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sid-Ux-XKD">
                                     <rect key="frame" x="40" y="142" width="174" height="40"/>
-                                    <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="20"/>
+                                    <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="17"/>
                                     <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="5"/>
-                                    <state key="normal" title="Writing world" backgroundImage="bouton_violet">
+                                    <state key="normal" title="Le monde des jeux" backgroundImage="bouton_violet">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                     </state>
@@ -953,7 +953,7 @@
                                         <segue destination="m15-fn-BWY" kind="show" id="UzV-aV-yBF"/>
                                     </connections>
                                 </button>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="READ LETTERS FROM MARIE !" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PQH-zd-H7f" customClass="CustomLabelWithDifferentColor">
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="RELIS LES LETTRES DE DAVE !" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PQH-zd-H7f" customClass="CustomLabelWithDifferentColor">
                                     <rect key="frame" x="8" y="215" width="1008" height="45"/>
                                     <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="29"/>
                                     <color key="textColor" red="0.73725490199999999" green="0.65098039220000004" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -973,9 +973,9 @@
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bX1-bO-KnA">
                                     <rect key="frame" x="40" y="90" width="174" height="40"/>
-                                    <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="20"/>
+                                    <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="17"/>
                                     <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="5"/>
-                                    <state key="normal" title="Game world" backgroundImage="bouton_parme">
+                                    <state key="normal" title="Le monde de l'écriture" backgroundImage="bouton_parme">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                     </state>
@@ -1012,7 +1012,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="545" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="avatar_marie" translatesAutoresizingMaskIntoConstraints="NO" id="9Hb-9p-Mhs">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="avatar_dave" translatesAutoresizingMaskIntoConstraints="NO" id="9Hb-9p-Mhs">
                                 <rect key="frame" x="221" y="64" width="99" height="99"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GbP-gm-DHK">
@@ -1447,7 +1447,6 @@ to the next game with Marie !</string>
     <resources>
         <image name="Bienvenue_marie" width="1024" height="768"/>
         <image name="avatar_dave" width="394" height="398"/>
-        <image name="avatar_marie" width="394" height="398"/>
         <image name="bg_nuages" width="1024" height="768"/>
         <image name="bg_star" width="1024" height="768"/>
         <image name="bouton_parme" width="787" height="175"/>
@@ -1466,8 +1465,8 @@ to the next game with Marie !</string>
         <image name="vignette_rouge" width="132" height="124"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="q2P-l7-Eyt"/>
         <segue reference="cUl-kx-XZ3"/>
         <segue reference="iV5-yw-8IV"/>
-        <segue reference="UzV-aV-yBF"/>
     </inferredMetricsTieBreakers>
 </document>
