@@ -8,6 +8,7 @@
 
 #import "QuizzThumbnailViewController.h"
 #import "CustomLabelWithDifferentColor.h"
+#import "CarouselViewController.h"
 @interface QuizzThumbnailViewController ()
 
 @end
@@ -59,7 +60,8 @@
 }
 
 - (IBAction)goToCarousel:(id)sender {
-    UIViewController* home = [self.storyboard instantiateViewControllerWithIdentifier:@"home"];
+    CarouselViewController* home = [self.storyboard instantiateViewControllerWithIdentifier:@"home"];
+    home.showWelcomeModal = YES;
     [self presentViewController:home animated:YES completion:nil];
 }
 @end

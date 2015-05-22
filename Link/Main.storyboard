@@ -70,6 +70,10 @@
             <string>Bosque-Regular</string>
             <string>Bosque-Regular</string>
             <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -1267,10 +1271,111 @@ to the next game with Marie !</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7wz-tU-MkV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2129" y="14"/>
+            <point key="canvasLocation" x="-2103" y="30"/>
+        </scene>
+        <!--Image Modal View Controller-->
+        <scene sceneID="g3V-hW-yUB">
+            <objects>
+                <viewController storyboardIdentifier="newLetterModal" id="YNS-C4-FKH" customClass="ImageModalViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3Ej-Cc-emS"/>
+                        <viewControllerLayoutGuide type="bottom" id="fpN-dD-iyu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fRF-hS-Zu8">
+                        <rect key="frame" x="0.0" y="0.0" width="512" height="384"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qKN-ND-dan">
+                                <rect key="frame" x="854" y="28" width="30" height="30"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="27"/>
+                                <state key="normal" title="X">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="backToCarousel:" destination="YNS-C4-FKH" eventType="touchUpInside" id="3Lr-B4-vc1"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tuasducourrier" translatesAutoresizingMaskIntoConstraints="NO" id="VMC-wL-Vxv">
+                                <rect key="frame" x="-9" y="0.0" width="521" height="395"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sWe-9N-0MH">
+                                <rect key="frame" x="466" y="20" width="30" height="30"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="27"/>
+                                <state key="normal" title="X">
+                                    <color key="titleColor" red="0.68235294120000001" green="0.89019607840000003" blue="0.89411764709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="closeModal:" destination="YNS-C4-FKH" eventType="touchUpInside" id="hyM-J3-w1i"/>
+                                    <action selector="closeModal:" destination="1hk-x0-h2h" eventType="touchUpInside" id="w4x-pa-YhN"/>
+                                    <action selector="done:" destination="hbf-ii-vJe" eventType="touchUpInside" id="9Yb-Vf-qNn"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.68235294120000001" green="0.89019607840000003" blue="0.89411764709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="512" height="384"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x2L-ib-OPt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1930" y="-2735"/>
+        </scene>
+        <!--Image Modal View Controller-->
+        <scene sceneID="ZdV-Gh-sth">
+            <objects>
+                <viewController storyboardIdentifier="welcomeAfterSignIn" id="shj-mI-2jQ" customClass="ImageModalViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KdH-LZ-KFh"/>
+                        <viewControllerLayoutGuide type="bottom" id="rdM-JV-FQz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lxA-0f-VVo">
+                        <rect key="frame" x="0.0" y="0.0" width="512" height="384"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nkg-i8-m69">
+                                <rect key="frame" x="854" y="28" width="30" height="30"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="27"/>
+                                <state key="normal" title="X">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="backToCarousel:" destination="shj-mI-2jQ" eventType="touchUpInside" id="NdU-cT-VBL"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Bienvenue_marie" translatesAutoresizingMaskIntoConstraints="NO" id="1CC-Xy-vEd">
+                                <rect key="frame" x="-9" y="0.0" width="521" height="395"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nKQ-5B-ZEn">
+                                <rect key="frame" x="466" y="28" width="30" height="30"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="27"/>
+                                <state key="normal" title="X">
+                                    <color key="titleColor" red="0.68235294120000001" green="0.89019607840000003" blue="0.89411764709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="closeModal:" destination="1hk-x0-h2h" eventType="touchUpInside" id="Hzz-J5-TFv"/>
+                                    <action selector="closeModal:" destination="shj-mI-2jQ" eventType="touchUpInside" id="M5h-hz-tFv"/>
+                                    <action selector="done:" destination="hbf-ii-vJe" eventType="touchUpInside" id="mF1-aT-Tg0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.68235294120000001" green="0.89019607840000003" blue="0.89411764709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="512" height="384"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1l2-zr-zB8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1382" y="-2735"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Bienvenue_marie" width="1024" height="768"/>
         <image name="avatar_dave" width="394" height="398"/>
         <image name="avatar_marie" width="394" height="398"/>
         <image name="bg_nuages" width="1024" height="768"/>
@@ -1282,6 +1387,7 @@ to the next game with Marie !</string>
         <image name="mini_bouton_img" width="50" height="50"/>
         <image name="mini_bouton_son" width="50" height="50"/>
         <image name="mini_bouton_video" width="50" height="50"/>
+        <image name="tuasducourrier" width="1024" height="768"/>
         <image name="vignette_blanc" width="132" height="124"/>
         <image name="vignette_cyan" width="132" height="124"/>
         <image name="vignette_cyan_clic" width="132" height="124"/>

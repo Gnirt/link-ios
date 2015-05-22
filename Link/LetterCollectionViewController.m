@@ -8,7 +8,7 @@
 
 #import "LetterCollectionViewController.h"
 #import "ModalViewController.h"
-
+#import "ImageModalViewController.h"
 @interface LetterCollectionViewController ()
 
 @end
@@ -45,6 +45,15 @@ static NSString * const reuseIdentifier = @"Cell";
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    if (self.showNewLetterModal) {
+        ImageModalViewController *modalViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"newLetterModal"];
+        [modalViewController setModalPresentationStyle:UIModalPresentationFormSheet];
+        [self presentViewController:modalViewController animated:YES completion:nil];
+    }
 }
 
 - (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath

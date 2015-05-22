@@ -8,7 +8,7 @@
 
 #import "LoginViewController.h"
 #import "User.h"
-
+#import "LetterCollectionViewController.h"
 @interface LoginViewController ()
 
 @end
@@ -29,8 +29,9 @@
     [User loginWithUserName:self.emailInput.text password:self.passwordInput.text completion:^(id json, JSONModelError *err) {
         NSLog(@"%@", json);
         //Todo save the token to reuse it later
-        UIViewController* home = [self.storyboard instantiateViewControllerWithIdentifier:@"home"];
-        [self presentViewController:home animated:YES completion:nil];
+        LetterCollectionViewController* mailbox = [self.storyboard instantiateViewControllerWithIdentifier:@"mailbox"];
+        mailbox.showNewLetterModal = YES;
+        [self presentViewController:mailbox animated:YES completion:nil];
 //        [self.navigationController pushViewController:home animated:YES];
     }];
     

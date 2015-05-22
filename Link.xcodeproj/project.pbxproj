@@ -10,6 +10,7 @@
 		3E036FED1B0A270700A54A3B /* GapFillViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E036FEC1B0A270700A54A3B /* GapFillViewController.m */; };
 		3E59B0F31B0DF2A700E1AD3B /* CustomLabelWithDifferentColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E59B0F21B0DF2A700E1AD3B /* CustomLabelWithDifferentColor.m */; };
 		3E59B0F61B0E08BB00E1AD3B /* QuizzQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E59B0F51B0E08BB00E1AD3B /* QuizzQuestionViewController.m */; };
+		3E61FFD81B0F0C83004ECAD1 /* ImageModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E61FFD71B0F0C83004ECAD1 /* ImageModalViewController.m */; };
 		3E6AEC241B077A5000A7D321 /* WriteLetterModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6AEC231B077A5000A7D321 /* WriteLetterModalViewController.m */; };
 		3E6AEC271B078BCA00A7D321 /* ActivityModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6AEC261B078BCA00A7D321 /* ActivityModalViewController.m */; };
 		3E6AEC2A1B079B8200A7D321 /* FillGap01PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6AEC291B079B8200A7D321 /* FillGap01PageViewController.m */; };
@@ -58,6 +59,8 @@
 		3E59B0F21B0DF2A700E1AD3B /* CustomLabelWithDifferentColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomLabelWithDifferentColor.m; sourceTree = "<group>"; };
 		3E59B0F41B0E08BB00E1AD3B /* QuizzQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizzQuestionViewController.h; sourceTree = "<group>"; };
 		3E59B0F51B0E08BB00E1AD3B /* QuizzQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizzQuestionViewController.m; sourceTree = "<group>"; };
+		3E61FFD61B0F0C83004ECAD1 /* ImageModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageModalViewController.h; sourceTree = "<group>"; };
+		3E61FFD71B0F0C83004ECAD1 /* ImageModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageModalViewController.m; sourceTree = "<group>"; };
 		3E6AEC221B077A5000A7D321 /* WriteLetterModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WriteLetterModalViewController.h; sourceTree = "<group>"; };
 		3E6AEC231B077A5000A7D321 /* WriteLetterModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WriteLetterModalViewController.m; sourceTree = "<group>"; };
 		3E6AEC251B078BCA00A7D321 /* ActivityModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityModalViewController.h; sourceTree = "<group>"; };
@@ -185,6 +188,8 @@
 				3EE56FD11AC838D900FCCB4D /* LoginViewController.m */,
 				BFAC9F071AF8C1B60026777E /* ModalViewController.h */,
 				BFAC9F081AF8C1B60026777E /* ModalViewController.m */,
+				3E61FFD61B0F0C83004ECAD1 /* ImageModalViewController.h */,
+				3E61FFD71B0F0C83004ECAD1 /* ImageModalViewController.m */,
 				3EA3E7651AD3CC4600996FD7 /* PageViewController.h */,
 				3EA3E7661AD3CC4600996FD7 /* PageViewController.m */,
 				BF19BC1A1AE6AD6A00172C2F /* PickerViewController.h */,
@@ -469,6 +474,7 @@
 				3E6AEC271B078BCA00A7D321 /* ActivityModalViewController.m in Sources */,
 				BFEC62631AF79FE2009C1416 /* WritingWorldViewController.m in Sources */,
 				BF19BC1C1AE6AD6A00172C2F /* PickerViewController.m in Sources */,
+				3E61FFD81B0F0C83004ECAD1 /* ImageModalViewController.m in Sources */,
 				3E6AEC241B077A5000A7D321 /* WriteLetterModalViewController.m in Sources */,
 				3EA6C5691AD6A4E8005A059B /* ActivityCollectionViewController.m in Sources */,
 				BFEC62661AF7B8A9009C1416 /* LetterCollectionViewController.m in Sources */,

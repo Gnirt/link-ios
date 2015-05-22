@@ -14,6 +14,6 @@
 <UICollectionViewDataSource, UICollectionViewDelegate>
 
 @property (strong, nonatomic) NSMutableArray *letterImages;
-
+@property(nonatomic) BOOL showNewLetterModal;
 - (IBAction)backToCarousel:(id)sender;
 @end

@@ -7,7 +7,7 @@
 //
 
 #import "CarouselViewController.h"
-
+#import "ImageModalViewController.h"
 @interface CarouselViewController ()
 
 @property (nonatomic, strong) NSMutableArray *items;
@@ -62,6 +62,15 @@
     
     //free up memory by releasing subviews
     self.carousel = nil;
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    if (self.showWelcomeModal) {
+        ImageModalViewController *modalViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"welcomeAfterSignIn"];
+        [modalViewController setModalPresentationStyle:UIModalPresentationFormSheet];
+        [self presentViewController:modalViewController animated:YES completion:nil];
+    }
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
@@ -246,5 +255,15 @@
             break;
     }
 
+}
+
+- (UIViewController *)backViewController
+{
+    NSInteger numberOfViewControllers = self.navigationController.viewControllers.count;
+    
+    if (numberOfViewControllers < 2)
+        return nil;
+    else
+        return [self.navigationController.viewControllers objectAtIndex:numberOfViewControllers - 2];
 }
 @end

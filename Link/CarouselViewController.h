@@ -16,6 +16,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *nextWorldButton;
 @property (weak, nonatomic) IBOutlet UIButton *currentWorldButton;
 @property (weak, nonatomic) IBOutlet UIButton *previousWorldButton;
+@property(nonatomic) BOOL showWelcomeModal;
 - (IBAction)goToWorld:(id)sender;
 
 @end
