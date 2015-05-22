@@ -10,5 +10,6 @@
 
 @interface WriteLetterModalViewController : ModalViewController
 - (IBAction)sendLetterAction:(id)sender;
+- (IBAction)closeModal:(id)sender;
 
 @end

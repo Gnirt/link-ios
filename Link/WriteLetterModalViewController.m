@@ -7,7 +7,7 @@
 //
 
 #import "WriteLetterModalViewController.h"
-
+#import "ImageModalViewController.h"
 @interface WriteLetterModalViewController ()
 
 @end
@@ -35,8 +35,15 @@
 */
 
 - (IBAction)sendLetterAction:(id)sender {
+    ImageModalViewController *modalViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"afterEmailSendModal"];
+    [modalViewController setModalPresentationStyle:UIModalPresentationFormSheet];
+    [self presentViewController:modalViewController animated:YES completion:nil];
+}
+
+- (IBAction)closeModal:(id)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
 }
+
 
 - (void)textTapped:(UITapGestureRecognizer *)recognizer
 {

@@ -74,6 +74,8 @@
             <string>Bosque-Regular</string>
             <string>Bosque-Regular</string>
             <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -147,12 +149,12 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Write your code" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QU8-57-zWd">
                                 <rect key="frame" x="350" y="311" width="324" height="30"/>
                                 <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="14"/>
-                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="go" secureTextEntry="YES"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Write your name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gY5-kz-Vlg">
                                 <rect key="frame" x="350" y="233" width="324" height="30"/>
                                 <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                             </textField>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="RWS-W7-jXW">
                                 <rect key="frame" x="392" y="73" width="240" height="128"/>
@@ -716,7 +718,7 @@
                                 <rect key="frame" x="248" y="270" width="252" height="205"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="23"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Add to my letter :" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eJq-qe-mDf" customClass="CustomLabelWithDifferentColor">
@@ -738,7 +740,7 @@
                                 <rect key="frame" x="529" y="270" width="333" height="453"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="18"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K9m-F3-qQh">
@@ -1011,20 +1013,16 @@
                                 <rect key="frame" x="221" y="64" width="99" height="99"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GbP-gm-DHK">
-                                <rect key="frame" x="16" y="184" width="508" height="396"/>
+                                <rect key="frame" x="16" y="184" width="508" height="359"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">Bonjour Dave,
+                                <string key="text">Hello Marie,
 
-Cheesecake biscuit cookie topping. Pastry soufflé pie lemon drops bonbon pastry pastry. Tiramisu tart marzipan biscuit chupa chups candy ice cream. Dessert soufflé jelly-o cotton candy lollipop jelly beans pastry lemon drops marzipan.
+I’m Dave, from America. I have 10 years old and live in Utah. I’m so happy to meet you.
 
-Tiramisu cookie tiramisu jelly cheesecake gummies. Lollipop pudding liquorice soufflé. Lollipop caramels bonbon liquorice biscuit.
+How old are you? Where do you live in France?
+Do you want to play? Joey, my teacher told me that if we play games together we’ll meet each other. My classmates are all very glad to write on tablet.
 
-Jujubes toffee marzipan candy canes. Ice cream tootsie roll topping ice cream liquorice. Tart soufflé toffee. Chocolate cake wafer cake marzipan pudding.
-
-Jelly topping cotton candy ice cream carrot cake gummies. Oat cake pudding chocolate tiramisu. Gummies sweet roll candy cupcake cake jujubes jelly-o dessert.
-
-Dragée soufflé jujubes fruitcake halvah topping. Cotton candy jelly-o dessert. Marzipan jelly lemon drops biscuit apple pie.
-</string>
+See you soon !</string>
                                 <color key="textColor" red="0.25882352941176473" green="0.27058823529411763" blue="0.48627450980392156" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1039,6 +1037,17 @@ Dragée soufflé jujubes fruitcake halvah topping. Cotton candy jelly-o dessert.
                                 <connections>
                                     <action selector="closeModal:" destination="1hk-x0-h2h" eventType="touchUpInside" id="M93-0b-nhY"/>
                                     <action selector="done:" destination="hbf-ii-vJe" eventType="touchUpInside" id="iXd-zn-iaj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yNv-Lh-ARA">
+                                <rect key="frame" x="177" y="523" width="190" height="33"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="21"/>
+                                <state key="normal" title="Je répond à Dave !">
+                                    <color key="titleColor" red="0.81568627449999997" green="0.24313725489999999" blue="0.57254901960000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="m15-fn-BWY" kind="show" id="q2P-l7-Eyt"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1143,7 +1152,7 @@ and bonus to your letters.</string>
                                 <rect key="frame" x="24" y="144" width="500" height="402"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <gestureRecognizers/>
-                                <color key="textColor" red="0.25882352939999997" green="0.27058823529999998" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.80392156859999997" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1189,6 +1198,7 @@ and bonus to your letters.</string>
                                 </state>
                                 <connections>
                                     <action selector="closeModal:" destination="1hk-x0-h2h" eventType="touchUpInside" id="R4w-5L-gVa"/>
+                                    <action selector="closeModal:" destination="367-x3-nZh" eventType="touchUpInside" id="Sxc-yl-hmE"/>
                                     <action selector="sendLetterAction:" destination="367-x3-nZh" eventType="touchUpInside" id="Ehk-7S-d4s"/>
                                 </connections>
                             </button>
@@ -1285,16 +1295,6 @@ to the next game with Marie !</string>
                         <rect key="frame" x="0.0" y="0.0" width="512" height="384"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qKN-ND-dan">
-                                <rect key="frame" x="854" y="28" width="30" height="30"/>
-                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="27"/>
-                                <state key="normal" title="X">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="backToCarousel:" destination="YNS-C4-FKH" eventType="touchUpInside" id="3Lr-B4-vc1"/>
-                                </connections>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tuasducourrier" translatesAutoresizingMaskIntoConstraints="NO" id="VMC-wL-Vxv">
                                 <rect key="frame" x="-9" y="0.0" width="521" height="395"/>
                             </imageView>
@@ -1307,8 +1307,6 @@ to the next game with Marie !</string>
                                 </state>
                                 <connections>
                                     <action selector="closeModal:" destination="YNS-C4-FKH" eventType="touchUpInside" id="hyM-J3-w1i"/>
-                                    <action selector="closeModal:" destination="1hk-x0-h2h" eventType="touchUpInside" id="w4x-pa-YhN"/>
-                                    <action selector="done:" destination="hbf-ii-vJe" eventType="touchUpInside" id="9Yb-Vf-qNn"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1335,16 +1333,6 @@ to the next game with Marie !</string>
                         <rect key="frame" x="0.0" y="0.0" width="512" height="384"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nkg-i8-m69">
-                                <rect key="frame" x="854" y="28" width="30" height="30"/>
-                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="27"/>
-                                <state key="normal" title="X">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="backToCarousel:" destination="shj-mI-2jQ" eventType="touchUpInside" id="NdU-cT-VBL"/>
-                                </connections>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Bienvenue_marie" translatesAutoresizingMaskIntoConstraints="NO" id="1CC-Xy-vEd">
                                 <rect key="frame" x="-9" y="0.0" width="521" height="395"/>
                             </imageView>
@@ -1373,6 +1361,61 @@ to the next game with Marie !</string>
             </objects>
             <point key="canvasLocation" x="-1382" y="-2735"/>
         </scene>
+        <!--Image Modal View Controller-->
+        <scene sceneID="DB3-jr-MhF">
+            <objects>
+                <viewController storyboardIdentifier="afterEmailSendModal" id="aZg-yg-IF5" customClass="ImageModalViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WIC-nF-OpO"/>
+                        <viewControllerLayoutGuide type="bottom" id="ely-4s-Rgo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Nwj-16-GVk">
+                        <rect key="frame" x="0.0" y="0.0" width="512" height="384"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zpo-Q7-juo">
+                                <rect key="frame" x="854" y="28" width="30" height="30"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="27"/>
+                                <state key="normal" title="X">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="backToCarousel:" destination="aZg-yg-IF5" eventType="touchUpInside" id="ceN-Dy-Rlj"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Bienvenue_marie" translatesAutoresizingMaskIntoConstraints="NO" id="AYv-Tj-C3U">
+                                <rect key="frame" x="-9" y="0.0" width="521" height="395"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aqL-hU-hOB">
+                                <rect key="frame" x="466" y="28" width="30" height="30"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="27"/>
+                                <state key="normal" title="X">
+                                    <color key="titleColor" red="0.68235294120000001" green="0.89019607840000003" blue="0.89411764709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="closeModal:" destination="aZg-yg-IF5" eventType="touchUpInside" id="vj0-8R-1yG"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your letter had been sent !" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X8y-7s-jtP">
+                                <rect key="frame" x="123" y="48" width="257" height="22"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="22"/>
+                                <color key="textColor" red="0.25882352939999997" green="0.27058823529999998" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.68235294120000001" green="0.89019607840000003" blue="0.89411764709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="512" height="384"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Shz-HV-xUh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-828" y="-2735"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Bienvenue_marie" width="1024" height="768"/>
@@ -1396,8 +1439,8 @@ to the next game with Marie !</string>
         <image name="vignette_rouge" width="132" height="124"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="UzV-aV-yBF"/>
-        <segue reference="iV5-yw-8IV"/>
-        <segue reference="cUl-kx-XZ3"/>
+        <segue reference="q2P-l7-Eyt"/>
+        <segue reference="Wnx-ii-KFf"/>
+        <segue reference="PBS-t6-3gc"/>
     </inferredMetricsTieBreakers>
 </document>
