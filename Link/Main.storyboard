@@ -76,6 +76,9 @@
             <string>Bosque-Regular</string>
             <string>Bosque-Regular</string>
             <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -1349,6 +1352,23 @@ to the next game with Marie !</string>
                                     <action selector="done:" destination="hbf-ii-vJe" eventType="touchUpInside" id="mF1-aT-Tg0"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="avatar_dave" translatesAutoresizingMaskIntoConstraints="NO" id="mhB-mi-2Tz">
+                                <rect key="frame" x="146" y="85" width="216" height="211"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="You'll soon have news from your pen pal." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="0zR-qM-hVa">
+                                <rect key="frame" x="151" y="308" width="200" height="107"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.71764705880000002" green="0.6705882353" blue="0.83137254900000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome Dave !" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z1C-7z-W4A">
+                                <rect key="frame" x="123" y="48" width="257" height="22"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="22"/>
+                                <color key="textColor" red="0.25882352939999997" green="0.27058823529999998" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="tintColor" red="0.68235294120000001" green="0.89019607840000003" blue="0.89411764709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1404,6 +1424,13 @@ to the next game with Marie !</string>
                                 <color key="textColor" red="0.25882352939999997" green="0.27058823529999998" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="You'll soon have news from your pen pal." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ilf-NE-G4V">
+                                <rect key="frame" x="151" y="306" width="200" height="107"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.71764705880000002" green="0.6705882353" blue="0.83137254900000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="tintColor" red="0.68235294120000001" green="0.89019607840000003" blue="0.89411764709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
