@@ -29,7 +29,7 @@ static NSString * const reuseIdentifier = @"Cell";
     // Do any additional setup after loading the view.
     
     //Todo change with json api pictures
-    _letterImages = [@[@[@"enveloppe_ferme.png", @"15 nov"],
+    _letterImages = [@[@[@"enveloppe_ferme.png", NSLocalizedString(@"15 nov", nil)],
                          @[@"enveloppe_ouverte.png", @"9 nov"],
                          @[@"enveloppe_ouverte.png", @"28 oct"],
                          @[@"enveloppe_ouverte.png", @"21 oct"],

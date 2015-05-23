@@ -1,0 +1,207 @@
+
+/* Class = "UITextView"; text = "You'll soon have news from your pen pal."; ObjectID = "0zR-qM-hVa"; */
+"0zR-qM-hVa.text" = "Tu vas bientôt recevoir des nouvelles de ton correspondant.";
+
+/* Class = "UIButton"; normalTitle = "Send my letter!"; ObjectID = "2kF-tK-MDM"; */
+"2kF-tK-MDM.normalTitle" = "Envoyé ma lettre!";
+
+/* Class = "UIButton"; normalTitle = "avoir"; ObjectID = "416-zZ-krB"; */
+"416-zZ-krB.normalTitle" = "avoir";
+
+/* Class = "UILabel"; text = "PICK YOUR TEACHER :"; ObjectID = "6WD-Rq-e4N"; */
+"6WD-Rq-e4N.text" = "CHOISIS TON PROFESSEUR :";
+
+/* Class = "UILabel"; text = "CONGRATULATION DAVE !"; ObjectID = "6uG-W5-mk6"; */
+"6uG-W5-mk6.text" = "BRAVO MARIE !";
+
+/* Class = "UIButton"; normalTitle = "White"; ObjectID = "8TY-C7-xXg"; */
+"8TY-C7-xXg.normalTitle" = "White";
+
+/* Class = "UILabel"; text = "WHAT'S YOUR FAVORITE COLOR ?"; ObjectID = "9hP-NI-tW9"; */
+"9hP-NI-tW9.text" = "QUELLE EST TA COULEUR FAVORITE ?";
+
+/* Class = "UIButton"; normalTitle = "X"; ObjectID = "9hY-yW-Gjf"; */
+"9hY-yW-Gjf.normalTitle" = "X";
+
+/* Class = "UIButton"; normalTitle = "NEXT"; ObjectID = "CWp-2f-z6f"; */
+"CWp-2f-z6f.normalTitle" = "SUIVANT";
+
+/* Class = "UIButton"; normalTitle = "CREATE MARIE'S GAME"; ObjectID = "D0z-Yd-FlX"; */
+"D0z-Yd-FlX.normalTitle" = "CREER LE JEU DE DAVE";
+
+/* Class = "UIButton"; normalTitle = "Words world"; ObjectID = "Dte-Zw-wN0"; */
+"Dte-Zw-wN0.normalTitle" = "Monde des mots";
+
+/* Class = "UIButton"; normalTitle = "a"; ObjectID = "GA0-51-3v4"; */
+"GA0-51-3v4.normalTitle" = "a";
+
+/* Class = "UITextView"; text = "Hello Marie,\n\nI’m Dave, from America."; ObjectID = "GbP-gm-DHK"; */
+"GbP-gm-DHK.text" = "Hello Marie,\n\nI’m Dave, from America.";
+
+/* Class = "UILabel"; text = "WHAT'S YOUR NAME ?"; ObjectID = "GkY-nl-gUY"; */
+"GkY-nl-gUY.text" = "QUEL EST TON PRENOM ?";
+
+/* Class = "UITextField"; placeholder = "..."; ObjectID = "H0r-n8-h9F"; */
+"H0r-n8-h9F.placeholder" = "...";
+
+/* Class = "UILabel"; text = "WRITE A LETTER TO MARIE !"; ObjectID = "HYk-yB-cTY"; */
+"HYk-yB-cTY.text" = "ECRIS UNE LETTRE A DAVE !";
+
+/* Class = "UITextField"; placeholder = "..."; ObjectID = "M73-35-hsb"; */
+"M73-35-hsb.placeholder" = "...";
+
+/* Class = "UILabel"; text = "READ LETTERS FROM MARIE !"; ObjectID = "PQH-zd-H7f"; */
+"PQH-zd-H7f.text" = "RELIS LES LETTRES DE DAVE !";
+
+/* Class = "UIButton"; normalTitle = "Black"; ObjectID = "Q3n-n9-EdL"; */
+"Q3n-n9-EdL.normalTitle" = "Black";
+
+/* Class = "UITextField"; placeholder = "Write your code"; ObjectID = "QU8-57-zWd"; */
+"QU8-57-zWd.placeholder" = "Ecris ton code";
+
+/* Class = "UILabel"; text = "Choose the right word !"; ObjectID = "QpI-fU-rO4"; */
+"QpI-fU-rO4.text" = "Choisis le bon mot !";
+
+/* Class = "UIButton"; normalTitle = "Enter"; ObjectID = "QqG-Yx-yum"; */
+"QqG-Yx-yum.normalTitle" = "Entrer";
+
+/* Class = "UIButton"; normalTitle = "Game world"; ObjectID = "Rqi-c4-Ets"; */
+"Rqi-c4-Ets.normalTitle" = "Monde des jeux";
+
+/* Class = "UIButton"; normalTitle = "Writing world"; ObjectID = "Sid-Ux-XKD"; */
+"Sid-Ux-XKD.normalTitle" = "Monde de l'écriture";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "WEV-B4-4k1"; */
+"WEV-B4-4k1.text" = "Label";
+
+/* Class = "UILabel"; text = "PLAY WITH MARIE TO ENHANCE YOUR LETTERS !"; ObjectID = "WNx-cw-k9j"; */
+"WNx-cw-k9j.text" = "JOUE AVEC DAVE POUR AMELIORER TA CORRESPONDANCE !";
+
+/* Class = "UITextView"; text = "You’ve completed game one.\nNext week you will have access\nto the next game with Marie !"; ObjectID = "Wma-yJ-wqL"; */
+"Wma-yJ-wqL.text" = "Bravo ! Tu as complété le jeu.\nLa semaine prochaine tu auras accès\nau jeu suivant !";
+
+/* Class = "UIButton"; normalTitle = "Writing world"; ObjectID = "X3X-SH-lhL"; */
+"X3X-SH-lhL.normalTitle" = "Monde de l'écriture";
+
+/* Class = "UILabel"; text = "Your letter had been sent !"; ObjectID = "X8y-7s-jtP"; */
+"X8y-7s-jtP.text" = "Ta lettre à été envoyée !";
+
+/* Class = "UILabel"; text = "TYPE YOUR SECRET PASSWORD :"; ObjectID = "Y1x-EF-Rrk"; */
+"Y1x-EF-Rrk.text" = "ECRIS TON MOT DE PASSE :";
+
+/* Class = "UIButton"; normalTitle = "Yellow"; ObjectID = "YMF-tm-OOx"; */
+"YMF-tm-OOx.normalTitle" = "Yellow";
+
+/* Class = "UILabel"; text = "Welcome Dave !"; ObjectID = "Z1C-7z-W4A"; */
+"Z1C-7z-W4A.text" = "Bienvenue Marie !";
+
+/* Class = "UIButton"; normalTitle = "X"; ObjectID = "Zpo-Q7-juo"; */
+"Zpo-Q7-juo.normalTitle" = "X";
+
+/* Class = "UIButton"; normalTitle = "X"; ObjectID = "aqL-hU-hOB"; */
+"aqL-hU-hOB.normalTitle" = "X";
+
+/* Class = "UIButton"; normalTitle = "Writing world"; ObjectID = "bRg-Ph-JKO"; */
+"bRg-Ph-JKO.normalTitle" = "Monde des mots";
+
+/* Class = "UIButton"; normalTitle = "Game world"; ObjectID = "bX1-bO-KnA"; */
+"bX1-bO-KnA.normalTitle" = "Monde des jeux";
+
+/* Class = "UIButton"; normalTitle = "est"; ObjectID = "bcq-rg-HBV"; */
+"bcq-rg-HBV.normalTitle" = "est";
+
+/* Class = "UIButton"; normalTitle = "Your world"; ObjectID = "cct-31-GMc"; */
+"cct-31-GMc.normalTitle" = "Ton univers";
+
+/* Class = "UILabel"; text = "Add to my letter :"; ObjectID = "eJq-qe-mDf"; */
+"eJq-qe-mDf.text" = "Ajouter à ma lettre :";
+
+/* Class = "UITextView"; text = "Write a letter to introduce yourself to your pen pal. Don't forget what you learn during class."; ObjectID = "ekO-5A-wdm"; */
+"ekO-5A-wdm.text" = "Ecris une lettre pour te présenter à ton correspondant. N'oublis pas ce que tu as appris en cours.";
+
+/* Class = "UITextView"; text = "Play with Marie\nas much as possible to unlock levels\nand bonus to your letters."; ObjectID = "eob-L7-fiV"; */
+"eob-L7-fiV.text" = "Joue avec Dave\nautant que possible pour débloquer des jeux\net bonus pour vos lettres.";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "fqC-i4-GfC"; */
+"fqC-i4-GfC.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Words world"; ObjectID = "gBn-Ii-KyU"; */
+"gBn-Ii-KyU.normalTitle" = "Monde des mots";
+
+/* Class = "UITextField"; placeholder = "Write your name"; ObjectID = "gY5-kz-Vlg"; */
+"gY5-kz-Vlg.placeholder" = "Ecris ton prénom";
+
+/* Class = "UITextView"; text = "Tap to write your letter"; ObjectID = "hQa-3q-rcS"; */
+"hQa-3q-rcS.text" = "Tape ici pour écrire ta lettre";
+
+/* Class = "UILabel"; text = "GAP-FILL TEXTS"; ObjectID = "iDF-JS-FkD"; */
+"iDF-JS-FkD.text" = "TEXTES A TROUS";
+
+/* Class = "UITextView"; text = "You'll soon have news from your pen pal."; ObjectID = "ilf-NE-G4V"; */
+"ilf-NE-G4V.text" = "Tu vas bientôt avoir des nouvelles de Dave.";
+
+/* Class = "UILabel"; text = "C'est l'été, il y _ du soleil."; ObjectID = "izJ-uS-KeE"; */
+"izJ-uS-KeE.text" = "C'est l'été, il y _ du soleil.";
+
+/* Class = "UIButton"; normalTitle = "NEXT"; ObjectID = "jhb-Mv-fXJ"; */
+"jhb-Mv-fXJ.normalTitle" = "SUIVANT";
+
+/* Class = "UIButton"; normalTitle = "X"; ObjectID = "krT-kr-P9A"; */
+"krT-kr-P9A.normalTitle" = "X";
+
+/* Class = "UIButton"; normalTitle = "Red"; ObjectID = "ktW-a7-sFu"; */
+"ktW-a7-sFu.normalTitle" = "Rouge";
+
+/* Class = "UIButton"; normalTitle = "X"; ObjectID = "nKQ-5B-ZEn"; */
+"nKQ-5B-ZEn.normalTitle" = "X";
+
+/* Class = "UIButton"; normalTitle = "- Create your world -"; ObjectID = "oPN-Y2-lyg"; */
+"oPN-Y2-lyg.normalTitle" = "- Créer ton univers -";
+
+/* Class = "UIButton"; normalTitle = "Words world"; ObjectID = "ofC-Cz-J7V"; */
+"ofC-Cz-J7V.normalTitle" = "Monde des mots";
+
+/* Class = "UIButton"; normalTitle = "Game world"; ObjectID = "otA-V6-SsK"; */
+"otA-V6-SsK.normalTitle" = "Monde des jeux";
+
+/* Class = "UIButton"; normalTitle = "NEXT"; ObjectID = "psz-ju-ZPW"; */
+"psz-ju-ZPW.normalTitle" = "SUIVANT";
+
+/* Class = "UIButton"; normalTitle = "X"; ObjectID = "qUP-Vn-o2E"; */
+"qUP-Vn-o2E.normalTitle" = "X";
+
+/* Class = "UIButton"; normalTitle = "NEXT"; ObjectID = "qVB-p1-JxN"; */
+"qVB-p1-JxN.normalTitle" = "SUIVANT";
+
+/* Class = "UITextView"; text = "Tap and start writing to Marie"; ObjectID = "rmB-Ki-WMW"; */
+"rmB-Ki-WMW.text" = "Tape ici pour écrire à Dave";
+
+/* Class = "UIButton"; normalTitle = "X"; ObjectID = "sWe-9N-0MH"; */
+"sWe-9N-0MH.normalTitle" = "X";
+
+/* Class = "UIButton"; normalTitle = "NEXT"; ObjectID = "tqF-HW-tkY"; */
+"tqF-HW-tkY.normalTitle" = "SUIVANT";
+
+/* Class = "UIButton"; normalTitle = "être"; ObjectID = "tsG-vI-oWs"; */
+"tsG-vI-oWs.normalTitle" = "être";
+
+/* Class = "UILabel"; text = "Fill the gap in the sentences with the right words."; ObjectID = "u1x-Nt-Lq6"; */
+"u1x-Nt-Lq6.text" = "REMPLIS LES TROUS AVEC LES BONS MOTS.";
+
+/* Class = "UIButton"; normalTitle = "Save as draft"; ObjectID = "uYk-KY-dBC"; */
+"uYk-KY-dBC.normalTitle" = "SAUVEGARDER EN BROUILLON";
+
+/* Class = "UIButton"; normalTitle = "Blue"; ObjectID = "wHo-fr-Z1G"; */
+"wHo-fr-Z1G.normalTitle" = "BLEU";
+
+/* Class = "UIButton"; normalTitle = "NOW IT'S YOUR TURN TO PLAY !"; ObjectID = "wNC-eQ-bi2"; */
+"wNC-eQ-bi2.normalTitle" = "MAINTENANT C'EST A TOI DE JOUER";
+
+/* Class = "UIButton"; normalTitle = "Fix spelling"; ObjectID = "ww6-LP-zr6"; */
+"ww6-LP-zr6.normalTitle" = "Corriger mes fautes";
+
+/* Class = "UIButton"; normalTitle = "Je répond à Dave !"; ObjectID = "yNv-Lh-ARA"; */
+"yNv-Lh-ARA.normalTitle" = "I answer to Marie !";
+
+/* Class = "UIButton"; normalTitle = "X"; ObjectID = "zWT-PH-U9H"; */
+"zWT-PH-U9H.normalTitle" = "X";
