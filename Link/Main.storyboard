@@ -1012,7 +1012,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="545" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="avatar_marie" translatesAutoresizingMaskIntoConstraints="NO" id="9Hb-9p-Mhs">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="avatar_dave" translatesAutoresizingMaskIntoConstraints="NO" id="9Hb-9p-Mhs">
                                 <rect key="frame" x="221" y="64" width="99" height="99"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GbP-gm-DHK">
@@ -1020,12 +1020,7 @@
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <string key="text">Hello Marie,
 
-I’m Dave, from America. I have 10 years old and live in Utah. I’m so happy to meet you.
-
-How old are you? Where do you live in France?
-Do you want to play? Joey, my teacher told me that if we play games together we’ll meet each other. My classmates are all very glad to write on tablet.
-
-See you soon !</string>
+I’m Dave, from America.</string>
                                 <color key="textColor" red="0.25882352941176473" green="0.27058823529411763" blue="0.48627450980392156" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1447,7 +1442,6 @@ to the next game with Marie !</string>
     <resources>
         <image name="Bienvenue_marie" width="1024" height="768"/>
         <image name="avatar_dave" width="394" height="398"/>
-        <image name="avatar_marie" width="394" height="398"/>
         <image name="bg_nuages" width="1024" height="768"/>
         <image name="bg_star" width="1024" height="768"/>
         <image name="bouton_parme" width="787" height="175"/>
@@ -1466,8 +1460,8 @@ to the next game with Marie !</string>
         <image name="vignette_rouge" width="132" height="124"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="cUl-kx-XZ3"/>
         <segue reference="iV5-yw-8IV"/>
-        <segue reference="UzV-aV-yBF"/>
+        <segue reference="cUl-kx-XZ3"/>
+        <segue reference="q2P-l7-Eyt"/>
     </inferredMetricsTieBreakers>
 </document>
