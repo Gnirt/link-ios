@@ -15,6 +15,38 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "9"
             endingLineNumber = "9">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[LetterCollectionViewController letterImages]"
+                  moduleName = "Link"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gnirt/dev/gobelins/link/Link/Link/LetterCollectionViewController.h"
+                  timestampString = "454073754.5734"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[LetterCollectionViewController setLetterImages:]"
+                  moduleName = "Link"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gnirt/dev/gobelins/link/Link/Link/LetterCollectionViewController.h"
+                  timestampString = "454073754.573635"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -1,0 +1,1467 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="19K-T2-1b4">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Bosque-Regular.otf">
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+            <string>Bosque-Regular</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg_nuages" translatesAutoresizingMaskIntoConstraints="NO" id="0dK-5S-GGd">
+                                <rect key="frame" x="-6" y="64" width="1072" height="738"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oPN-Y2-lyg">
+                                <rect key="frame" x="333" y="477" width="380" height="45"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="35"/>
+                                <state key="normal" title="- Create your world -">
+                                    <color key="titleColor" red="0.80392156859999997" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="fiO-f0-AIc" kind="show" id="MIA-4s-grB"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="4wq-Ha-pnh">
+                                <rect key="frame" x="410" y="174" width="240" height="128"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cct-31-GMc">
+                                <rect key="frame" x="363" y="359" width="335" height="77"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="35"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="10"/>
+                                <state key="normal" title="Your world" backgroundImage="bouton_violet">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="GIW-ik-zYb" kind="show" id="vre-xV-iUy"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="LMV-Dn-w2B"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-707" y="921"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="JpM-xj-0Xg">
+            <objects>
+                <viewController id="GIW-ik-zYb" customClass="LoginViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hSQ-WX-XZI"/>
+                        <viewControllerLayoutGuide type="bottom" id="I52-0w-3Zq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4ue-HJ-LQq">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg_nuages" translatesAutoresizingMaskIntoConstraints="NO" id="a1I-Sk-wim">
+                                <rect key="frame" x="-6" y="64" width="1072" height="738"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Write your code" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QU8-57-zWd">
+                                <rect key="frame" x="350" y="408" width="324" height="30"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="14"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="go" secureTextEntry="YES"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Write your name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gY5-kz-Vlg">
+                                <rect key="frame" x="350" y="344" width="324" height="30"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="RWS-W7-jXW">
+                                <rect key="frame" x="392" y="174" width="240" height="128"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QqG-Yx-yum">
+                                <rect key="frame" x="322" y="484" width="380" height="47"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="35"/>
+                                <state key="normal" title="Enter">
+                                    <color key="titleColor" red="0.80392156859999997" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="login:" destination="GIW-ik-zYb" eventType="touchUpInside" id="bur-Gk-oSQ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="rX8-8v-YdB"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="emailInput" destination="gY5-kz-Vlg" id="2Fc-Ll-m4o"/>
+                        <outlet property="passwordInput" destination="QU8-57-zWd" id="zce-LU-VmH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9eg-ED-XSA" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="445" y="921"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="8US-tk-bWG">
+            <objects>
+                <navigationController id="19K-T2-1b4" sceneMemberID="viewController">
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="W1x-Rc-1ws">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="CTa-2C-hhF"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WoI-Jt-GNP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1894" y="921"/>
+        </scene>
+        <!--Page View Controller-->
+        <scene sceneID="dxr-oA-lMD">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="fiO-f0-AIc" customClass="PageViewController" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iVl-O2-BZr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1982" y="1839"/>
+        </scene>
+        <!--Picker View Controller-->
+        <scene sceneID="3NF-37-Zdh">
+            <objects>
+                <viewController storyboardIdentifier="page2" id="Zw8-Pl-g2Y" customClass="PickerViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TXL-i0-wgh"/>
+                        <viewControllerLayoutGuide type="bottom" id="bxa-YO-wge"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LHV-ao-nmg">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg_star" translatesAutoresizingMaskIntoConstraints="NO" id="6GF-42-a37">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PICK YOUR TEACHER :" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6WD-Rq-e4N" customClass="CustomLabelWithDifferentColor">
+                                <rect key="frame" x="268" y="228" width="488" height="90"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="33"/>
+                                <color key="textColor" red="0.71764705880000002" green="0.6705882353" blue="0.83137254900000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="LXp-Ca-jL5">
+                                <rect key="frame" x="392" y="73" width="240" height="128"/>
+                            </imageView>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iKs-Yi-eSN">
+                                <rect key="frame" x="0.0" y="309" width="1024" height="162"/>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="psz-ju-ZPW">
+                                <rect key="frame" x="322" y="481" width="380" height="47"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="35"/>
+                                <state key="normal" title="NEXT">
+                                    <color key="titleColor" red="0.80392156859999997" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="login:" destination="GIW-ik-zYb" eventType="touchUpInside" id="1W5-yj-dKo"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.76947456599999997" green="1" blue="0.52192765470000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="question" destination="6WD-Rq-e4N" id="hdk-YO-X8Q"/>
+                        <outlet property="teachersPicker" destination="iKs-Yi-eSN" id="zAC-od-gnu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Ye-Lh-fWY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="297" y="1839"/>
+        </scene>
+        <!--Quizz Question View Controller-->
+        <scene sceneID="pgj-P3-akh">
+            <objects>
+                <viewController storyboardIdentifier="page3" id="cZH-mt-t9D" customClass="QuizzQuestionViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="b38-Ho-2tR"/>
+                        <viewControllerLayoutGuide type="bottom" id="zRC-qD-OtB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Nh6-kq-aS0">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg_star" translatesAutoresizingMaskIntoConstraints="NO" id="WfC-pu-bIi">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CWp-2f-z6f">
+                                <rect key="frame" x="322" y="481" width="380" height="47"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="35"/>
+                                <state key="normal" title="NEXT">
+                                    <color key="titleColor" red="0.80392156859999997" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="login:" destination="GIW-ik-zYb" eventType="touchUpInside" id="9xA-x0-CaY"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="ZPD-an-we6">
+                                <rect key="frame" x="392" y="73" width="240" height="128"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="..." textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="M73-35-hsb">
+                                <rect key="frame" x="350" y="369" width="324" height="30"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="14"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="next" secureTextEntry="YES"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TYPE YOUR SECRET PASSWORD :" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y1x-EF-Rrk" customClass="CustomLabelWithDifferentColor">
+                                <rect key="frame" x="268" y="228" width="488" height="90"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="33"/>
+                                <color key="textColor" red="0.71764705880000002" green="0.6705882353" blue="0.83137254900000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.52881962059999998" green="0.81150448320000002" blue="0.98346668479999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="questionLabel" destination="Y1x-EF-Rrk" id="rY9-pm-c9x"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="daV-bo-ylP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1371" y="1839"/>
+        </scene>
+        <!--Quizz Thumbnail View Controller-->
+        <scene sceneID="KZm-6q-z9W">
+            <objects>
+                <viewController storyboardIdentifier="page4" id="N6F-Nm-OnO" customClass="QuizzThumbnailViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jLA-9y-92e"/>
+                        <viewControllerLayoutGuide type="bottom" id="9xc-G4-PZy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6E4-aI-78A">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg_star" translatesAutoresizingMaskIntoConstraints="NO" id="MH8-qm-p7u">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qVB-p1-JxN">
+                                <rect key="frame" x="322" y="600" width="380" height="47"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="35"/>
+                                <state key="normal" title="NEXT">
+                                    <color key="titleColor" red="0.80392156859999997" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goToCarousel:" destination="N6F-Nm-OnO" eventType="touchUpInside" id="qpG-hJ-tGB"/>
+                                    <action selector="login:" destination="GIW-ik-zYb" eventType="touchUpInside" id="l2N-7D-SOU"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="GSw-xJ-yRv">
+                                <rect key="frame" x="392" y="73" width="240" height="128"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WHAT'S YOUR FAVORITE COLOR ?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9hP-NI-tW9" customClass="CustomLabelWithDifferentColor">
+                                <rect key="frame" x="268" y="228" width="488" height="90"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="33"/>
+                                <color key="textColor" red="0.71764705880000002" green="0.6705882353" blue="0.83137254900000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wHo-fr-Z1G">
+                                <rect key="frame" x="98" y="353" width="135" height="180"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="22"/>
+                                <inset key="titleEdgeInsets" minX="-137" minY="150" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Blue" image="vignette_cyan">
+                                    <color key="titleColor" red="0.40784313729999999" green="0.34901960780000002" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="vignette_cyan_clic"/>
+                                <connections>
+                                    <action selector="changeButtonState:" destination="N6F-Nm-OnO" eventType="touchUpInside" id="C5e-Hy-r1v"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ktW-a7-sFu">
+                                <rect key="frame" x="272" y="353" width="135" height="180"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="22"/>
+                                <inset key="titleEdgeInsets" minX="-137" minY="150" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Red" image="vignette_rouge">
+                                    <color key="titleColor" red="0.40784313729999999" green="0.34901960780000002" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="changeButtonState:" destination="N6F-Nm-OnO" eventType="touchUpInside" id="RoG-lk-xCr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YMF-tm-OOx">
+                                <rect key="frame" x="449" y="353" width="135" height="180"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="22"/>
+                                <inset key="titleEdgeInsets" minX="-137" minY="150" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Yellow" image="vignette_jaune">
+                                    <color key="titleColor" red="0.40784313729999999" green="0.34901960780000002" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="changeButtonState:" destination="N6F-Nm-OnO" eventType="touchUpInside" id="ksh-XH-x2J"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8TY-C7-xXg">
+                                <rect key="frame" x="625" y="353" width="135" height="180"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="22"/>
+                                <inset key="titleEdgeInsets" minX="-137" minY="150" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="White" image="vignette_blanc">
+                                    <color key="titleColor" red="0.40784313729999999" green="0.34901960780000002" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="changeButtonState:" destination="N6F-Nm-OnO" eventType="touchUpInside" id="WKA-Tz-UNS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q3n-n9-EdL">
+                                <rect key="frame" x="791" y="353" width="135" height="180"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="22"/>
+                                <inset key="titleEdgeInsets" minX="-137" minY="150" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Black" image="vignette_noir">
+                                    <color key="titleColor" red="0.40784313729999999" green="0.34901960780000002" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="changeButtonState:" destination="N6F-Nm-OnO" eventType="touchUpInside" id="yJO-4C-ziS"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97423803809999998" green="0.48904597760000001" blue="0.92941683529999997" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="answer1" destination="wHo-fr-Z1G" id="u2q-xZ-69a"/>
+                        <outlet property="answer2" destination="ktW-a7-sFu" id="Zgn-oV-Ujb"/>
+                        <outlet property="answer3" destination="YMF-tm-OOx" id="2iu-95-Z4Y"/>
+                        <outlet property="answer4" destination="8TY-C7-xXg" id="SbX-8f-eqO"/>
+                        <outlet property="answer5" destination="Q3n-n9-EdL" id="fN5-ae-Xox"/>
+                        <outlet property="questionLabel" destination="9hP-NI-tW9" id="yVQ-gM-Nq0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BZT-xG-U8h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2452" y="1839"/>
+        </scene>
+        <!--Quizz Question View Controller-->
+        <scene sceneID="8Ug-yE-SZo">
+            <objects>
+                <viewController storyboardIdentifier="page1" id="uBJ-Lp-FTU" customClass="QuizzQuestionViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fFH-dm-cbY"/>
+                        <viewControllerLayoutGuide type="bottom" id="ejO-hX-5NU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="90M-lk-PTX">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg_star" translatesAutoresizingMaskIntoConstraints="NO" id="TS3-FZ-KZf">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="keF-OW-nhy">
+                                <rect key="frame" x="392" y="73" width="240" height="128"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WHAT'S YOUR NAME ?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GkY-nl-gUY" customClass="CustomLabelWithDifferentColor">
+                                <rect key="frame" x="268" y="228" width="488" height="90"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="33"/>
+                                <color key="textColor" red="0.71764705882352942" green="0.6705882352941176" blue="0.83137254901960789" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="..." textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="H0r-n8-h9F">
+                                <rect key="frame" x="350" y="356" width="324" height="30"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="14"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tqF-HW-tkY">
+                                <rect key="frame" x="322" y="481" width="380" height="47"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="35"/>
+                                <state key="normal" title="NEXT">
+                                    <color key="titleColor" red="0.80392156862745101" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="login:" destination="GIW-ik-zYb" eventType="touchUpInside" id="pLJ-uR-ody"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="questionLabel" destination="GkY-nl-gUY" id="4yd-x0-efH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F4F-zA-9Dh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-785" y="1839"/>
+        </scene>
+        <!--Gap Fill View Controller-->
+        <scene sceneID="0vs-Yx-aGu">
+            <objects>
+                <viewController storyboardIdentifier="fill_gap_page01" id="cFK-b7-yJy" customClass="GapFillViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UAh-bq-716"/>
+                        <viewControllerLayoutGuide type="bottom" id="bmp-HI-TDj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ten-5S-JrS">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg_star" translatesAutoresizingMaskIntoConstraints="NO" id="BKQ-Lt-ijE">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="yeL-c5-c9F">
+                                <rect key="frame" x="392" y="73" width="240" height="128"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Choose the right word !" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QpI-fU-rO4">
+                                <rect key="frame" x="268" y="228" width="488" height="90"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="33"/>
+                                <color key="textColor" red="0.80392156859999997" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="C'est l'été, il y _ du soleil." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="izJ-uS-KeE">
+                                <rect key="frame" x="0.0" y="343" width="1024" height="81"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="35"/>
+                                <color key="textColor" red="0.71764705880000002" green="0.6705882353" blue="0.83137254900000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tsG-vI-oWs" customClass="FillGapAnswerButton">
+                                <rect key="frame" x="0.0" y="455" width="256" height="57"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="42"/>
+                                <state key="normal" title="être">
+                                    <color key="titleColor" red="0.38039215686274508" green="0.37254901960784315" blue="0.6705882352941176" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="answerTap:" destination="cFK-b7-yJy" eventType="touchUpInside" id="blc-dU-mDQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GA0-51-3v4" customClass="FillGapAnswerButton">
+                                <rect key="frame" x="264" y="455" width="256" height="57"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="42"/>
+                                <state key="normal" title="a">
+                                    <color key="titleColor" red="0.38431372549999998" green="0.36470588240000001" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="answerTap:" destination="cFK-b7-yJy" eventType="touchUpInside" id="FyF-Ge-Hdd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="416-zZ-krB" customClass="FillGapAnswerButton">
+                                <rect key="frame" x="768" y="455" width="256" height="57"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="42"/>
+                                <state key="normal" title="avoir">
+                                    <color key="titleColor" red="0.38431372549999998" green="0.36470588240000001" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="answerTap:" destination="cFK-b7-yJy" eventType="touchUpInside" id="Q6G-tw-uJK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bcq-rg-HBV" customClass="FillGapAnswerButton">
+                                <rect key="frame" x="525" y="455" width="256" height="57"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="42"/>
+                                <state key="normal" title="est">
+                                    <color key="titleColor" red="0.38431372549999998" green="0.36470588240000001" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="answerTap:" destination="cFK-b7-yJy" eventType="touchUpInside" id="b1I-eM-TOH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jhb-Mv-fXJ">
+                                <rect key="frame" x="434" y="638" width="182" height="57"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="42"/>
+                                <state key="normal" title="NEXT">
+                                    <color key="titleColor" red="0.80392156859999997" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="GapFillEnd:" destination="cFK-b7-yJy" eventType="touchUpInside" id="KuP-MM-kaU"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ioz-GU-zCG">
+                                <rect key="frame" x="13" y="550" width="1024" height="81"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="23"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="answerButton1" destination="tsG-vI-oWs" id="SAg-IO-Y8e"/>
+                        <outlet property="answerButton2" destination="GA0-51-3v4" id="uDd-xG-8Ed"/>
+                        <outlet property="answerButton3" destination="bcq-rg-HBV" id="Bdx-WD-6pc"/>
+                        <outlet property="answerButton4" destination="416-zZ-krB" id="hbp-cM-dND"/>
+                        <outlet property="nextButton" destination="jhb-Mv-fXJ" id="f35-Dm-CcJ"/>
+                        <outlet property="resultLabel" destination="Ioz-GU-zCG" id="tJb-z0-6z5"/>
+                        <outlet property="sentenceLabel" destination="izJ-uS-KeE" id="7hQ-a4-RSw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jrg-1D-ipC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="327" y="2751"/>
+        </scene>
+        <!--Carousel View Controller-->
+        <scene sceneID="zV2-2u-Tss">
+            <objects>
+                <viewController storyboardIdentifier="home" id="7rj-Ts-vzT" customClass="CarouselViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Njy-pJ-7DT"/>
+                        <viewControllerLayoutGuide type="bottom" id="H3H-MJ-wFT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1Sj-m5-ebJ">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg_star" translatesAutoresizingMaskIntoConstraints="NO" id="zcK-5U-Yze">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BmO-Tp-wRq" userLabel="iCarousel" customClass="iCarousel">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EZx-sS-9DS" userLabel="Logo">
+                                        <rect key="frame" x="391" y="72" width="242" height="92"/>
+                                        <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="35"/>
+                                        <inset key="contentEdgeInsets" minX="0.0" minY="-10" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" backgroundImage="logo">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="goToWorld:" destination="7rj-Ts-vzT" eventType="touchUpInside" id="TyH-lQ-sRG"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="7rj-Ts-vzT" id="RNw-s1-Zqy"/>
+                                    <outlet property="delegate" destination="7rj-Ts-vzT" id="tSM-bC-cYF"/>
+                                </connections>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gBn-Ii-KyU">
+                                <rect key="frame" x="344" y="623" width="335" height="77"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="35"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="-10" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Words world" backgroundImage="bouton_rose">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goToWorld:" destination="7rj-Ts-vzT" eventType="touchUpInside" id="u4v-Km-Ngt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="otA-V6-SsK">
+                                <rect key="frame" x="54" y="623" width="223" height="51"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="20"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="-10" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Game world" backgroundImage="bouton_violet">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X3X-SH-lhL">
+                                <rect key="frame" x="746" y="623" width="223" height="51"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="20"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="-10" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Writing world" backgroundImage="bouton_parme">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="BmO-Tp-wRq" firstAttribute="leading" secondItem="1Sj-m5-ebJ" secondAttribute="leading" id="5SH-Z7-qeR"/>
+                            <constraint firstItem="BmO-Tp-wRq" firstAttribute="top" secondItem="1Sj-m5-ebJ" secondAttribute="top" id="9YR-kM-Sea"/>
+                            <constraint firstItem="BmO-Tp-wRq" firstAttribute="trailing" secondItem="1Sj-m5-ebJ" secondAttribute="trailing" id="FTw-68-C7h"/>
+                            <constraint firstItem="BmO-Tp-wRq" firstAttribute="bottom" secondItem="1Sj-m5-ebJ" secondAttribute="bottom" id="coI-v5-Nm6"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="carousel" destination="BmO-Tp-wRq" id="OLf-BO-Vxv"/>
+                        <outlet property="currentWorldButton" destination="gBn-Ii-KyU" id="zgt-DC-vex"/>
+                        <outlet property="nextWorldButton" destination="X3X-SH-lhL" id="oBk-bZ-ZVa"/>
+                        <outlet property="previousWorldButton" destination="otA-V6-SsK" id="vq9-bx-wf7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i0r-8y-jJ7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="466" y="20"/>
+        </scene>
+        <!--Writing World View Controller-->
+        <scene sceneID="PMV-aZ-ASF">
+            <objects>
+                <viewController storyboardIdentifier="writeLetter" id="m15-fn-BWY" customClass="WritingWorldViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZwJ-sf-kDM"/>
+                        <viewControllerLayoutGuide type="bottom" id="AkL-Ex-KqI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Fri-da-BBm">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg_star" translatesAutoresizingMaskIntoConstraints="NO" id="M2t-Ls-49H">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rqi-c4-Ets">
+                                <rect key="frame" x="55" y="142" width="174" height="40"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="20"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="5"/>
+                                <state key="normal" title="Game world" backgroundImage="bouton_parme">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="E1h-EI-BMd" kind="show" id="PBS-t6-3gc"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WRITE A LETTER TO MARIE !" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HYk-yB-cTY" customClass="CustomLabelWithDifferentColor">
+                                <rect key="frame" x="10" y="217" width="1008" height="45"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="29"/>
+                                <color key="textColor" red="0.73725490199999999" green="0.65098039220000004" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Write a letter to introduce yourself to your pen pal. Don't forget what you learn during class." translatesAutoresizingMaskIntoConstraints="NO" id="ekO-5A-wdm" userLabel="Post it">
+                                <rect key="frame" x="248" y="270" width="252" height="205"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Add to my letter :" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eJq-qe-mDf" customClass="CustomLabelWithDifferentColor">
+                                <rect key="frame" x="-130" y="492" width="1008" height="45"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="23"/>
+                                <color key="textColor" red="0.73725490199999999" green="0.65098039220000004" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="mini_bouton_img" translatesAutoresizingMaskIntoConstraints="NO" id="4CN-SR-hBV">
+                                <rect key="frame" x="279" y="545" width="50" height="50"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="mini_bouton_son" translatesAutoresizingMaskIntoConstraints="NO" id="VsE-dC-3ae">
+                                <rect key="frame" x="421" y="545" width="50" height="50"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="mini_bouton_video" translatesAutoresizingMaskIntoConstraints="NO" id="jgY-CW-UDx">
+                                <rect key="frame" x="349" y="545" width="50" height="50"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Tap to write your letter" translatesAutoresizingMaskIntoConstraints="NO" id="hQa-3q-rcS" userLabel="Letter">
+                                <rect key="frame" x="529" y="270" width="333" height="453"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K9m-F3-qQh">
+                                <rect key="frame" x="390" y="90" width="242" height="92"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="35"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="-10" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" backgroundImage="logo">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="backToCarousel:" destination="m15-fn-BWY" eventType="touchUpInside" id="xKz-S9-n9S"/>
+                                    <action selector="goToWorld:" destination="7rj-Ts-vzT" eventType="touchUpInside" id="WPX-8N-gu3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ofC-Cz-J7V">
+                                <rect key="frame" x="55" y="90" width="174" height="40"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="20"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="5"/>
+                                <state key="normal" title="Words world" backgroundImage="bouton_rose">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="9Rw-bO-BVa" kind="show" id="Wnx-ii-KFf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="PostItTextView" destination="ekO-5A-wdm" id="NR2-P0-aAC"/>
+                        <outlet property="letterTextView" destination="hQa-3q-rcS" id="vwI-1D-SOp"/>
+                        <outlet property="optionLabel" destination="eJq-qe-mDf" id="Gq8-JM-rd9"/>
+                        <outlet property="postItTextView" destination="ekO-5A-wdm" id="Ioj-6o-uYP"/>
+                        <outlet property="titleLabel" destination="HYk-yB-cTY" id="10j-T0-RnI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ycG-lQ-zqH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="480" y="-1201"/>
+        </scene>
+        <!--Activity Collection View Controller-->
+        <scene sceneID="cKR-ei-FsN">
+            <objects>
+                <collectionViewController storyboardIdentifier="activity" id="E1h-EI-BMd" customClass="ActivityCollectionViewController" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="ebJ-hl-ETR">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="eue-6F-s1S">
+                            <size key="itemSize" width="193" height="202"/>
+                            <size key="headerReferenceSize" width="50" height="260"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="100" minY="0.0" maxX="100" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <imageView key="backgroundView" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_star" id="Mf9-6f-Awj">
+                            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ActivityCell" id="6Rw-Q5-PAj" customClass="ActivityCollectionViewCell">
+                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="193" height="202"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fqC-i4-GfC">
+                                            <rect key="frame" x="0.0" y="173" width="192" height="21"/>
+                                            <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="18"/>
+                                            <color key="textColor" red="0.38823529411764707" green="0.3411764705882353" blue="0.5725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rh8-iF-PEJ">
+                                            <rect key="frame" x="28" y="46" width="137" height="110"/>
+                                        </imageView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <connections>
+                                    <outlet property="imageView" destination="Rh8-iF-PEJ" id="QaR-zb-b9B"/>
+                                    <outlet property="label" destination="fqC-i4-GfC" id="eRt-2y-obX"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="header" id="0ET-A8-ji0" customClass="HeaderCollectionReusableView">
+                            <rect key="frame" x="0.0" y="0.0" width="1024" height="260"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bRg-Ph-JKO">
+                                    <rect key="frame" x="40" y="142" width="174" height="40"/>
+                                    <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="20"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="5"/>
+                                    <state key="normal" title="Writing world" backgroundImage="bouton_violet">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <segue destination="m15-fn-BWY" kind="show" id="9CC-Ga-Bg2"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PLAY WITH MARIE TO ENHANCE YOUR LETTERS !" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WNx-cw-k9j" customClass="CustomLabelWithDifferentColor">
+                                    <rect key="frame" x="8" y="215" width="1008" height="45"/>
+                                    <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="29"/>
+                                    <color key="textColor" red="0.73725490199999999" green="0.65098039220000004" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c4X-To-4JV" userLabel="Logo">
+                                    <rect key="frame" x="390" y="90" width="242" height="92"/>
+                                    <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="35"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="-10" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" backgroundImage="logo">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="backToCarousel:" destination="E1h-EI-BMd" eventType="touchUpInside" id="mzU-k6-ms3"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dte-Zw-wN0">
+                                    <rect key="frame" x="40" y="90" width="174" height="40"/>
+                                    <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="20"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="5"/>
+                                    <state key="normal" title="Words world" backgroundImage="bouton_rose">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <segue destination="9Rw-bO-BVa" kind="show" id="iV5-yw-8IV"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <connections>
+                                <outlet property="titleLabel" destination="WNx-cw-k9j" id="TrM-rv-lRF"/>
+                            </connections>
+                        </collectionReusableView>
+                        <connections>
+                            <outlet property="dataSource" destination="E1h-EI-BMd" id="VDj-Fr-6Ak"/>
+                            <outlet property="delegate" destination="E1h-EI-BMd" id="NmP-93-Y1U"/>
+                        </connections>
+                    </collectionView>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CdN-O7-hgr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1633" y="-2161"/>
+        </scene>
+        <!--Letter Collection View Controller-->
+        <scene sceneID="riR-2B-v9w">
+            <objects>
+                <collectionViewController storyboardIdentifier="mailbox" id="9Rw-bO-BVa" customClass="LetterCollectionViewController" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="bxh-nd-ixH">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="baq-87-2w9">
+                            <size key="itemSize" width="193" height="254"/>
+                            <size key="headerReferenceSize" width="50" height="260"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="100" minY="0.0" maxX="100" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <imageView key="backgroundView" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_star" id="ZO2-2o-6WM">
+                            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="LetterCell" id="Bi6-r4-N6U" userLabel="LetterCell" customClass="LetterCollectionViewCell">
+                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="193" height="254"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wil-T3-ZLS">
+                                            <rect key="frame" x="13" y="48" width="167" height="142"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WEV-B4-4k1">
+                                            <rect key="frame" x="62" y="210" width="69" height="21"/>
+                                            <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="19"/>
+                                            <color key="textColor" red="0.23529411764705882" green="0.23137254901960785" blue="0.45882352941176469" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <connections>
+                                    <outlet property="dateLabel" destination="WEV-B4-4k1" id="Ih9-xe-p3b"/>
+                                    <outlet property="imageView" destination="Wil-T3-ZLS" id="b71-fA-Geu"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="header" id="iLI-nW-nTE" customClass="HeaderCollectionReusableView">
+                            <rect key="frame" x="0.0" y="0.0" width="1024" height="260"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sid-Ux-XKD">
+                                    <rect key="frame" x="40" y="142" width="174" height="40"/>
+                                    <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="20"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="5"/>
+                                    <state key="normal" title="Writing world" backgroundImage="bouton_violet">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <segue destination="m15-fn-BWY" kind="show" id="UzV-aV-yBF"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="READ LETTERS FROM MARIE !" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PQH-zd-H7f" customClass="CustomLabelWithDifferentColor">
+                                    <rect key="frame" x="8" y="215" width="1008" height="45"/>
+                                    <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="29"/>
+                                    <color key="textColor" red="0.73725490199999999" green="0.65098039220000004" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jfa-05-Kru" userLabel="Logo">
+                                    <rect key="frame" x="390" y="90" width="242" height="92"/>
+                                    <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="35"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="-10" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" backgroundImage="logo">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="backToCarousel:" destination="9Rw-bO-BVa" eventType="touchUpInside" id="sAR-7m-Tvj"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bX1-bO-KnA">
+                                    <rect key="frame" x="40" y="90" width="174" height="40"/>
+                                    <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="20"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="5"/>
+                                    <state key="normal" title="Game world" backgroundImage="bouton_parme">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <segue destination="E1h-EI-BMd" kind="show" id="cUl-kx-XZ3"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <connections>
+                                <outlet property="titleLabel" destination="PQH-zd-H7f" id="73e-xJ-80b"/>
+                            </connections>
+                        </collectionReusableView>
+                        <connections>
+                            <outlet property="dataSource" destination="9Rw-bO-BVa" id="ZmY-1I-ya1"/>
+                            <outlet property="delegate" destination="9Rw-bO-BVa" id="6dG-lO-NSa"/>
+                        </connections>
+                    </collectionView>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="waL-ZL-Lfu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-378" y="-2096"/>
+        </scene>
+        <!--Modal View Controller-->
+        <scene sceneID="xff-ec-TKv">
+            <objects>
+                <viewController storyboardIdentifier="ModalViewController" id="hbf-ii-vJe" customClass="ModalViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sYf-1r-oHg"/>
+                        <viewControllerLayoutGuide type="bottom" id="s2V-5T-DRr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="EMC-FD-Tbj">
+                        <rect key="frame" x="0.0" y="0.0" width="545" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="avatar_dave" translatesAutoresizingMaskIntoConstraints="NO" id="9Hb-9p-Mhs">
+                                <rect key="frame" x="221" y="64" width="99" height="99"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GbP-gm-DHK">
+                                <rect key="frame" x="16" y="184" width="508" height="359"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">Hello Marie,
+
+I’m Dave, from America.</string>
+                                <color key="textColor" red="0.25882352941176473" green="0.27058823529411763" blue="0.48627450980392156" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="krT-kr-P9A">
+                                <rect key="frame" x="494" y="28" width="30" height="30"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="27"/>
+                                <state key="normal" title="X">
+                                    <color key="titleColor" red="0.68235294120000001" green="0.89019607840000003" blue="0.89411764709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="closeModal:" destination="1hk-x0-h2h" eventType="touchUpInside" id="M93-0b-nhY"/>
+                                    <action selector="done:" destination="hbf-ii-vJe" eventType="touchUpInside" id="iXd-zn-iaj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yNv-Lh-ARA">
+                                <rect key="frame" x="177" y="523" width="190" height="33"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="21"/>
+                                <state key="normal" title="Je répond à Dave !">
+                                    <color key="titleColor" red="0.81568627449999997" green="0.24313725489999999" blue="0.57254901960000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="m15-fn-BWY" kind="show" id="q2P-l7-Eyt"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="545" height="600"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rhy-rw-9Ag" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1880.5" y="-2046"/>
+        </scene>
+        <!--Activity Modal View Controller-->
+        <scene sceneID="uVY-X4-nuk">
+            <objects>
+                <viewController storyboardIdentifier="ActivityModalViewController" id="1hk-x0-h2h" customClass="ActivityModalViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="AyC-Nz-xtg"/>
+                        <viewControllerLayoutGuide type="bottom" id="6wk-fk-gng"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Stc-x1-aUO">
+                        <rect key="frame" x="0.0" y="0.0" width="900" height="500"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="eob-L7-fiV">
+                                <rect key="frame" x="16" y="203" width="868" height="146"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="1.3877787807814457e-17" width="1" height="1"/>
+                                <string key="text">Play with Marie
+as much as possible to unlock levels
+and bonus to your letters.</string>
+                                <color key="textColor" red="0.80392156859999997" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="25"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wNC-eQ-bi2">
+                                <rect key="frame" x="222" y="363" width="483" height="47"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="35"/>
+                                <state key="normal" title="NOW IT'S YOUR TURN TO PLAY !">
+                                    <color key="titleColor" red="0.82352941176470584" green="0.23921568627450981" blue="0.58039215686274515" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playActivity:" destination="1hk-x0-h2h" eventType="touchUpInside" id="VwR-XJ-ebk"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GAP-FILL TEXTS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iDF-JS-FkD">
+                                <rect key="frame" x="100" y="69" width="700" height="52"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="38"/>
+                                <color key="textColor" red="0.3803921569" green="0.37254901959999998" blue="0.6705882353" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zWT-PH-U9H">
+                                <rect key="frame" x="854" y="28" width="30" height="30"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="27"/>
+                                <state key="normal" title="X">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="closeModal:" destination="1hk-x0-h2h" eventType="touchUpInside" id="Bl2-yl-9VJ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fill the gap in the sentences with the right words." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u1x-Nt-Lq6" customClass="CustomLabelWithDifferentColor">
+                                <rect key="frame" x="0.0" y="139" width="900" height="41"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="30"/>
+                                <color key="textColor" red="0.25882352941176473" green="0.27058823529411763" blue="0.48627450980392156" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.68235294117647061" green="0.8901960784313725" blue="0.89411764705882357" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="900" height="500"/>
+                    <connections>
+                        <outlet property="titleLabel" destination="u1x-Nt-Lq6" id="kzk-7D-qnq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MXO-3S-8rt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="RJ3-hs-gPo"/>
+            </objects>
+            <point key="canvasLocation" x="-1969" y="-1378"/>
+        </scene>
+        <!--Write Letter Modal View Controller-->
+        <scene sceneID="Tib-dV-fk0">
+            <objects>
+                <viewController storyboardIdentifier="WriteLetterModalViewController" id="367-x3-nZh" customClass="WriteLetterModalViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rDr-4d-Vf4"/>
+                        <viewControllerLayoutGuide type="bottom" id="2j0-Pn-bQx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7t6-GK-ArC">
+                        <rect key="frame" x="0.0" y="0.0" width="545" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Tap and start writing to Marie" translatesAutoresizingMaskIntoConstraints="NO" id="rmB-Ki-WMW">
+                                <rect key="frame" x="24" y="144" width="500" height="402"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <gestureRecognizers/>
+                                <color key="textColor" red="0.80392156859999997" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="avatar_dave" translatesAutoresizingMaskIntoConstraints="NO" id="9QI-gR-KU7">
+                                <rect key="frame" x="223" y="28" width="99" height="99"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uYk-KY-dBC">
+                                <rect key="frame" x="49" y="556" width="136" height="29"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="21"/>
+                                <state key="normal" title="Save as draft">
+                                    <color key="titleColor" red="0.74117647058823533" green="0.65098039215686276" blue="0.85490196078431369" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="sendLetterAction:" destination="367-x3-nZh" eventType="touchUpInside" id="QV8-V6-Ddm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2kF-tK-MDM">
+                                <rect key="frame" x="337" y="554" width="136" height="33"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="21"/>
+                                <state key="normal" title="Send my letter!">
+                                    <color key="titleColor" red="0.80392156859999997" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="sendLetterAction:" destination="367-x3-nZh" eventType="touchUpInside" id="Xxp-QO-AWv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ww6-LP-zr6">
+                                <rect key="frame" x="193" y="554" width="136" height="33"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="21"/>
+                                <state key="normal" title="Fix spelling">
+                                    <color key="titleColor" red="0.81568627450980391" green="0.24313725490196078" blue="0.5725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9hY-yW-Gjf">
+                                <rect key="frame" x="499" y="28" width="30" height="30"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="27"/>
+                                <state key="normal" title="X">
+                                    <color key="titleColor" red="0.68235294120000001" green="0.89019607840000003" blue="0.89411764709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="closeModal:" destination="1hk-x0-h2h" eventType="touchUpInside" id="R4w-5L-gVa"/>
+                                    <action selector="closeModal:" destination="367-x3-nZh" eventType="touchUpInside" id="Sxc-yl-hmE"/>
+                                    <action selector="sendLetterAction:" destination="367-x3-nZh" eventType="touchUpInside" id="Ehk-7S-d4s"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="545" height="600"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qd1-t6-hSE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Ot4-fZ-eRa"/>
+            </objects>
+            <point key="canvasLocation" x="-2008.5" y="-721"/>
+        </scene>
+        <!--Fill Gap01 Page View Controller-->
+        <scene sceneID="IpI-wf-eZY">
+            <objects>
+                <pageViewController storyboardIdentifier="fill_gap" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="8QK-H7-wLl" customClass="FillGap01PageViewController" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VAP-ny-Pem" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-600" y="2691"/>
+        </scene>
+        <!--Gap Fill End Modal View Controller-->
+        <scene sceneID="Lbl-ZJ-Ihu">
+            <objects>
+                <viewController storyboardIdentifier="GapFillEndModalViewController" id="rct-PY-4XT" customClass="GapFillEndModalViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FzF-gc-6VC"/>
+                        <viewControllerLayoutGuide type="bottom" id="1mz-C4-fUG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="I3Y-4Y-EYE">
+                        <rect key="frame" x="0.0" y="0.0" width="900" height="500"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Wma-yJ-wqL">
+                                <rect key="frame" x="16" y="137" width="868" height="220"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">You’ve completed game one.
+Next week you will have access
+to the next game with Marie !</string>
+                                <color key="textColor" red="0.71764705880000002" green="0.6705882353" blue="0.83137254900000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="30"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qUP-Vn-o2E">
+                                <rect key="frame" x="854" y="28" width="30" height="30"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="27"/>
+                                <state key="normal" title="X">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="backToCarousel:" destination="rct-PY-4XT" eventType="touchUpInside" id="qHa-1C-O1G"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CONGRATULATION DAVE !" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6uG-W5-mk6">
+                                <rect key="frame" x="100" y="55" width="700" height="52"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="38"/>
+                                <color key="textColor" red="0.3803921569" green="0.37254901959999998" blue="0.6705882353" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D0z-Yd-FlX">
+                                <rect key="frame" x="87" y="356" width="726" height="129"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="35"/>
+                                <state key="normal" title="CREATE MARIE'S GAME">
+                                    <color key="titleColor" red="0.82352941180000006" green="0.23921568630000001" blue="0.58039215690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="backToCarousel:" destination="rct-PY-4XT" eventType="touchUpInside" id="jDb-wh-Epl"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.68235294120000001" green="0.89019607840000003" blue="0.89411764709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="900" height="500"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7wz-tU-MkV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2103" y="30"/>
+        </scene>
+        <!--Image Modal View Controller-->
+        <scene sceneID="g3V-hW-yUB">
+            <objects>
+                <viewController storyboardIdentifier="newLetterModal" id="YNS-C4-FKH" customClass="ImageModalViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3Ej-Cc-emS"/>
+                        <viewControllerLayoutGuide type="bottom" id="fpN-dD-iyu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fRF-hS-Zu8">
+                        <rect key="frame" x="0.0" y="0.0" width="512" height="384"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tuasducourrier" translatesAutoresizingMaskIntoConstraints="NO" id="VMC-wL-Vxv">
+                                <rect key="frame" x="-9" y="0.0" width="521" height="395"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sWe-9N-0MH">
+                                <rect key="frame" x="466" y="20" width="30" height="30"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="27"/>
+                                <state key="normal" title="X">
+                                    <color key="titleColor" red="0.68235294120000001" green="0.89019607840000003" blue="0.89411764709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="closeModal:" destination="YNS-C4-FKH" eventType="touchUpInside" id="hyM-J3-w1i"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.68235294120000001" green="0.89019607840000003" blue="0.89411764709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="512" height="384"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x2L-ib-OPt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1930" y="-2735"/>
+        </scene>
+        <!--Image Modal View Controller-->
+        <scene sceneID="ZdV-Gh-sth">
+            <objects>
+                <viewController storyboardIdentifier="welcomeAfterSignIn" id="shj-mI-2jQ" customClass="ImageModalViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KdH-LZ-KFh"/>
+                        <viewControllerLayoutGuide type="bottom" id="rdM-JV-FQz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lxA-0f-VVo">
+                        <rect key="frame" x="0.0" y="0.0" width="512" height="384"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Bienvenue_marie" translatesAutoresizingMaskIntoConstraints="NO" id="1CC-Xy-vEd">
+                                <rect key="frame" x="-9" y="0.0" width="521" height="395"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nKQ-5B-ZEn">
+                                <rect key="frame" x="466" y="28" width="30" height="30"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="27"/>
+                                <state key="normal" title="X">
+                                    <color key="titleColor" red="0.68235294120000001" green="0.89019607840000003" blue="0.89411764709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="closeModal:" destination="1hk-x0-h2h" eventType="touchUpInside" id="Hzz-J5-TFv"/>
+                                    <action selector="closeModal:" destination="shj-mI-2jQ" eventType="touchUpInside" id="M5h-hz-tFv"/>
+                                    <action selector="done:" destination="hbf-ii-vJe" eventType="touchUpInside" id="mF1-aT-Tg0"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="avatar_dave" translatesAutoresizingMaskIntoConstraints="NO" id="mhB-mi-2Tz">
+                                <rect key="frame" x="146" y="85" width="216" height="211"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="You'll soon have news from your pen pal." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="0zR-qM-hVa">
+                                <rect key="frame" x="151" y="308" width="200" height="107"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.71764705880000002" green="0.6705882353" blue="0.83137254900000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome Dave !" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z1C-7z-W4A">
+                                <rect key="frame" x="123" y="48" width="257" height="22"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="22"/>
+                                <color key="textColor" red="0.25882352939999997" green="0.27058823529999998" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.68235294120000001" green="0.89019607840000003" blue="0.89411764709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="512" height="384"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1l2-zr-zB8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1382" y="-2735"/>
+        </scene>
+        <!--Image Modal View Controller-->
+        <scene sceneID="DB3-jr-MhF">
+            <objects>
+                <viewController storyboardIdentifier="afterEmailSendModal" id="aZg-yg-IF5" customClass="ImageModalViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WIC-nF-OpO"/>
+                        <viewControllerLayoutGuide type="bottom" id="ely-4s-Rgo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Nwj-16-GVk">
+                        <rect key="frame" x="0.0" y="0.0" width="512" height="384"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zpo-Q7-juo">
+                                <rect key="frame" x="854" y="28" width="30" height="30"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="27"/>
+                                <state key="normal" title="X">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="backToCarousel:" destination="aZg-yg-IF5" eventType="touchUpInside" id="ceN-Dy-Rlj"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Bienvenue_marie" translatesAutoresizingMaskIntoConstraints="NO" id="AYv-Tj-C3U">
+                                <rect key="frame" x="-9" y="0.0" width="521" height="395"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aqL-hU-hOB">
+                                <rect key="frame" x="466" y="28" width="30" height="30"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="27"/>
+                                <state key="normal" title="X">
+                                    <color key="titleColor" red="0.68235294120000001" green="0.89019607840000003" blue="0.89411764709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="closeModal:" destination="aZg-yg-IF5" eventType="touchUpInside" id="vj0-8R-1yG"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your letter had been sent !" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X8y-7s-jtP">
+                                <rect key="frame" x="123" y="48" width="257" height="22"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="22"/>
+                                <color key="textColor" red="0.25882352939999997" green="0.27058823529999998" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="You'll soon have news from your pen pal." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ilf-NE-G4V">
+                                <rect key="frame" x="151" y="306" width="200" height="107"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.71764705880000002" green="0.6705882353" blue="0.83137254900000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.68235294120000001" green="0.89019607840000003" blue="0.89411764709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="512" height="384"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Shz-HV-xUh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-828" y="-2735"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Bienvenue_marie" width="1024" height="768"/>
+        <image name="avatar_dave" width="394" height="398"/>
+        <image name="bg_nuages" width="1024" height="768"/>
+        <image name="bg_star" width="1024" height="768"/>
+        <image name="bouton_parme" width="787" height="175"/>
+        <image name="bouton_rose" width="787" height="175"/>
+        <image name="bouton_violet" width="787" height="175"/>
+        <image name="logo" width="1210" height="461"/>
+        <image name="mini_bouton_img" width="50" height="50"/>
+        <image name="mini_bouton_son" width="50" height="50"/>
+        <image name="mini_bouton_video" width="50" height="50"/>
+        <image name="tuasducourrier" width="1024" height="768"/>
+        <image name="vignette_blanc" width="132" height="124"/>
+        <image name="vignette_cyan" width="132" height="124"/>
+        <image name="vignette_cyan_clic" width="132" height="124"/>
+        <image name="vignette_jaune" width="132" height="124"/>
+        <image name="vignette_noir" width="132" height="124"/>
+        <image name="vignette_rouge" width="132" height="124"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="iV5-yw-8IV"/>
+        <segue reference="cUl-kx-XZ3"/>
+        <segue reference="q2P-l7-Eyt"/>
+    </inferredMetricsTieBreakers>
+</document>

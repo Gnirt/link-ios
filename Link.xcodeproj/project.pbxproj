@@ -61,6 +61,7 @@
 		3E581DD51B109548004F0BB5 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3E581DD71B1095D1004F0BB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E581DDA1B1095D6004F0BB5 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		3E581DDB1B109D74004F0BB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E59B0F11B0DF2A700E1AD3B /* CustomLabelWithDifferentColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomLabelWithDifferentColor.h; sourceTree = "<group>"; };
 		3E59B0F21B0DF2A700E1AD3B /* CustomLabelWithDifferentColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomLabelWithDifferentColor.m; sourceTree = "<group>"; };
 		3E59B0F41B0E08BB00E1AD3B /* QuizzQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizzQuestionViewController.h; sourceTree = "<group>"; };
@@ -528,6 +529,7 @@
 			children = (
 				3E581DD71B1095D1004F0BB5 /* en */,
 				3E581DDA1B1095D6004F0BB5 /* fr */,
+				3E581DDB1B109D74004F0BB5 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
