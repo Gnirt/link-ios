@@ -102,7 +102,7 @@
 "aqL-hU-hOB.normalTitle" = "X";
 
 /* Class = "UIButton"; normalTitle = "Writing world"; ObjectID = "bRg-Ph-JKO"; */
-"bRg-Ph-JKO.normalTitle" = "Monde des mots";
+"bRg-Ph-JKO.normalTitle" = "Monde de l'écriture";
 
 /* Class = "UIButton"; normalTitle = "Game world"; ObjectID = "bX1-bO-KnA"; */
 "bX1-bO-KnA.normalTitle" = "Monde des jeux";
@@ -201,7 +201,7 @@
 "ww6-LP-zr6.normalTitle" = "Corriger mes fautes";
 
 /* Class = "UIButton"; normalTitle = "Je répond à Dave !"; ObjectID = "yNv-Lh-ARA"; */
-"yNv-Lh-ARA.normalTitle" = "I answer to Marie !";
+"yNv-Lh-ARA.normalTitle" = "Je répond à Dave !";
 
 /* Class = "UIButton"; normalTitle = "X"; ObjectID = "zWT-PH-U9H"; */
 "zWT-PH-U9H.normalTitle" = "X";

@@ -13,6 +13,7 @@
 - (void)viewDidLoad {
     _postItTextView.backgroundColor = [UIColor clearColor];
     _postItTextView.textContainerInset = UIEdgeInsetsMake(10, 20, 0, 20);
+    _postItTextView.text = NSLocalizedString(@"Write a letter to introduce yourself to your pen pal. Don't forget what you learn during class.", nil);
     UIImageView *imageView = [[UIImageView alloc] initWithFrame:_postItTextView.frame];
     imageView.image = [UIImage imageNamed:@"post_it_petit"];
     [self.view addSubview:imageView];
@@ -20,6 +21,7 @@
     
     _letterTextView.backgroundColor = [UIColor clearColor];
     _letterTextView.textContainerInset = UIEdgeInsetsMake(10, 20, 0, 20);
+    _letterTextView.text = NSLocalizedString(@"Tap to write your letter", nil);
     UIImageView *imageView2 = [[UIImageView alloc] initWithFrame:_letterTextView.frame];
     imageView2.image = [UIImage imageNamed:@"papier_lettre"];
     [self.view addSubview:imageView2];

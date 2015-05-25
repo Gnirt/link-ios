@@ -44,18 +44,10 @@
     {
         [self setViewMovedUp:YES];
     }
-    else if (self.view.frame.origin.y < 0)
-    {
-        [self setViewMovedUp:NO];
-    }
 }
 
 -(void)keyboardWillHide {
-    if (self.view.frame.origin.y >= 0)
-    {
-        [self setViewMovedUp:YES];
-    }
-    else if (self.view.frame.origin.y < 0)
+    if (self.view.frame.origin.y < 0)
     {
         [self setViewMovedUp:NO];
     }
@@ -63,7 +55,7 @@
 
 -(void)textFieldDidBeginEditing:(UITextField *)sender
 {
-    if ([sender isEqual:self.emailInput])
+    if ([sender isEqual:self.emailInput] || [sender isEqual:self.passwordInput])
     {
         //move the main view, so that the keyboard does not hide it.
         if  (self.view.frame.origin.y >= 0)
@@ -84,14 +76,14 @@
     {
         // 1. move the view's origin up so that the text field that will be hidden come above the keyboard
         // 2. increase the size of the view so that the area behind the keyboard is covered up.
-        rect.origin.y -= kOFFSET_FOR_KEYBOARD;
-        rect.size.height += kOFFSET_FOR_KEYBOARD;
+        rect.origin.y = rect.origin.y - kOFFSET_FOR_KEYBOARD;
+        rect.size.height = rect.size.height + kOFFSET_FOR_KEYBOARD;
     }
     else
     {
         // revert back to the normal state.
-        rect.origin.y += kOFFSET_FOR_KEYBOARD;
-        rect.size.height -= kOFFSET_FOR_KEYBOARD;
+        rect.origin.y = rect.origin.y + kOFFSET_FOR_KEYBOARD;
+        rect.size.height = rect.size.height - kOFFSET_FOR_KEYBOARD;
     }
     self.view.frame = rect;
     
