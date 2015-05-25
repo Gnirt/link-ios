@@ -10,6 +10,7 @@
 
 @interface WriteLetterModalViewController : ModalViewController<UITextViewDelegate>
 @property (weak, nonatomic) IBOutlet UITextView *textView;
+@property (weak, nonatomic) IBOutlet UIImageView *avatar;
 - (IBAction)sendLetterAction:(id)sender;
 - (IBAction)closeModal:(id)sender;
 

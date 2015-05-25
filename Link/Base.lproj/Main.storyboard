@@ -1020,7 +1020,7 @@
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <string key="text">Hello Marie,
 
-I’m Dave, from America.</string>
+I’m Dave from utah</string>
                                 <color key="textColor" red="0.25882352941176473" green="0.27058823529411763" blue="0.48627450980392156" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1144,7 +1144,7 @@ I’m Dave, from America.</string>
                         <rect key="frame" x="0.0" y="0.0" width="545" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Tap and start writing to Marie" translatesAutoresizingMaskIntoConstraints="NO" id="rmB-Ki-WMW">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rmB-Ki-WMW">
                                 <rect key="frame" x="24" y="144" width="500" height="402"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <gestureRecognizers/>
@@ -1205,6 +1205,7 @@ I’m Dave, from America.</string>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="545" height="600"/>
                     <connections>
+                        <outlet property="avatar" destination="9QI-gR-KU7" id="H0x-rl-Stc"/>
                         <outlet property="textView" destination="rmB-Ki-WMW" id="F7z-Pd-XOK"/>
                     </connections>
                 </viewController>
@@ -1461,7 +1462,7 @@ I’m Dave, from America.</string>
         <image name="vignette_rouge" width="132" height="124"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="9CC-Ga-Bg2"/>
+        <segue reference="q2P-l7-Eyt"/>
         <segue reference="PBS-t6-3gc"/>
         <segue reference="Wnx-ii-KFf"/>
     </inferredMetricsTieBreakers>

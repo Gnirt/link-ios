@@ -18,6 +18,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.textView.delegate = self;
+    [_avatar setImage:[UIImage imageNamed:NSLocalizedString(@"avatar_dave", nil)]];
+    self.textView.text = NSLocalizedString(@"Tap and start writing to Marie", nil);
 }
 
 - (void)didReceiveMemoryWarning {
@@ -46,7 +48,6 @@
 }
 
 - (void)textViewDidBeginEditing:(UITextView *)textView {
-    NSLog(@"text edit start");
     textView.text = @"";
 }
 
