@@ -10,6 +10,7 @@
 #import "CustomLabelWithDifferentColor.h"
 @interface ActivityModalViewController : ModalViewController
 @property (weak, nonatomic) IBOutlet CustomLabelWithDifferentColor *titleLabel;
+@property (weak, nonatomic) IBOutlet UITextView *catchPhraseTextView;
 
 - (IBAction)closeModal:(id)sender;
 - (IBAction)playActivity:(id)sender;

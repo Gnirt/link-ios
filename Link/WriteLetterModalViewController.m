@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.textView.delegate = self;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -44,11 +45,9 @@
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
-
-- (void)textTapped:(UITapGestureRecognizer *)recognizer
-{
-    NSLog(@"tap detected");
-    UITextView *textView = (UITextView *)recognizer.view;
+- (void)textViewDidBeginEditing:(UITextView *)textView {
+    NSLog(@"text edit start");
     textView.text = @"";
 }
+
 @end

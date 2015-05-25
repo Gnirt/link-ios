@@ -8,7 +8,8 @@
 
 #import "ModalViewController.h"
 
-@interface WriteLetterModalViewController : ModalViewController
+@interface WriteLetterModalViewController : ModalViewController<UITextViewDelegate>
+@property (weak, nonatomic) IBOutlet UITextView *textView;
 - (IBAction)sendLetterAction:(id)sender;
 - (IBAction)closeModal:(id)sender;
 

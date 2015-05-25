@@ -18,6 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.preferredContentSize = CGSizeMake(900, 500);
+    self.textView.text = NSLocalizedString(@"You’ve completed game one.\nNext week you will have access\nto the next game with Marie !", nil);
 }
 
 - (void)didReceiveMemoryWarning {

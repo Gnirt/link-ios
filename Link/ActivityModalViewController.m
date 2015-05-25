@@ -19,6 +19,7 @@
     // Do any additional setup after loading the view.
     self.preferredContentSize = CGSizeMake(900, 500);
     [self.titleLabel labelMultipleColor:self.titleLabel changeColor:[UIColor colorWithRed:0.259 green:0.271 blue:0.486 alpha:1] forString:@"right word"];
+    self.catchPhraseTextView.text = NSLocalizedString(@"Play with Marie\nas much as possible to unlock levels\nand bonus to your letters.", nil);
 }
 
 - (void)didReceiveMemoryWarning {

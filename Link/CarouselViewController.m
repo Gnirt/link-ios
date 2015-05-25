@@ -168,31 +168,31 @@
     {
         case 0: //Words World
         {
-            [currentWorldButton setTitle:@"Words world" forState:UIControlStateNormal];
+            [currentWorldButton setTitle:NSLocalizedString(@"Words world", nil) forState:UIControlStateNormal];
             [currentWorldButton setBackgroundImage:[UIImage imageNamed:@"bouton_rose"] forState:UIControlStateNormal];
-            [nextWorldButton setTitle:@"Writing world" forState:UIControlStateNormal];
+            [nextWorldButton setTitle:NSLocalizedString(@"Writing world",nil) forState:UIControlStateNormal];
             [nextWorldButton setBackgroundImage:[UIImage imageNamed:@"bouton_parme"] forState:UIControlStateNormal];
-            [previousWorldButton setTitle:@"Game world" forState:UIControlStateNormal];
+            [previousWorldButton setTitle:NSLocalizedString(@"Game world",nil) forState:UIControlStateNormal];
             [previousWorldButton setBackgroundImage:[UIImage imageNamed:@"bouton_violet"] forState:UIControlStateNormal];
             break;
         }
         case 1: //Writing World
         {
-            [currentWorldButton setTitle:@"Writing world" forState:UIControlStateNormal];
+            [currentWorldButton setTitle:NSLocalizedString(@"Writing world",nil) forState:UIControlStateNormal];
             [currentWorldButton setBackgroundImage:[UIImage imageNamed:@"bouton_parme"] forState:UIControlStateNormal];
-            [nextWorldButton setTitle:@"Game world" forState:UIControlStateNormal];
+            [nextWorldButton setTitle:NSLocalizedString(@"Game world",nil) forState:UIControlStateNormal];
             [nextWorldButton setBackgroundImage:[UIImage imageNamed:@"bouton_violet"] forState:UIControlStateNormal];
-            [previousWorldButton setTitle:@"Words world" forState:UIControlStateNormal];
+            [previousWorldButton setTitle:NSLocalizedString(@"Words world",nil) forState:UIControlStateNormal];
             [previousWorldButton setBackgroundImage:[UIImage imageNamed:@"bouton_rose"] forState:UIControlStateNormal];
             break;
         }
         case 2: //Game World
         {
-            [currentWorldButton setTitle:@"Game world" forState:UIControlStateNormal];
+            [currentWorldButton setTitle:NSLocalizedString(@"Game world",nil) forState:UIControlStateNormal];
             [currentWorldButton setBackgroundImage:[UIImage imageNamed:@"bouton_violet"] forState:UIControlStateNormal];
-            [nextWorldButton setTitle:@"Words world" forState:UIControlStateNormal];
+            [nextWorldButton setTitle:NSLocalizedString(@"Words world",nil) forState:UIControlStateNormal];
             [nextWorldButton setBackgroundImage:[UIImage imageNamed:@"bouton_rose"] forState:UIControlStateNormal];
-            [previousWorldButton setTitle:@"Writing world" forState:UIControlStateNormal];
+            [previousWorldButton setTitle:NSLocalizedString(@"Writing world",nil) forState:UIControlStateNormal];
             [previousWorldButton setBackgroundImage:[UIImage imageNamed:@"bouton_parme"] forState:UIControlStateNormal];
             break;
         }

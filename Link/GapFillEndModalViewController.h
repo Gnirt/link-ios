@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface GapFillEndModalViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextView *textView;
 - (IBAction)backToCarousel:(id)sender;
 
 @end

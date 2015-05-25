@@ -1077,9 +1077,6 @@ I’m Dave, from America.</string>
                                 <rect key="frame" x="16" y="203" width="868" height="146"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <rect key="contentStretch" x="0.0" y="1.3877787807814457e-17" width="1" height="1"/>
-                                <string key="text">Play with Marie
-as much as possible to unlock levels
-and bonus to your letters.</string>
                                 <color key="textColor" red="0.80392156859999997" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1126,6 +1123,7 @@ and bonus to your letters.</string>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="900" height="500"/>
                     <connections>
+                        <outlet property="catchPhraseTextView" destination="eob-L7-fiV" id="bh8-4I-M8I"/>
                         <outlet property="titleLabel" destination="u1x-Nt-Lq6" id="kzk-7D-qnq"/>
                     </connections>
                 </viewController>
@@ -1206,6 +1204,9 @@ and bonus to your letters.</string>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="545" height="600"/>
+                    <connections>
+                        <outlet property="textView" destination="rmB-Ki-WMW" id="F7z-Pd-XOK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qd1-t6-hSE" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="Ot4-fZ-eRa"/>
@@ -1235,9 +1236,6 @@ and bonus to your letters.</string>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Wma-yJ-wqL">
                                 <rect key="frame" x="16" y="137" width="868" height="220"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">You’ve completed game one.
-Next week you will have access
-to the next game with Marie !</string>
                                 <color key="textColor" red="0.71764705880000002" green="0.6705882353" blue="0.83137254900000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="30"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1276,6 +1274,9 @@ to the next game with Marie !</string>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="900" height="500"/>
+                    <connections>
+                        <outlet property="textView" destination="Wma-yJ-wqL" id="Dep-pS-1Pu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7wz-tU-MkV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
