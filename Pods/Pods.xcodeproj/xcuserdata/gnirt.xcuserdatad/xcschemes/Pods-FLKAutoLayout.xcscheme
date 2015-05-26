@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0510"
+   LastUpgradeVersion = "0640"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "43A92E3C72D9A54ACA440432"
+               BlueprintIdentifier = "C50BB0B40C3262E54EBCB1FA"
                BuildableName = "FLKAutoLayout.framework"
                BlueprintName = "Pods-FLKAutoLayout"
                ReferencedContainer = "container:Pods.xcodeproj">
