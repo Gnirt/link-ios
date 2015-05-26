@@ -3,4 +3,6 @@ framework module ORStackView {
 
   export *
   module * { export * }
+
+  private header "ORStackView+Private.h"
 }

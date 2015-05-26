@@ -1146,7 +1146,7 @@ and bonus to your letters.</string>
                         <rect key="frame" x="0.0" y="0.0" width="545" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Tap and start writing to Marie" translatesAutoresizingMaskIntoConstraints="NO" id="rmB-Ki-WMW">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rmB-Ki-WMW">
                                 <rect key="frame" x="24" y="144" width="500" height="402"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <gestureRecognizers/>
@@ -1206,6 +1206,9 @@ and bonus to your letters.</string>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="545" height="600"/>
+                    <connections>
+                        <outlet property="textView" destination="rmB-Ki-WMW" id="3CH-h0-fo9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qd1-t6-hSE" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="Ot4-fZ-eRa"/>
@@ -1460,8 +1463,8 @@ to the next game with Marie !</string>
         <image name="vignette_rouge" width="132" height="124"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="PBS-t6-3gc"/>
-        <segue reference="9CC-Ga-Bg2"/>
         <segue reference="iV5-yw-8IV"/>
+        <segue reference="cUl-kx-XZ3"/>
+        <segue reference="q2P-l7-Eyt"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <Parse/Parse.h>
 
 @interface AppDelegate ()
 
@@ -21,6 +22,15 @@
     pageControl.pageIndicatorTintColor = [UIColor colorWithRed:0.796 green:0.796 blue:0.796 alpha:1];
     pageControl.currentPageIndicatorTintColor = [UIColor colorWithRed:0.408 green:0.349 blue:0.678 alpha:1];
     pageControl.backgroundColor = [UIColor colorWithRed:1.0 green:1.0 blue:1.0 alpha:1];
+    
+    [Parse enableLocalDatastore];
+    
+    // Initialize Parse.
+    [Parse setApplicationId:@"cdRAE4my0cVRZuJo3XMG75tqKeEf3BYSNkyTqLxQ"
+                  clientKey:@"3XRp6QE4JZDh1ngXE85QtptvTzgFhi84TYstYLvY"];
+    
+    // [Optional] Track statistics around application opens.
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
     return YES;
 }
 
