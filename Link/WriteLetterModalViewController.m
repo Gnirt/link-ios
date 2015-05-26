@@ -8,6 +8,7 @@
 
 #import "WriteLetterModalViewController.h"
 #import "ImageModalViewController.h"
+#import "Parse/Parse.h"
 @interface WriteLetterModalViewController ()
 
 @end
@@ -38,9 +39,18 @@
 */
 
 - (IBAction)sendLetterAction:(id)sender {
-    ImageModalViewController *modalViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"afterEmailSendModal"];
-    [modalViewController setModalPresentationStyle:UIModalPresentationFormSheet];
-    [self presentViewController:modalViewController animated:YES completion:nil];
+    PFObject *new_message = [PFObject objectWithClassName:@"message"];
+    new_message[@"text"] = self.textView.text;
+    new_message[@"sender_name"] = NSLocalizedString(@"Dave", nil);
+    [new_message saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
+        if (succeeded) {
+            ImageModalViewController *modalViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"afterEmailSendModal"];
+            [modalViewController setModalPresentationStyle:UIModalPresentationFormSheet];
+            [self presentViewController:modalViewController animated:YES completion:nil];
+        } else {
+            NSLog(@"oops, cannot save the message");
+        }
+    }];
 }
 
 - (IBAction)closeModal:(id)sender {

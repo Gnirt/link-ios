@@ -1056,6 +1056,9 @@ I’m Dave, from America.</string>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="545" height="600"/>
+                    <connections>
+                        <outlet property="messageTextView" destination="GbP-gm-DHK" id="La8-1n-baT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rhy-rw-9Ag" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1460,8 +1463,8 @@ to the next game with Marie !</string>
         <image name="vignette_rouge" width="132" height="124"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="PBS-t6-3gc"/>
-        <segue reference="9CC-Ga-Bg2"/>
         <segue reference="iV5-yw-8IV"/>
+        <segue reference="cUl-kx-XZ3"/>
+        <segue reference="q2P-l7-Eyt"/>
     </inferredMetricsTieBreakers>
 </document>

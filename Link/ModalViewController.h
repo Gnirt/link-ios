@@ -10,6 +10,8 @@
 
 @interface ModalViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextView *messageTextView;
+@property(nonatomic) NSString* message;
 @property (weak) IBOutlet UIImageView *imageView;
 -(IBAction)done:(id) sender;
 
