@@ -28,19 +28,47 @@ static NSString * const reuseIdentifier = @"Cell";
     //[self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:reuseIdentifier];
     
     // Do any additional setup after loading the view.
-    
-    //Todo change with json api pictures
-    _letterImages = [@[@[@"enveloppe_ferme.png", NSLocalizedString(@"15 nov", nil)],
-                         @[@"enveloppe_ouverte.png", @"9 nov"],
-                         @[@"enveloppe_ouverte.png", @"28 oct"],
-                         @[@"enveloppe_ouverte.png", @"21 oct"],
-                         @[@"enveloppe_ouverte.png", @"15 oct"],
-                         @[@"enveloppe_ouverte.png", @"8 oct"],
-                         @[@"enveloppe_ouverte.png", @"26 sept"],
-                         @[@"enveloppe_ouverte.png", @"20 sept"],
-                         @[@"enveloppe_ouverte.png", @"13 sept"],
-                         @[@"enveloppe_ouverte.png", @"6 sept"]
-                       ] mutableCopy];
+
+    PFQuery *query = [PFQuery queryWithClassName:@"message"];
+    [query whereKey:@"sender_name" equalTo:NSLocalizedString(@"Dave", nil)];
+    [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
+        if (!error) {
+            // The find succeeded.
+            NSLog(@"Successfully retrieved %lu scores.", (unsigned long)objects.count);
+            NSMutableArray *arr =  [[NSMutableArray alloc]init];
+            // Do something with the found objects
+            for (PFObject *object in objects) {
+                NSLog(@"%@", object.objectId);
+                NSString* imageName = @"enveloppe_ferme.png";
+                if (object[@"is_read"]) {
+                    imageName = @"enveloppe_ouverte.png";
+                }
+                NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+                [formatter setDateFormat:@"dd-mm"];
+                NSString *dateString = [NSDateFormatter localizedStringFromDate:object.updatedAt
+                                               dateStyle:NSDateFormatterShortStyle
+                                               timeStyle:NSDateFormatterShortStyle];
+                NSString *messageString = object[@"text"];
+                [arr addObject:@[imageName, dateString, messageString]];
+            }
+//            _letterImages = [@[@[@"enveloppe_ferme.png", NSLocalizedString(@"15 nov", nil)],
+//                                     @[@"enveloppe_ouverte.png", @"9 nov"],
+//                                     @[@"enveloppe_ouverte.png", @"28 oct"],
+//                                     @[@"enveloppe_ouverte.png", @"21 oct"],
+//                                     @[@"enveloppe_ouverte.png", @"15 oct"],
+//                                     @[@"enveloppe_ouverte.png", @"8 oct"],
+//                                     @[@"enveloppe_ouverte.png", @"26 sept"],
+//                                     @[@"enveloppe_ouverte.png", @"20 sept"],
+//                                     @[@"enveloppe_ouverte.png", @"13 sept"],
+//                                     @[@"enveloppe_ouverte.png", @"6 sept"]
+//                                   ] mutableCopy];
+            _letterImages = arr;
+            [self.collectionView reloadData];
+        } else {
+            // Log details of the failure
+            NSLog(@"Error: %@ %@", error, [error userInfo]);
+        }
+    }];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -103,7 +131,7 @@ static NSString * const reuseIdentifier = @"Cell";
     
     letterCell.imageView.image = image;
     letterCell.dateLabel.text = _letterImages[row][1];
-    letterCell.message = _letterImages[row][1];
+    letterCell.message = _letterImages[row][2];
     
     return letterCell;
 }
@@ -147,7 +175,7 @@ static NSString * const reuseIdentifier = @"Cell";
     //NSLog(@"touched cell %@ at indexPath %@", letterCell, indexPath);
     ModalViewController *modalViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"ModalViewController"];
     long row = [indexPath row];
-    modalViewController.message = _letterImages[row][1];
+    modalViewController.message = _letterImages[row][2];
     [modalViewController setModalPresentationStyle:UIModalPresentationFormSheet];
     [self presentViewController:modalViewController animated:YES completion:nil];
 }

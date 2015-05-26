@@ -923,7 +923,7 @@
                                             <rect key="frame" x="13" y="48" width="167" height="142"/>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WEV-B4-4k1">
-                                            <rect key="frame" x="62" y="210" width="69" height="21"/>
+                                            <rect key="frame" x="0.0" y="210" width="193" height="21"/>
                                             <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="19"/>
                                             <color key="textColor" red="0.23529411764705882" green="0.23137254901960785" blue="0.45882352941176469" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
@@ -1465,6 +1465,6 @@ to the next game with Marie !</string>
     <inferredMetricsTieBreakers>
         <segue reference="iV5-yw-8IV"/>
         <segue reference="cUl-kx-XZ3"/>
-        <segue reference="q2P-l7-Eyt"/>
+        <segue reference="UzV-aV-yBF"/>
     </inferredMetricsTieBreakers>
 </document>
