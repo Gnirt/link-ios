@@ -29,16 +29,16 @@ static NSString * const reuseIdentifier = @"Cell";
     // Do any additional setup after loading the view.
     
     //Todo change with json api pictures
-    _activityImages = [@[@[@"timbre_1", @"GAP FILL TEXTS"],
-                         @[@"timbre_3", @"DRAW"],
-                         @[@"timbre_2", @"SING"],
-                         @[@"timbre_2", @"ACT"],
-                         @[@"timbre_3", @"DANCE"],
-                         @[@"timbre_2", @"TRANSLATE"],
-                         @[@"timbre_3", @"PLAY MUSIC"],
-                         @[@"timbre_2", @"MEMORY"],
-                         @[@"timbre_2", @"PICTURES"],
-                         @[@"timbre_3", @"QUIZZ"],
+    _activityImages = [@[@[@"timbre_1", NSLocalizedString(@"GAP FILL TEXTS", nil)],
+                         @[@"timbre_3", NSLocalizedString(@"DRAW",nil)],
+                         @[@"timbre_2", NSLocalizedString(@"SING",nil)],
+                         @[@"timbre_2", NSLocalizedString(@"ACT",nil)],
+                         @[@"timbre_3", NSLocalizedString(@"DANCE",nil)],
+                         @[@"timbre_2", NSLocalizedString(@"TRANSLATE",nil)],
+                         @[@"timbre_3", NSLocalizedString(@"PLAY MUSIC",nil)],
+                         @[@"timbre_2", NSLocalizedString(@"MEMORY",nil)],
+                         @[@"timbre_2", NSLocalizedString(@"PICTURES",nil)],
+                         @[@"timbre_3", NSLocalizedString(@"QUIZZ",nil)],
                          ] mutableCopy];
 }
 

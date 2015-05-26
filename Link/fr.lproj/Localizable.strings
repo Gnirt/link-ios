@@ -18,3 +18,27 @@
 "avatar_dave" = "avatar_marie";
 "avatar_marie" = "avatar_dave";
 "Tap and start writing to Marie" = "Tape et commence à écrire à Dave";
+
+/** Game name **/
+"GAP FILL TEXTS" = "TEXTES A TROUS";
+"DRAW" = "DESSINE";
+"SING" = "CHANTE";
+"ACT" = "MIME";
+"DANCE" = "DANSE";
+"TRANSLATE" = "TRADUIT";
+"PLAY MUSIC" = "BRUITS";
+"MEMORY" = "MEMOIRE";
+"PICTURES" = "PHOTOS";
+"QUIZZ" = "QUIZZ";
+
+/**** GAP FILL TEXT ****/
+"C'est l'été, il y _ du soleil." = "I _ fries";
+"être" = "am";
+"a" = "like";
+"est" = "you";
+"avoir" = "sleep";
+"Aujourd'hui c'est lundi, je _ à l'école." = "We _ not alone";
+"donner" = "was";
+"pris" = "am";
+"aller" = "is";
+"vais" = "are";

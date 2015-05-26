@@ -24,12 +24,12 @@
     self.dataSource = self;
     
     GapFillViewController *p1 = [self.storyboard instantiateViewControllerWithIdentifier:@"fill_gap_page01"];
-    p1.originalSentence = @"C'est l'été, il y _ du soleil.";
-    p1.answers = [NSArray arrayWithObjects:@"être",@"a",@"est",@"avoir",nil];
+    p1.originalSentence = NSLocalizedString(@"C'est l'été, il y _ du soleil.", nil);
+    p1.answers = [NSArray arrayWithObjects:NSLocalizedString(@"être", nil),NSLocalizedString(@"a", nil),NSLocalizedString(@"est", nil),NSLocalizedString(@"avoir", nil),nil];
     p1.correctAnswers = [NSArray arrayWithObjects:[NSNumber numberWithBool:NO],[NSNumber numberWithBool:YES],[NSNumber numberWithBool:NO],[NSNumber numberWithBool:NO],nil];
     GapFillViewController *p2 = [self.storyboard instantiateViewControllerWithIdentifier:@"fill_gap_page01"];
-    p2.originalSentence = @"Aujourd'hui c'est lundi, je _ à l'école.";
-    p2.answers = [NSArray arrayWithObjects:@"donner",@"pris",@"aller",@"vais",nil];
+    p2.originalSentence = NSLocalizedString(@"Aujourd'hui c'est lundi, je _ à l'école.", nil);
+    p2.answers = [NSArray arrayWithObjects:NSLocalizedString(@"donner", nil),NSLocalizedString(@"pris", nil),NSLocalizedString(@"aller", nil),NSLocalizedString(@"vais", nil),nil];
     p2.correctAnswers = [NSArray arrayWithObjects:[NSNumber numberWithBool:NO],[NSNumber numberWithBool:NO],[NSNumber numberWithBool:NO],[NSNumber numberWithBool:YES],nil];
     self.pageViewControllers = @[p1, p2];
     // begin with first page

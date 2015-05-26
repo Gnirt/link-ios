@@ -3,7 +3,7 @@
 "0zR-qM-hVa.text" = "Tu vas bientôt recevoir des nouvelles de ton correspondant.";
 
 /* Class = "UIButton"; normalTitle = "Send my letter!"; ObjectID = "2kF-tK-MDM"; */
-"2kF-tK-MDM.normalTitle" = "Envoyé ma lettre!";
+"2kF-tK-MDM.normalTitle" = "Envoyer!";
 
 /* Class = "UIButton"; normalTitle = "avoir"; ObjectID = "416-zZ-krB"; */
 "416-zZ-krB.normalTitle" = "avoir";
@@ -189,16 +189,16 @@
 "u1x-Nt-Lq6.text" = "REMPLIS LES TROUS AVEC LES BONS MOTS.";
 
 /* Class = "UIButton"; normalTitle = "Save as draft"; ObjectID = "uYk-KY-dBC"; */
-"uYk-KY-dBC.normalTitle" = "SAUVEGARDER EN BROUILLON";
+"uYk-KY-dBC.normalTitle" = "Brouillon";
 
 /* Class = "UIButton"; normalTitle = "Blue"; ObjectID = "wHo-fr-Z1G"; */
 "wHo-fr-Z1G.normalTitle" = "BLEU";
 
 /* Class = "UIButton"; normalTitle = "NOW IT'S YOUR TURN TO PLAY !"; ObjectID = "wNC-eQ-bi2"; */
-"wNC-eQ-bi2.normalTitle" = "MAINTENANT C'EST A TOI DE JOUER";
+"wNC-eQ-bi2.normalTitle" = "MAINTENANT A TOI DE JOUER";
 
 /* Class = "UIButton"; normalTitle = "Fix spelling"; ObjectID = "ww6-LP-zr6"; */
-"ww6-LP-zr6.normalTitle" = "Corriger mes fautes";
+"ww6-LP-zr6.normalTitle" = "Corriger";
 
 /* Class = "UIButton"; normalTitle = "Je répond à Dave !"; ObjectID = "yNv-Lh-ARA"; */
 "yNv-Lh-ARA.normalTitle" = "Je répond à Dave !";
