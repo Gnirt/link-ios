@@ -1018,9 +1018,6 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GbP-gm-DHK">
                                 <rect key="frame" x="16" y="184" width="508" height="359"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">Hello Marie,
-
-I’m Dave, from America.</string>
                                 <color key="textColor" red="0.25882352941176473" green="0.27058823529411763" blue="0.48627450980392156" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1056,6 +1053,9 @@ I’m Dave, from America.</string>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="545" height="600"/>
+                    <connections>
+                        <outlet property="messageTextView" destination="GbP-gm-DHK" id="ycx-v3-tvu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rhy-rw-9Ag" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -9,6 +9,7 @@
 #import "LetterCollectionViewController.h"
 #import "ModalViewController.h"
 #import "ImageModalViewController.h"
+#import "Parse/Parse.h"
 @interface LetterCollectionViewController ()
 
 @end
@@ -102,6 +103,7 @@ static NSString * const reuseIdentifier = @"Cell";
     
     letterCell.imageView.image = image;
     letterCell.dateLabel.text = _letterImages[row][1];
+    letterCell.message = _letterImages[row][1];
     
     return letterCell;
 }
@@ -141,9 +143,11 @@ static NSString * const reuseIdentifier = @"Cell";
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
     // If you need to use the touched cell, you can retrieve it like so
-    //UICollectionViewCell *cell = [collectionView cellForItemAtIndexPath:indexPath];
-    //NSLog(@"touched cell %@ at indexPath %@", cell, indexPath);
+    //LetterCollectionViewCell *letterCell = [collectionView dequeueReusableCellWithReuseIdentifier:@"LetterCell" forIndexPath:indexPath];
+    //NSLog(@"touched cell %@ at indexPath %@", letterCell, indexPath);
     ModalViewController *modalViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"ModalViewController"];
+    long row = [indexPath row];
+    modalViewController.message = _letterImages[row][1];
     [modalViewController setModalPresentationStyle:UIModalPresentationFormSheet];
     [self presentViewController:modalViewController animated:YES completion:nil];
 }

@@ -11,5 +11,6 @@
 @interface LetterCollectionViewCell : UICollectionViewCell
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
 @property (weak, nonatomic) IBOutlet UILabel *dateLabel;
+@property (weak, nonatomic) NSString *message;
 
 @end

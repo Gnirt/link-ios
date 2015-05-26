@@ -10,6 +10,11 @@
 
 @implementation ModalViewController
 
+- (void) viewDidLoad {
+    [super viewDidLoad];
+    [self.messageTextView setText:self.message];    
+}
+
 - (IBAction)done:(id)sender {
      [self.presentingViewController dismissViewControllerAnimated:YES completion:^{}];
 }
