@@ -59,7 +59,6 @@
 }
 
 - (void)textViewDidBeginEditing:(UITextView *)textView {
-    NSLog(@"OK GOOGLD");
     textView.text = @"";
 }
 

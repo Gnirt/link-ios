@@ -12,7 +12,8 @@
 
 - (void) viewDidLoad {
     [super viewDidLoad];
-    [self.messageTextView setText:self.message];    
+    [self.messageTextView setText:self.message];
+    [_imageView setImage:[UIImage imageNamed:NSLocalizedString(@"avatar_marie", nil)]];
 }
 
 - (IBAction)done:(id)sender {

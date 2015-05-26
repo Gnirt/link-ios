@@ -6,6 +6,7 @@
   Copyright (c) 2015 Philippe Tring. All rights reserved.
 */
 "Dave" = "Marie";
+"Marie" = "Dave";
 "15 nov" = "15 nov";
 "Write a letter to introduce yourself to your pen pal. Don't forget what you learn during class." = "Bonjour = Hello\nQuel est ton prénom = What's your name?";
 "Tap to write your letter" = "Tape pour commencer l'écriture de ta lettre";

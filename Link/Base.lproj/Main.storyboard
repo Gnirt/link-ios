@@ -923,7 +923,7 @@
                                             <rect key="frame" x="13" y="48" width="167" height="142"/>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WEV-B4-4k1">
-                                            <rect key="frame" x="62" y="210" width="69" height="21"/>
+                                            <rect key="frame" x="0.0" y="210" width="193" height="21"/>
                                             <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="19"/>
                                             <color key="textColor" red="0.23529411764705882" green="0.23137254901960785" blue="0.45882352941176469" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
@@ -1054,6 +1054,7 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="545" height="600"/>
                     <connections>
+                        <outlet property="imageView" destination="9Hb-9p-Mhs" id="AdT-vG-ndg"/>
                         <outlet property="messageTextView" destination="GbP-gm-DHK" id="vUj-ee-ASg"/>
                     </connections>
                 </viewController>
@@ -1162,9 +1163,6 @@
                                     <color key="titleColor" red="0.74117647058823533" green="0.65098039215686276" blue="0.85490196078431369" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <action selector="sendLetterAction:" destination="367-x3-nZh" eventType="touchUpInside" id="QV8-V6-Ddm"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2kF-tK-MDM">
                                 <rect key="frame" x="337" y="554" width="136" height="33"/>
@@ -1195,7 +1193,6 @@
                                 <connections>
                                     <action selector="closeModal:" destination="1hk-x0-h2h" eventType="touchUpInside" id="R4w-5L-gVa"/>
                                     <action selector="closeModal:" destination="367-x3-nZh" eventType="touchUpInside" id="Sxc-yl-hmE"/>
-                                    <action selector="sendLetterAction:" destination="367-x3-nZh" eventType="touchUpInside" id="Ehk-7S-d4s"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1205,7 +1202,7 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="545" height="600"/>
                     <connections>
-                        <outlet property="avatar" destination="9QI-gR-KU7" id="H0x-rl-Stc"/>
+                        <outlet property="avatar" destination="9QI-gR-KU7" id="gun-If-Dip"/>
                         <outlet property="textView" destination="rmB-Ki-WMW" id="F7z-Pd-XOK"/>
                     </connections>
                 </viewController>
@@ -1462,8 +1459,8 @@
         <image name="vignette_rouge" width="132" height="124"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="q2P-l7-Eyt"/>
-        <segue reference="PBS-t6-3gc"/>
         <segue reference="Wnx-ii-KFf"/>
+        <segue reference="UzV-aV-yBF"/>
+        <segue reference="cUl-kx-XZ3"/>
     </inferredMetricsTieBreakers>
 </document>
