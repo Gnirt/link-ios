@@ -10,5 +10,6 @@
 
 @interface ImageModalViewController : UIViewController
 - (IBAction)closeModal:(id)sender;
-
+@property (weak, nonatomic) IBOutlet UITextView *textView;
+@property (weak, nonatomic) IBOutlet UIImageView *avatar;
 @end

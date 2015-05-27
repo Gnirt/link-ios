@@ -1370,6 +1370,9 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="512" height="384"/>
+                    <connections>
+                        <outlet property="textView" destination="0zR-qM-hVa" id="kb5-xl-BtE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1l2-zr-zB8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1425,6 +1428,9 @@
                                 <fontDescription key="fontDescription" name="Bosque-Regular" family="Bosque " pointSize="19"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="avatar_dave" translatesAutoresizingMaskIntoConstraints="NO" id="F83-Lp-Q5o">
+                                <rect key="frame" x="148" y="86" width="216" height="211"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="tintColor" red="0.68235294120000001" green="0.89019607840000003" blue="0.89411764709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1459,8 +1465,8 @@
         <image name="vignette_rouge" width="132" height="124"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="q2P-l7-Eyt"/>
         <segue reference="Wnx-ii-KFf"/>
-        <segue reference="UzV-aV-yBF"/>
         <segue reference="cUl-kx-XZ3"/>
     </inferredMetricsTieBreakers>
 </document>

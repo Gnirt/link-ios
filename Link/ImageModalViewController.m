@@ -17,7 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-        self.preferredContentSize = CGSizeMake(512, 384);
+    [_avatar setImage:[UIImage imageNamed:NSLocalizedString(@"avatar_marie", nil)]];
+    self.textView.text = NSLocalizedString(@"Marie is your new pen pal.", nil);
+    self.preferredContentSize = CGSizeMake(512, 384);
 }
 
 - (void)didReceiveMemoryWarning {

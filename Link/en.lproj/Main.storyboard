@@ -1350,7 +1350,7 @@ to the next game with Marie !</string>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="avatar_dave" translatesAutoresizingMaskIntoConstraints="NO" id="mhB-mi-2Tz">
                                 <rect key="frame" x="146" y="85" width="216" height="211"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="You'll soon have news from your pen pal." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="0zR-qM-hVa">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Marie is your new pen pal." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="0zR-qM-hVa">
                                 <rect key="frame" x="151" y="308" width="200" height="107"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="textColor" red="0.71764705880000002" green="0.6705882353" blue="0.83137254900000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1371,6 +1371,9 @@ to the next game with Marie !</string>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="512" height="384"/>
+                    <connections>
+                        <outlet property="avatar" destination="mhB-mi-2Tz" id="W89-KG-TyS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1l2-zr-zB8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

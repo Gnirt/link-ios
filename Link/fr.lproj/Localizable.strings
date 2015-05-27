@@ -20,6 +20,7 @@
 "avatar_dave" = "avatar_marie";
 "avatar_marie" = "avatar_dave";
 "Tap and start writing to Marie" = "Tape et commence à écrire à Dave";
+"Marie is your new pen pal." = "Dave est ton nouveau correspondant";
 
 /** Game name **/
 "GAP FILL TEXTS" = "TEXTES A TROUS";
